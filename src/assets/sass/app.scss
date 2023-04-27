@@ -4,6 +4,7 @@
 // Utils
 @import "./util/mixins";
 @import "./util/variables";
+@import "./util/colors";
 
 // Styles from existing 
 // #TODO: Cleanup Unwanted styles
@@ -31,3 +32,4 @@
 @import "./components/buttons"; 
 @import "./components/panel"; 
 @import "./components/tabs"; 
+@import "./components/widget"; 
