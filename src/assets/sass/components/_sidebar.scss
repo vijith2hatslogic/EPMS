@@ -1,4 +1,21 @@
-.nav-header {
- 
-    background-color: var(--c-primary-variant);
+.nav-header { 
+  background-color: var(--c-primary-variant);
 }
+
+.nav>li>a {
+    color: var(--c-white);
+}
+
+.navbar-default{
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+
+    ul.nav-second-level {
+        background: var(--c-primary-variant);
+    }
+    
+    li.active > a {
+        background: var(--c-nav-active);
+    }
+}
+

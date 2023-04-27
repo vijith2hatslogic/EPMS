@@ -45,7 +45,7 @@ h5 {
 }
 
 .nav>li>a {
-    color: #a7b1c2;
+    
     font-weight: 600;
     padding: 14px 20px 14px 25px;
 }
@@ -77,11 +77,6 @@ h5 {
 
 .navbar {
     border: 0;
-}
-
-.navbar-default {
-    background-color: transparent;
-    border-color: #2f4050;
 }
 
 .navbar-top-links li {
@@ -208,9 +203,6 @@ h5 {
     transition: all 0.4s;
 }
 
-ul.nav-second-level {
-    background: #293846;
-}
 
 .nav.nav-second-level>li.active {
     border: none;
