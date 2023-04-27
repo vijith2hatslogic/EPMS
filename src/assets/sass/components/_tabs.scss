@@ -2,5 +2,26 @@
     background-color: var(--c-white);
     padding: rem(30);
     border-radius: rem(8);
-    margin-top: rem(10);
+    margin-top: rem(20);
+    .nav-tabs {
+        border-bottom: 4px solid var(--c-light);
+        & > li{
+            margin: 0;
+            margin-bottom: -4px;
+            border-bottom: 4px solid transparent;
+            a{
+                border: 0;
+                &:hover, &:focus{
+                    border: 0;
+                }
+            }
+            &.active{
+                //
+                border-bottom-color: var(--c-primary);
+            }
+        }
+    }
+    .tab-content{
+        margin-top: rem(15)
+    }
 }
