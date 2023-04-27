@@ -1,0 +1,30 @@
+.btn{
+    &.with-icon{
+        font-size: 1.75rem;
+        line-height: 1;
+    }
+    &.btn-primary{
+        background-color: var(--c-primary);
+        border-color: var(--c-primary);
+    }
+    &.btn-secondary{
+        background-color: var(--c-secondary);
+        border-color: var(--c-secondary);
+    }
+    &.btn-info{
+        background-color: var(--c-secondary);
+        border-color: var(--c-secondary);
+    }
+    &.btn-warning{
+        background-color: var(--c-warning);
+        border-color: var(--c-warning);
+    }
+    &.btn-danger{
+        background-color: var(--c-danger);
+        border-color: var(--c-danger);
+    }
+    &.btn-success{
+        background-color: var(--c-success);
+        border-color: var(--c-success);
+    }
+}
