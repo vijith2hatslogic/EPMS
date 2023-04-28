@@ -1,5 +1,5 @@
 .panel{
-    border: 0;
+    border: rem(1) solid var(--c-gray-4);
     &.panel-primary{
         .panel-heading{
             padding: rem(20) rem(15);
