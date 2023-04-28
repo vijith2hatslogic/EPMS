@@ -26,11 +26,11 @@ $mainlink-font-path: "../fonts";
 * Fonts
 */
 
-$font-header:  'Inter';
-$font-regular: 'Inter'; 
-$font-medium: 'Inter'; 
-$font-semibold: 'Inter'; 
-$font-bold: "Inter"; 
+$font-header:  'Inter', Helvetica, Arial, sans-serif;
+$font-regular: 'Inter', Helvetica, Arial, sans-serif; 
+$font-medium: 'Inter', Helvetica, Arial, sans-serif; 
+$font-semibold: 'Inter', Helvetica, Arial, sans-serif; 
+$font-bold: "Inter", Helvetica, Arial, sans-serif; 
 
 /*
  * Base colors
