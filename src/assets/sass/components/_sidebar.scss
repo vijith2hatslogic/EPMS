@@ -3,6 +3,10 @@ body.mini-navbar .nav-header, .nav-header {
   background-color: var(--c-primary-variant);
 }
 
+.nav-header {
+    padding: 15px 25px;
+}
+
 .navbar-default{
     border-color: var(--c-primary);
     ul.nav-second-level {

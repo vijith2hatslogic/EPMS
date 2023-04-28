@@ -12,8 +12,10 @@
             border-bottom: 4px solid transparent;
             a{
                 border: 0;
+                border-radius: 0;
                 &:hover, &:focus{
                     border: 0;
+                    background-color: var(--c-white);
                 }
             }
             &.active{
@@ -28,6 +30,7 @@
                 background: var(--c-gray-5);
                 &.note-toolbar{
                     background: var(--c-white);
+                    padding: 0 rem(5) rem(5) rem(5);
                 }
             }
             .tab-content{
