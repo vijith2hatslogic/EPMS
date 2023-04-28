@@ -2,20 +2,39 @@
   background-color: var(--c-primary-variant);
 }
 
-.nav>li>a {
-    color: var(--c-white);
-}
+
 
 .navbar-default{
-    background-color: var(--c-primary);
     border-color: var(--c-primary);
+
 
     ul.nav-second-level {
         background: var(--c-primary-variant);
+       
     }
+
+    .nav{
     
-    li.active > a {
-        background: var(--c-nav-active);
+    li {
+
+        > a{
+            color: var(--c-white);
+            opacity: 0.6;
+        }
+
+        &.active {
+        > a {
+                background: var(--c-nav-active);
+                opacity: 1;
+            }
+        }
     }
+}
+
+}
+
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus{
+    background-color: var(--c-nav-active);;
 }
 
