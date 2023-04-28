@@ -1,0 +1,16 @@
+.panel{
+    border: 0;
+    &.panel-primary{
+        .panel-heading{
+            padding: rem(20) rem(15);
+            background: var(--c-white);
+            color: var(--c-primary);
+            border-top-right-radius: rem(8);
+            border-top-left-radius: rem(8);
+            border-bottom: 1px solid var(--c-gray-4);
+            .panel-title{
+                color: var(--c-primary);
+            }
+        }
+    }
+}
