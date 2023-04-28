@@ -27,10 +27,13 @@
         
 
 // Components
+@import "./components/heading";
+@import "./components/breadcrumb";
 @import "./components/forms";
 @import "./components/hero"; 
 @import "./components/buttons"; 
-@import "./components/panel"; 
+@import "./components/panels"; 
 @import "./components/tabs"; 
 @import "./components/sidebar"; 
 @import "./components/widget"; 
+@import "./components/ibox"; 

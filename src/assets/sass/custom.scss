@@ -3889,7 +3889,6 @@ img.circle-border {
 }
 
 .breadcrumb {
-    background-color: #ffffff;
     padding: 0;
     margin-bottom: 0;
 }
@@ -3955,9 +3954,6 @@ code {
     background-color: #ffffff;
     color: inherit;
     padding: 15px 20px;
-    border-color: #e7eaec;
-    border-image: none;
-    border-style: solid solid none;
     border-width: 1px 0;
 }
 
@@ -4060,10 +4056,6 @@ table.table-mail tr td {
 }
 
 /* BACKGROUNDS */
-.gray-bg,
-.bg-muted {
-    background-color: #f3f3f4;
-}
 
 .white-bg {
     background-color: #ffffff;
@@ -4181,10 +4173,6 @@ table.table-mail tr td {
 
 .progress-bar-danger {
     background-color: #ed5565;
-}
-
-.panel-title {
-    font-size: inherit;
 }
 
 .jumbotron {
