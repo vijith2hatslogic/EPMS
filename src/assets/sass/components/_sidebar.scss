@@ -17,52 +17,79 @@ body.mini-navbar .nav-header, .nav-header {
 
 .navbar-default{
     border-color: var(--c-primary);
+
+	ul.metismenu{
+		& > li.active{
+			& > a{
+				&:before{
+					content: "";
+					height: 100%;
+					width: rem(4);
+					background: var(--c-secondary);
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+			}
+		}
+	}
+	
     ul.nav-second-level {
 		position: relative;
-        background: var(--c-primary-variant);
-        padding: rem(10) 0;
-       li{
-            &.active{
+        background: var(--c-nav-expand);
+		
+		&:before {
+			position: absolute;
+			display: block;
+			content: '';
+			top: 0;
+			left: rem(35);
+			bottom: 0;
+			background: var(--c-white);
+			width: 1px;
+			opacity: 0.5;
+		}
+
+		li{
+
+			&:first-child{
+				padding-top: rem(10);
+			}
+
+			&:last-child{
+				padding-bottom: rem(10);
+			}
+
+			&.active{
                 & > a{
                     background: transparent;
                 }
             }
-			
-       }
 
-	   &.collapse.in{
-		position: relative;
-		
-			&:before {
-				position: absolute;
-				display: block;
-				content: '';
-				top: 0;
-				left: rem(35);
-				bottom: 0;
-				background: var(--c-white);;
-				width: 1px;
-				opacity: 0.6;
-			}
-			li{
+			&:hover{
 				a{
-					&:before {
-						content: "";
-						position: absolute;
-						left: rem(35);
-						bottom: 0;
-						top:50%;
-						transform: translateX(-50%);
-						width: 6px;
-						height: 6px;
-						border-radius: 50%;
-						background: var(--c-white);
-						z-index: 1;
-				}
+					color: var(--c-white);
+					opacity: 0.75;
 				}
 			}
-		
-	   }
+
+			a{
+				&:before {
+					content: "";
+					position: absolute;
+					left: rem(36);
+					bottom: 0;
+					top: 50%;
+					transform: translateX(-50%);
+					width: rem(7);
+					height: rem(7);
+					border-radius: 50%;
+					background: var(--c-white);
+					margin-top: rem(-3.5);
+					z-index: 1;
+				}
+			}
+		}
     }
 
 
@@ -71,20 +98,23 @@ body.mini-navbar .nav-header, .nav-header {
 		.dropdown-menu 
 		{
 			li {
-					& > a{
-						color: var(--c-primary);
-						opacity: 1;
-					}
+				& > a{
+					color: var(--c-primary);
+					opacity: 1;
 				}
+			}
 		}
+		
 		li {
 			& > a{
 				color: var(--c-white);
 				opacity: 0.6;
+
 				&:focus{
 					background-color: var(--c-nav-active);
 					color: var(--c-white);
 				}
+
 				&:hover{
 					cursor: pointer;
 					color: var(--c-white);
