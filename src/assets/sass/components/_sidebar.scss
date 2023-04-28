@@ -4,7 +4,15 @@ body.mini-navbar .nav-header, .nav-header {
 }
 
 .nav-header {
-    padding: 15px 25px;
+    padding: rem(12) rem(25);
+	min-height: rem(116);
+	.profile-element{
+		& > span{
+			height: rem(50);
+			width: rem(50);
+			display: block;
+		}
+	}
 }
 
 .navbar-default{
