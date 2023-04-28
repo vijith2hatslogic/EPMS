@@ -1,3 +1,9 @@
 .note-editor.note-frame .note-editing-area .note-editable{
     background: transparent;
 }
+
+.panel{
+    &.note-frame{
+        border: rem(1) solid var(--c-gray-4);
+    }
+}

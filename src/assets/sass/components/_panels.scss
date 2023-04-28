@@ -13,4 +13,17 @@
             }
         }
     }
+    &.panel-info{
+        .panel-heading{
+            padding: rem(20) rem(15);
+            background: var(--c-aqua);
+            color: var(--c-white);
+            border-top-right-radius: rem(8);
+            border-top-left-radius: rem(8);
+            border-bottom: 1px solid var(--c-gray-4);
+            .panel-title{
+                color: var(--c-primary);
+            }
+        }
+    }
 }
