@@ -511,7 +511,6 @@ button.dim:active:before {
 .label {
     background-color: #d1dade;
     color: #5e5e5e;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     padding: 3px 8px;
     text-shadow: none;
@@ -525,7 +524,6 @@ button.dim:active:before {
 .badge {
     background-color: #d1dade;
     color: #5e5e5e;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 11px;
     font-weight: 600;
     padding-bottom: 4px;
@@ -627,7 +625,6 @@ button.dim:active:before {
     line-height: 20px;
     font-size: 12px;
     color: white;
-    font-family: Trebuchet, Arial, sans-serif;
     font-weight: bold;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1615,7 +1612,6 @@ div.dt-button-info {
     line-height: 16px;
     font-size: 10px;
     color: white;
-    font-family: Trebuchet, Arial, sans-serif;
     font-weight: bold;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -2080,8 +2076,6 @@ div.dt-button-info {
     width: 100%;
     font-size: 0.75em;
     line-height: 1.333333em;
-    font-family: open sans, lucida grande, lucida sans unicode, helvetica, arial,
-        sans-serif;
     padding: 5px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2853,7 +2847,6 @@ a.forum-item-title:hover {
     border-radius: 3px;
     background: #292929;
     color: white;
-    font-family: sans-serif, Verdana;
     font-size: smaller;
     padding: 5px;
 }
@@ -3395,7 +3388,6 @@ body.tour-open .animated {
 }
 
 body {
-    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #2f4050;
     font-size: 13px;
     color: #676a6c;
@@ -7443,7 +7435,6 @@ body.body-small .vote-icon {
 
 body.landing-page {
     color: #676a6c;
-    font-family: "Open Sans", helvetica, arial, sans-serif;
     background-color: #fff;
 }
 
@@ -7541,7 +7532,6 @@ body.landing-page {
 
 .landing-page .navbar-default .nav li a {
     color: #fff;
-    font-family: "Open Sans", helvetica, arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -9036,17 +9026,11 @@ body.skin-3 {
 }
 
 body.md-skin {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff;
 }
 
 .md-skin .nav-header {
     background: url("patterns/4.png") no-repeat;
-}
-
-.md-skin .label,
-.md-skin .badge {
-    font-family: "Roboto";
 }
 
 .md-skin ul.nav-second-level {
@@ -9119,15 +9103,6 @@ body.md-skin {
     color: #ffffff;
 }
 
-.md-skin #nestable-output,
-.md-skin #nestable2-output {
-    font-family: "Roboto", lucida grande, lucida sans unicode, helvetica, arial,
-        sans-serif;
-}
-
-.md-skin .landing-page {
-    font-family: "Roboto", helvetica, arial, sans-serif;
-}
 
 .md-skin .landing-page.navbar-default.navbar-scroll {
     background-color: #fff !important;
@@ -9138,9 +9113,6 @@ body.md-skin {
     box-shadow: none;
 }
 
-.md-skin .landing-page.navbar-default .nav li a {
-    font-family: "Roboto", helvetica, arial, sans-serif;
-}
 
 .md-skin .nav>li>a {
     color: #676a6c;
@@ -9360,9 +9332,6 @@ body.md-skin {
     padding: 20px 10px;
 }
 
-.md-skin.landing-page .navbar-default .nav li a {
-    font-family: "Roboto", helvetica, arial, sans-serif;
-}
 
 .md-skin.landing-page .nav>li>a {
     padding: 25px 10px 15px 10px;
@@ -10687,10 +10656,6 @@ ul.notes li:nth-child(3n) div {
     padding-bottom: 18px;
 }
 
-.fontstyle {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
-}
 
 .g-search-li input::placeholder {
     font-style: italic;
