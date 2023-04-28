@@ -6,16 +6,54 @@ body.mini-navbar .nav-header, .nav-header {
 .navbar-default{
     border-color: var(--c-primary);
     ul.nav-second-level {
+		position: relative;
         background: var(--c-primary-variant);
         padding: rem(10) 0;
        li{
             &.active{
                 & > a{
-                    background: transparent
+                    background: transparent;
                 }
             }
+			
        }
+
+	   &.collapse.in{
+		position: relative;
+		
+			&:before {
+				position: absolute;
+				display: block;
+				content: '';
+				top: 0;
+				left: rem(35);
+				bottom: 0;
+				background: var(--c-white);;
+				width: 1px;
+				opacity: 0.6;
+			}
+			li{
+				a{
+					&:before {
+						content: "";
+						position: absolute;
+						left: rem(35);
+						bottom: 0;
+						top:50%;
+						transform: translateX(-50%);
+						width: 6px;
+						height: 6px;
+						border-radius: 50%;
+						background: var(--c-white);
+						z-index: 1;
+				}
+				}
+			}
+		
+	   }
     }
+
+
     .nav{
 	
 		.dropdown-menu 
@@ -31,9 +69,14 @@ body.mini-navbar .nav-header, .nav-header {
 			& > a{
 				color: var(--c-white);
 				opacity: 0.6;
-				&:hover, &:focus{
+				&:focus{
 					background-color: var(--c-nav-active);
 					color: var(--c-white);
+				}
+				&:hover{
+					cursor: pointer;
+					color: var(--c-white);
+					background-color: transparent;
 				}
 			}
 		
