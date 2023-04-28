@@ -16,14 +16,26 @@
        }
     }
     .nav{
+	
+		.dropdown-menu 
+		{
+			li {
+					& > a{
+						color: var(--c-primary);
+						opacity: 1;
+					}
+				}
+		}
 		li {
-			> a{
+			& > a{
 				color: var(--c-white);
 				opacity: 0.6;
 				&:hover, &:focus{
-					background-color: var(--c-nav-active);;
+					background-color: var(--c-nav-active);
+					color: var(--c-white);
 				}
 			}
+		
 			&.active {
 				& > a {
 					background: var(--c-nav-active);
@@ -33,4 +45,6 @@
 		}
 	}
 }
+
+
 
