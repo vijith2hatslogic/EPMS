@@ -26,6 +26,9 @@
         &.panel-primary{
             .panel-heading{
                 background: var(--c-gray-5);
+                &.note-toolbar{
+                    background: var(--c-white);
+                }
             }
             .tab-content{
                 margin-top: rem(15);
