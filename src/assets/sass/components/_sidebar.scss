@@ -2,39 +2,35 @@
   background-color: var(--c-primary-variant);
 }
 
-
-
 .navbar-default{
     border-color: var(--c-primary);
-
-
     ul.nav-second-level {
         background: var(--c-primary-variant);
-       
-    }
-
-    .nav{
-    
-    li {
-
-        > a{
-            color: var(--c-white);
-            opacity: 0.6;
-        }
-
-        &.active {
-        > a {
-                background: var(--c-nav-active);
-                opacity: 1;
+        padding: rem(10) 0;
+       li{
+            &.active{
+                & > a{
+                    background: transparent
+                }
             }
-        }
+       }
     }
-}
-
-}
-
-
-.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus{
-    background-color: var(--c-nav-active);;
+    .nav{
+		li {
+			> a{
+				color: var(--c-white);
+				opacity: 0.6;
+				&:hover, &:focus{
+					background-color: var(--c-nav-active);;
+				}
+			}
+			&.active {
+				& > a {
+					background: var(--c-nav-active);
+					opacity: 1;
+				}
+			}
+		}
+	}
 }
 
