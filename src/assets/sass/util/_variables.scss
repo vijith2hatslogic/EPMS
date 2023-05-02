@@ -38,11 +38,11 @@ $font-bold: "Inter", Helvetica, Arial, sans-serif;
 
 // Theme colours
 :root {
-    --c-primary: #032f56;
-    --c-primary-01:#003c70;
-    --c-primary-02:#093f6e;
-    --c-primary-03:#03203a;
-    --c-primary-04:#86a5c0;
+    --c-primary: #063f70; // Buttons - OK
+    --c-primary-01:#012343; // Sidebar BG
+    --c-primary-02:#012b50; // Header
+    --c-primary-03:#0d365d; // Active
+    --c-primary-04:#082c4e; // Second Level
 
     --c-secondary: #F2994A;
     --c-success: #27AE60;

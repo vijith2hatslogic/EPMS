@@ -1,9 +1,12 @@
 
 body.mini-navbar .nav-header, .nav-header { 
-  background-color: var(--c-primary-01);
+  background-color: var(--c-primary-02);
+  //background-color: transparent;
+  border-bottom: rem(1) solid rgba(255, 255, 255, 0.1);
 }
 
 .nav-header {
+	margin-bottom: rem(15);
     padding: rem(12) rem(25);
 	height: 120px;
 	.profile-element{
@@ -29,11 +32,12 @@ body.mini-navbar .nav-header, .nav-header {
 }
 
 body.mini-navbar .nav-header{
-	height: 70px;
+	height: 65px;
 }
 
 .navbar-default{
-    border-color: var(--c-primary);
+    border-color: var(--c-primary-01);
+	background:  var(--c-primary-01);
 
 	ul.metismenu{
 		& > li.active{
@@ -53,7 +57,7 @@ body.mini-navbar .nav-header{
 	
     ul.nav-second-level {
 		position: relative;
-        background: var(--c-primary-03);
+        background: var(--c-primary-04);
 		
 		&:before {
 			position: absolute;
@@ -128,7 +132,7 @@ body.mini-navbar .nav-header{
 		li {
 			& > a{
 				color: var(--c-white);
-				opacity: 0.6;
+				opacity: 0.75;
 
 				&:focus{
 					background-color: var(--c-primary-03);
@@ -144,7 +148,7 @@ body.mini-navbar .nav-header{
 		
 			&.active {
 				& > a {
-					background: var(--c-primary-02);
+					background: var(--c-primary-03);
 					opacity: 1;
 				}
 			}
@@ -154,5 +158,6 @@ body.mini-navbar .nav-header{
 
 
 .nav-header .text-muted {
-    color: var(--c-primary-04);
+	color: var(--c-white);
+    opacity: 0.65;
 }
