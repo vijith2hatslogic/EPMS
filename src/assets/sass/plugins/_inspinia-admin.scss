@@ -284,10 +284,6 @@ h5 {
     padding-left: 62px;
 }
 
-.nav-second-level li:last-child {
-    margin-bottom: 10px;
-}
-
 body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover>.nav-second-level,
 .mini-navbar .nav li:focus>.nav-second-level {
     display: block;
