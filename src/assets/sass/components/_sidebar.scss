@@ -53,7 +53,7 @@ body.mini-navbar .nav-header{
 	
     ul.nav-second-level {
 		position: relative;
-        background: var(--c-primary-02);
+        background: var(--c-primary-03);
 		
 		&:before {
 			position: absolute;
@@ -131,7 +131,7 @@ body.mini-navbar .nav-header{
 				opacity: 0.6;
 
 				&:focus{
-					background-color: var(--c-primary-01);
+					background-color: var(--c-primary-03);
 					color: var(--c-white);
 				}
 
@@ -144,10 +144,15 @@ body.mini-navbar .nav-header{
 		
 			&.active {
 				& > a {
-					background: var(--c-primary-01);
+					background: var(--c-primary-02);
 					opacity: 1;
 				}
 			}
 		}
 	}
+}
+
+
+.nav-header .text-muted {
+    color: var(--c-primary-04);
 }
