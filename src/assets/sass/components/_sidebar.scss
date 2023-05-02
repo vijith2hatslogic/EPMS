@@ -1,22 +1,35 @@
 
 body.mini-navbar .nav-header, .nav-header { 
-  background-color: var(--c-primary-variant);
+  background-color: var(--c-primary-01);
 }
 
 .nav-header {
     padding: rem(12) rem(25);
-	height: rem(116);
+	height: 120px;
 	.profile-element{
-		& > span{
-			height: rem(50);
-			width: rem(50);
+		a{
+			background: transparent;
+			&:hover, &:focus{
+				background: transparent;
+			}
+		}
+		.avatar{
+			height: 50px;
+			width: 50px;
 			display: block;
+			border-radius: 50%;
+			overflow: hidden;
+			background: var(--c-primary-01);
+			img{
+				width: 50px;
+				height: 50px;
+			}
 		}
 	}
 }
 
 body.mini-navbar .nav-header{
-	height: rem(70);
+	height: 70px;
 }
 
 .navbar-default{
@@ -40,7 +53,7 @@ body.mini-navbar .nav-header{
 	
     ul.nav-second-level {
 		position: relative;
-        background: var(--c-nav-expand);
+        background: var(--c-primary-02);
 		
 		&:before {
 			position: absolute;
@@ -105,6 +118,9 @@ body.mini-navbar .nav-header{
 				& > a{
 					color: var(--c-primary);
 					opacity: 1;
+					&:hover, &:focus{
+						color: var(--c-secondary);
+					}
 				}
 			}
 		}
@@ -115,7 +131,7 @@ body.mini-navbar .nav-header{
 				opacity: 0.6;
 
 				&:focus{
-					background-color: var(--c-nav-active);
+					background-color: var(--c-primary-01);
 					color: var(--c-white);
 				}
 
@@ -128,7 +144,7 @@ body.mini-navbar .nav-header{
 		
 			&.active {
 				& > a {
-					background: var(--c-nav-active);
+					background: var(--c-primary-01);
 					opacity: 1;
 				}
 			}

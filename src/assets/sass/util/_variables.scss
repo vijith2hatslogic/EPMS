@@ -38,8 +38,12 @@ $font-bold: "Inter", Helvetica, Arial, sans-serif;
 
 // Theme colours
 :root {
-    --c-primary: #092C4C;
-    --c-primary-variant: #0D3D69;
+    --c-primary: #164168;
+    --c-primary-01:#184873;
+    --c-primary-02:#113251;
+    --c-primary-03:#0e2b45;
+    --c-primary-04:#0c243a;
+
     --c-secondary: #F2994A;
     --c-success: #27AE60;
     --c-info: #2F80ED;
@@ -58,6 +62,4 @@ $font-bold: "Inter", Helvetica, Arial, sans-serif;
     --c-gray-3:#828282;
     --c-gray-4:#F0F0F0;
     --c-gray-5:#f5f5f5;
-    --c-nav-active: #174C7C;
-    --c-nav-expand: #0D3D69;
 }
