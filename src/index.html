@@ -546,8 +546,13 @@
               <div id="sessions" class="tab-pane">
                 <div class="panel-body">
                   <div class="task-session">
-                    <div class="ibox" style="margin-bottom: 15px;">
-                      <h2 class="session-title">Sessions</h2>
+                    <div class="ibox">
+                      <div class="session-title">Sessions</div>
+                      <div class="pull-right text-right" >
+                        <a href="#" class="btn btn-w-m btn-success btn-sm" data-toggle="modal"
+                          data-target="#add-session"><i class="fa fa-plus"></i> Add
+                          Session</a>
+                      </div>
                     </div>
                     <div class="ibox-title">
                       <div class="col-sm-4">
@@ -570,11 +575,7 @@
                           <option value="meeting">Meeting</option>
                         </select>
                       </div>
-                      <div class="col-sm-4 pull-right text-right" style="top: 10px;">
-                        <a href="#" class="btn btn-w-m btn-success btn-sm" data-toggle="modal"
-                          data-target="#add-session" style="color:#fff!important;"><i class="fa fa-plus"></i> Add
-                          Session</a>
-                      </div>
+                     
                     </div>
 
                     <div class="ibox-content">
@@ -582,7 +583,7 @@
                       <div class="table-responsive">
 
 
-                        <table class="table table-hover sessionTable" style="width:100%">
+                        <table class="table table-hover sessionTable">
 
                           <thead>
 
@@ -810,7 +811,7 @@
                 <div class="panel-body">
                   <div class="table table-hover listTable">
 
-                    <table class="table table-hover rejectionTable" style="width:100%">
+                    <table class="table table-hover rejectionTable">
 
                       <thead>
 
@@ -1042,7 +1043,7 @@
               </table>
               <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#show-project-credentials"><i
                   class="fa fa-eye-slash"></i> Credentials</button>
-              <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#show-project-files"><i
+              <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#show-project-files"><i
                   class="fa fa-paperclip"></i> Documents</button>
             </div>
           </div>
