@@ -6,3 +6,10 @@
         
 	}
 }
+
+
+.chosen-container-active.chosen-with-drop {
+	.chosen-single {
+		border: rem(1) solid var(--c-aqua);
+	}
+}
