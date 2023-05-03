@@ -20,8 +20,11 @@
                 }
             }
             &.active{
-                //
+                
                 border-bottom-color: var(--c-primary);
+                a{
+                    color: var(--c-secondary);
+                }
             }
             &:first-child {
                 a {
