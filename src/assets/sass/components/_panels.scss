@@ -1,5 +1,6 @@
 .panel{
     border: rem(1) solid var(--c-gray-4);
+    border-radius:rem(8);
     &.panel-primary{
         .panel-heading{
             padding: rem(20) rem(15);
