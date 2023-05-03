@@ -79,8 +79,13 @@ h5 {
     border: 0;
 }
 
-.navbar-top-links li {
-    display: inline-block;
+.navbar-top-links {
+    &.navbar-right{
+        padding: 10px 0px;
+    }
+    li {
+        display: inline-block;
+    }
 }
 
 .navbar-top-links li:last-child {
@@ -89,11 +94,6 @@ h5 {
 
 .body-small .navbar-top-links li:last-child {
     margin-right: 0;
-}
-
-.navbar-top-links li a {
-    padding: 20px 10px;
-    min-height: 50px;
 }
 
 .dropdown-menu {

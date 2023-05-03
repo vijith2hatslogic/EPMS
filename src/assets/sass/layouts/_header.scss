@@ -21,9 +21,21 @@
 
 .nav.navbar-right > li{
     &.logout{
-        margin-left: 30px;
+        margin-left: 20px;
+        position: relative;
+        top: 3px;
         a{
-            padding: 20px 0;
+            padding: 0px 0;
+            font-size: 22px;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            &:hover{
+                color: var(--c-primary);
+            }
+            & .fa{
+                margin-right: 0;
+            }
         }
     }
 }
