@@ -1,7 +1,7 @@
 .chosen-container {
 	.chosen-results {
 		li.highlighted {
-                background-color: var(--c-aqua);
+                background-color: var(--c-primary);
             }
         
 	}
@@ -10,6 +10,13 @@
 
 .chosen-container-active.chosen-with-drop {
 	.chosen-single {
-		border: rem(1) solid var(--c-aqua);
+		border: rem(1) solid var(--c-primary);
 	}
+}
+.chosen-container-single 
+{
+
+    .chosen-single{
+        border: rem(1) solid var(--c-gray-4);
+    }
 }
