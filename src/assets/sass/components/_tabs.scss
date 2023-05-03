@@ -23,6 +23,11 @@
                 //
                 border-bottom-color: var(--c-primary);
             }
+            &:first-child {
+                a {
+                    padding-left: 0;
+                }
+            }
         }
     }
     .panel{

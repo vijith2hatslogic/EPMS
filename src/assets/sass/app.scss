@@ -23,6 +23,7 @@
 @import "./layouts/section";
 @import "./layouts/wrapper";
 @import "./layouts/banner";
+@import "./layouts/grid";
 @import "./layouts/block";
 @import "./layouts/cards";  
         
@@ -30,6 +31,7 @@
 // Components
 @import "./components/heading";
 @import "./components/breadcrumb";
+@import "./components/badges";
 @import "./components/forms";
 @import "./components/hero"; 
 @import "./components/buttons"; 
@@ -37,6 +39,7 @@
 @import "./components/tabs"; 
 @import "./components/sidebar"; 
 @import "./components/widget"; 
+@import "./components/dropdown"; 
 @import "./components/ibox"; 
 @import "./components/search"; 
 @import "./components/table"; 

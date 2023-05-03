@@ -19,7 +19,7 @@
 }
 
 .btn-info.btn-outline {
-    color: #67D2E1;
+    color: var(--c-aqua);
 }
 
 .btn-warning.btn-outline {
@@ -27,7 +27,7 @@
 }
 
 .btn-danger.btn-outline {
-    color: #EB5757;
+    color: var(--c-danger);
 }
 
 .btn-primary.btn-outline:hover,
@@ -129,8 +129,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .btn-info {
-    background-color: #67D2E1;
-    border-color: #67D2E1;
+    background-color: var(--c-aqua);
+    border-color: var(--c-aqua);
     color: #ffffff;
 }
 
@@ -262,8 +262,8 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .btn-danger {
-    background-color: #EB5757;
-    border-color: #EB5757;
+    background-color: var(--c-danger);
+    border-color: var(--c-danger);
     color: #ffffff;
 }
 
@@ -558,13 +558,13 @@ button.dim:active:before {
 
 .label-danger,
 .badge-danger {
-    background-color: #EB5757;
+    background-color: var(--c-danger);
     color: #ffffff;
 }
 
 .label-info,
 .badge-info {
-    background-color: #67D2E1;
+    background-color: var(--c-aqua);
     color: #ffffff;
 }
 
@@ -1511,7 +1511,7 @@ div.dt-button-info {
 
 .has-error .form-control,
 .has-error .form-control:focus {
-    border-color: #EB5757;
+    border-color: var(--c-danger);
 }
 
 .has-success .control-label {
@@ -1523,7 +1523,7 @@ div.dt-button-info {
 }
 
 .has-error .control-label {
-    color: #EB5757;
+    color: var(--c-danger);
 }
 
 .input-group-addon {
@@ -1552,7 +1552,7 @@ div.dt-button-info {
 }
 
 .slider_red .noUi-connect {
-    background: none repeat scroll 0 0 #EB5757;
+    background: none repeat scroll 0 0 var(--c-danger);
     box-shadow: none;
 }
 
@@ -2233,11 +2233,11 @@ label.error {
 }
 
 .toast-error {
-    background-color: #EB5757;
+    background-color: var(--c-danger);
 }
 
 .toast-info {
-    background-color: #67D2E1;
+    background-color: var(--c-aqua);
 }
 
 .toast-warning {
@@ -2273,7 +2273,7 @@ label.error {
 }
 
 .inspinia-notify.alert-danger {
-    border-left: 6px solid #EB5757;
+    border-left: 6px solid var(--c-danger);
 }
 
 .inspinia-notify.alert-info {
@@ -3157,14 +3157,14 @@ body.tour-open .animated {
 
 .stream .stream-badge i.bg-info {
     color: #ffffff;
-    background-color: #67D2E1;
-    border-color: #67D2E1;
+    background-color: var(--c-aqua);
+    border-color: var(--c-aqua);
 }
 
 .stream .stream-badge i.bg-danger {
     color: #ffffff;
-    background-color: #EB5757;
-    border-color: #EB5757;
+    background-color: var(--c-danger);
+    border-color: var(--c-danger);
 }
 
 .stream .stream-badge:before {
@@ -3932,7 +3932,7 @@ code {
     border-width: 2px 0 0;
     color: inherit;
     margin-bottom: 0;
-    padding: 15px 15px 7px;
+    padding: 15px 20px;
     min-height: 48px;
 }
 
@@ -4061,7 +4061,7 @@ table.table-mail tr td {
 
 .lazur-bg,
 .bg-info {
-    background-color: #67D2E1;
+    background-color: var(--c-aqua);
     color: #ffffff;
 }
 
@@ -4073,7 +4073,7 @@ table.table-mail tr td {
 
 .red-bg,
 .bg-danger {
-    background-color: #EB5757;
+    background-color: var(--c-danger);
     color: #ffffff;
 }
 
@@ -4092,12 +4092,12 @@ table.table-mail tr td {
 }
 
 .panel-info {
-    border-color: #67D2E1;
+    border-color: var(--c-aqua);
 }
 
 .panel-info>.panel-heading {
-    background-color: #67D2E1;
-    border-color: #67D2E1;
+    background-color: var(--c-aqua);
+    border-color: var(--c-aqua);
     color: #ffffff;
 }
 
@@ -4112,12 +4112,12 @@ table.table-mail tr td {
 }
 
 .panel-danger {
-    border-color: #EB5757;
+    border-color: var(--c-danger);
 }
 
 .panel-danger>.panel-heading {
-    background-color: #EB5757;
-    border-color: #EB5757;
+    background-color: var(--c-danger);
+    border-color: var(--c-danger);
     color: #ffffff;
 }
 
@@ -4150,7 +4150,7 @@ table.table-mail tr td {
 }
 
 .progress-bar-info {
-    background-color: #67D2E1;
+    background-color: var(--c-aqua);
 }
 
 .progress-bar-warning {
@@ -4158,7 +4158,7 @@ table.table-mail tr td {
 }
 
 .progress-bar-danger {
-    background-color: #EB5757;
+    background-color: var(--c-danger);
 }
 
 .jumbotron {
@@ -4184,7 +4184,7 @@ table.table-mail tr td {
 }
 
 .text-info {
-    color: #67D2E1;
+    color: var(--c-aqua);
 }
 
 .text-warning {
@@ -4192,7 +4192,7 @@ table.table-mail tr td {
 }
 
 .text-danger {
-    color: #EB5757;
+    color: var(--c-danger);
 }
 
 .text-muted {
@@ -5165,7 +5165,7 @@ ul.notes li div {
 }
 
 .category-list li a .text-info {
-    color: #67D2E1;
+    color: var(--c-aqua);
 }
 
 .category-list li a .text-danger {
@@ -5801,7 +5801,7 @@ table.issue-tracker tbody tr td {
 }
 
 .agile-list li.danger-element {
-    border-left: 3px solid #EB5757;
+    border-left: 3px solid var(--c-danger);
 }
 
 .agile-list li.info-element {
@@ -8699,11 +8699,11 @@ body.skin-2 {
 }
 
 .skin-2 .spin-icon {
-    background: #67D2E1 !important;
+    background: var(--c-aqua) !important;
 }
 
 .skin-2 .nav-header {
-    background-color: #67D2E1;
+    background-color: var(--c-aqua);
     background-image: url("patterns/header-profile-skin-2.png");
 }
 
@@ -8760,8 +8760,8 @@ body.skin-2 {
 }
 
 .skin-2 .navbar-minimalize {
-    background: #67D2E1;
-    border-color: #67D2E1;
+    background: var(--c-aqua);
+    border-color: var(--c-aqua);
 }
 
 .skin-2 .border-bottom {
@@ -10455,7 +10455,7 @@ label {
 }
 
 .required-label {
-    color: #f44336 !important;
+    color: var(--c-danger) !important;
     font-size: 14px;
     vertical-align: middle;
 }
