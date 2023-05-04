@@ -3926,10 +3926,7 @@ code {
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
     background-color: #ffffff;
-    border-color: #e7eaec;
     border-image: none;
-    border-style: solid solid none;
-    border-width: 2px 0 0;
     color: inherit;
     margin-bottom: 0;
     padding: 15px 20px;
@@ -10544,9 +10541,9 @@ label {
     opacity: 0.5;
 }
 
-select.form-control:not([size]):not([multiple]) {
-    height: 30px;
-}
+// select.form-control:not([size]):not([multiple]) {
+//     height: 30px;
+// }
 
 .btn-xs {
     font-size: 10px;
