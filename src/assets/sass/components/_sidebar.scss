@@ -7,7 +7,7 @@ body.mini-navbar .nav-header, .nav-header {
 
 .nav-header {
     padding: rem(12) rem(25);
-	height: 120px;
+	height: rem(110);
 	.profile-element{
 		a{
 			background: transparent;
@@ -15,20 +15,28 @@ body.mini-navbar .nav-header, .nav-header {
 				background: transparent;
 			}
 		}
-		.avatar{
-			height: 50px;
-			width: 50px;
-			display: block;
-			border-radius: 50%;
-			overflow: hidden;
-			background: var(--c-primary-01);
-			img{
-				width: 50px;
+		a.dropdown-toggle {
+			@include flex;
+
+            .user-basic{
+                margin-left: rem(15);
+            }
+			.avatar{
 				height: 50px;
+				width: 50px;
+				display: block;
+				border-radius: 50%;
+				img{
+					width: 50px;
+					height: 50px;
+					background: var(--c-primary-01);
+				}
 			}
 		}
+	
 	}
 }
+
 
 body.mini-navbar .nav-header{
 	height: 65px;

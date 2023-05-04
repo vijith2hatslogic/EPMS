@@ -1,7 +1,11 @@
 .navbar-fixed-top, .navbar-static-top{
     background: var(--c-white);
-    min-height: 64px;
-    padding: 2px 0px;
+    min-height: rem(110);
+    padding: rem(30);
+
+    .header-left{
+        @include flex(center,space-between);
+    }
 }
 
 .toggle-nav-user{
@@ -11,12 +15,16 @@
 }
 
 .brand{
-    margin: 14px 0px;
+    // margin: 14px 0px;
     font-size: 22px;
     color: var(--c-primary);
     display: inline-block;
 }
 
+
+ul.nav.navbar-top-links.navbar-right {
+	padding: 0;
+}
 
 
 .nav.navbar-right > li{
