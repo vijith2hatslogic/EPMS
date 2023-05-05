@@ -1,7 +1,7 @@
 .navbar-fixed-top, .navbar-static-top{
     background: var(--c-white);
-    min-height: 110px;
-    padding: 25px 13px;
+    min-height: 90px;
+    padding: 16px 24px;
 
     .header-left{
         @include flex(center,space-between);
@@ -21,6 +21,24 @@
             }
         }
     }
+
+
+ul.navbar-controls {
+	list-style: none;
+	align-items: center;
+	margin-bottom: 0;
+	justify-content: flex-end;
+	display: flex;
+	margin-top: 18px;
+	li {
+		+ {
+			li {
+				margin-left: 24px;
+			}
+		}
+	}
+}
+
 }
 
 .toggle-nav-user{
@@ -45,27 +63,26 @@
 
 ul.nav.navbar-top-links.navbar-right {
 	padding: 0;
-    margin-top: 6px;
 }
 
 
-.nav.navbar-right > li{
-    &.logout{
-        margin-left: 20px;
-        position: relative;
-        top: 3px;
-        a{
-            padding: 0px 0;
-            font-size: 22px;
-            height: 30px;
-            width: 30px;
-            text-align: center;
-            &:hover{
-                color: var(--c-primary);
-            }
-            & .fa{
-                margin-right: 0;
-            }
-        }
-    }
-}
+// .nav.navbar-right > li{
+//     &.logout{
+//         margin-left: 20px;
+//         position: relative;
+//         top: 3px;
+//         a{
+//             padding: 0px 0;
+//             font-size: 22px;
+//             height: 30px;
+//             width: 30px;
+//             text-align: center;
+//             &:hover{
+//                 color: var(--c-primary);
+//             }
+//             & .fa{
+//                 margin-right: 0;
+//             }
+//         }
+//     }
+// }

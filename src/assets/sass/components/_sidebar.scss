@@ -7,11 +7,14 @@ body.mini-navbar .nav-header, .nav-header {
 
 .nav-header {
     padding: 12px 25px;
-	height: 110px;
+	height: 90px;
 	.profile-element{
 
-		top: 50%; 
+		top: 50%;
+		position: relative;
 		transform: translateY(-50%);
+		display: flex;
+		align-items: center;
 		a{
 			color: var(--c-white);
 			background: transparent;
@@ -19,14 +22,16 @@ body.mini-navbar .nav-header, .nav-header {
 				background: transparent;
 			}
 		}
-		a.dropdown-toggle {
-			@include flex;
 
             .user-basic{
                 margin-left: rem(15);
+				h3{
+					margin: 0;
+				}
+				span{
+					margin-top: 4px;
+				}
             }
-		
-		}
 	
 	}
 }
@@ -161,4 +166,20 @@ body.mini-navbar .nav-header{
 .nav-header .text-muted {
 	color: var(--c-white);
     opacity: 0.65;
+}
+
+a.navbar-minimalize.toggle-nav-user {
+    position: absolute;
+    top: 19px;
+    right: -39px;
+    color: var(--c-white);
+	background: var(--c-secondary);
+    border-radius: 50%;
+    z-index: 99;
+    width: 35px;
+    height: 35px;
+	i{
+		font-size: 20px;
+
+	}
 }

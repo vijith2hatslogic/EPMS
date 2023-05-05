@@ -3,26 +3,27 @@
 <div id="wrapper">
 
   <nav class="navbar-default navbar-static-side" role="navigation">
+
+    <a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+      <i class="fa fa-angle-left"></i> </a>
+
     <div class="sidebar-collapse">
       <ul class="nav metismenu" id="side-menu">
         <li class="nav-header">
-          <div class="dropdown profile-element">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+          <div class="profile-element">
               <span class="avatar">
                 <img id="header_pic" alt="image" class="img-circle"
                   src="https://epms.2hatslogic.com/storage/userimage/e8yy2uvDlmFrU7wMd6Lo60YfdczVdDQUI0xjRj7G.png"
                   style="width: 50px" />
               </span>
             
-              <span class="user-basic"> <span class="block m-t-sm"> <strong class="font-bold">Vijith Pangath</strong>
-                </span> <span class="small text-muted text-xs block">Senior Front End Developer <b class="caret"></b></span>
+              <span class="user-basic"> 
+                 <a href="https://epms.2hatslogic.com/profile">
+                  <h3>Vijith Pangath</h3>
+                  <span class="small text-muted text-xs block">Senior Front End Developer </span>
+                </a>
               </span>
-            </a>
-            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-              <li><a href="https://epms.2hatslogic.com/profile">Profile</a></li>
-              <li><a href="https://epms.2hatslogic.com/change-password">Change Password</a></li>
-              <li><a href="https://epms.2hatslogic.com/logout">Logout</a></li>
-            </ul>
+              
           </div>
           <!-- mobile view -->
           <div class="logo-element"><a href="https://epms.2hatslogic.com"><img
@@ -251,15 +252,12 @@
 
       <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
 
-       
-
         <div class="row align-items-center position-relative">
 
           <div class="col-lg-8">
               <div class="header-left">
                 <div>
-                  <a class="navbar-minimalize minimalize-styl-2 btn btn-primary toggle-nav-user" href="#">
-                   <i class="fa fa-bars"></i> </a>
+                  
                   <!-- <b class="brand">2Hats
                     Logic</b> -->
                     <div class="brand">
@@ -281,19 +279,19 @@
               </div>
           
           <div class="col-lg-4">
-              <ul class="nav navbar-top-links navbar-right">
+              <ul class="navbar-controls">
                  
-                  <li class="element-icon">
-                    <a href="https://epms.2hatslogic.com/change-password">
-                      <i class="fa fa-user"></i>
-                    </a>
-  
-                  </li>
+                 
                   <li class="element-icon">
                     <a href="https://epms.2hatslogic.com/profile">
                       <i class="fa fa-gear"></i>
                     </a>
-  
+                    <li class="element-icon">
+                      <a href="https://epms.2hatslogic.com/change-password">
+                        <i class="fa fa-user"></i>
+                      </a>
+    
+                    </li>
                   </li>
                   <li class="element-icon">
                     <a href="https://epms.2hatslogic.com/logout">
@@ -895,38 +893,45 @@
           <input type="hidden" id="percent_complete" value="0">
           <div class="panel panel-primary timer-control">
             <div class="row timer-div">
-              <div class="col-sm-12" style="color: green;vertical-align: middle;font-size: 30px;">
-                <img src="https://epms.2hatslogic.com/images/timer.png" width="20%" style="margin-left:20px">
-                <label class="f30" id="hours">00</label>hr <label class="f30" id="minutes">00</label>m <label
-                  class="f30" id="seconds">00</label>s
+              <div class="col-sm-12">
+                <div class="timer-inner">
+                <img src="assets/img/clock-icon.svg" width="20%">
+                <div class="time-wrap">
+                  <div>
+                  <label class="f30" id="hours">00</label>hr <label class="f30" id="minutes">00</label>m <label
+                    class="f30" id="seconds">00</label>s
+                    </div>
+                    <div class="text-center">
+                      <input type="hidden" id="task-id-timer" value="10749">
+        
+                      <div class="col-md-4">
+                        <button class="btn btn-primary" data-task-id="10749" id="start">
+                          <span id="timer-button">
+                            START
+                          </span>
+                        </button>
+                      </div>
+        
+        
+                      <div class="col-md-4">
+                        <button class="btn btn-light" id="pause">
+                          <span id="pause-button">PAUSE </span>
+                        </button>
+        
+                      </div>
+                      <input type="hidden" id="start_task_status" value="In Progress">
+                      <input type="hidden" id="finish_task_status" value="Development Completed">
+                      <div class="col-md-4">
+                        <button id="development_complete" class="btn btn-info">
+                          <span> Finish </span>
+                        </button>
+                      </div>
+                    </div>
+                </div>
+                </div>
               </div>
             </div>
-            <div class="panel-body text-center">
-              <input type="hidden" id="task-id-timer" value="10749">
 
-              <div class="col-md-4">
-                <button class="btn btn-info" data-task-id="10749" id="start" style="height: 100%;width: 100%">
-                  <span id="timer-button">
-                    START
-                  </span>
-                </button>
-              </div>
-
-
-              <div class="col-md-4">
-                <button class="btn btn-light" id="pause" style="height: 100%;width: 100%">
-                  <span id="pause-button">PAUSE </span>
-                </button>
-
-              </div>
-              <input type="hidden" id="start_task_status" value="In Progress">
-              <input type="hidden" id="finish_task_status" value="Development Completed">
-              <div class="col-md-4">
-                <button id="development_complete" class="btn btn-primary" style="height: 100%;width: 100%">
-                  <span> Finish </span>
-                </button>
-              </div>
-            </div>
           </div>
           <div class="panel panel-primary">
             <div class="panel-heading">
