@@ -1,0 +1,814 @@
+<partial src="head.html" title="Homepage"></partial>
+
+
+<div id="wrapper">
+   <!-- --------------------side nav -start- --------------------------------->
+   <nav class="navbar-default navbar-static-side" role="navigation">
+      <div class="sidebar-collapse">
+         <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+               <div class="dropdown profile-element">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                     <span class="avatar">
+                        <img id="header_pic" alt="image" class="img-circle"
+                           src="https://epms.2hatslogic.com/storage/userimage/e8yy2uvDlmFrU7wMd6Lo60YfdczVdDQUI0xjRj7G.png"
+                           style="width: 50px" />
+                     </span>
+
+                     <span class="user-basic"> <span class="block m-t-sm"> <strong class="font-bold">Vijith
+                              Pangath</strong>
+                        </span> <span class="text-muted text-xs block">Senior Front End Developer <b
+                              class="caret"></b></span>
+                     </span>
+                  </a>
+                  <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                     <li><a href="https://epms.2hatslogic.com/profile">Profile</a></li>
+                     <li><a href="https://epms.2hatslogic.com/change-password">Change Password</a></li>
+                     <li><a href="https://epms.2hatslogic.com/logout">Logout</a></li>
+                  </ul>
+               </div>
+               <!-- mobile view -->
+               <div class="logo-element"><a href="https://epms.2hatslogic.com"><img
+                        src="https://epms.2hatslogic.com/images/logo-icon.png" alt="logo" style="width: 50%"></a></div>
+            </li>
+            <li class="">
+               <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i
+                     class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> </span></a>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar"
+                     aria-hidden="true"></i> <span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/projects" data-toggle="tooltip" data-placement="right"
+                        title="Active Projects">
+                        Active Projects
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/archived-projects" data-toggle="tooltip"
+                        data-placement="right" title="Archived Tasks">
+                        Archived Projects
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="active">
+               <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i
+                     class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar"
+                     aria-hidden="true"></i> <span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="active">
+                     <a href="https://epms.2hatslogic.com/tasks" data-toggle="tooltip" data-placement="right"
+                        title="Active Tasks">
+                        Active Tasks
+                     </a>
+                  </li>
+                  <li class=""><a href="https://epms.2hatslogic.com/ongoing-tasks" data-toggle="tooltip"
+                        data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/upcoming-tasks" data-toggle="tooltip"
+                        data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/completed-tasks" data-toggle="tooltip"
+                        data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/archived-tasks" data-toggle="tooltip" data-placement="right"
+                        title="Archived Tasks">
+                        Archived Tasks
+                     </a>
+                  </li>
+               </ul>
+            </li>
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="fa fa-list"
+                     aria-hidden="true"></i> <span class="nav-label">Checklists</span> <span
+                     class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/use-checklists" data-toggle="tooltip" data-placement="right"
+                        title="Update Checklists">
+                        Checklists
+                     </a>
+                  </li>
+                  <li class=""><a href="https://epms.2hatslogic.com/checklists" data-toggle="tooltip"
+                        data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/checklist-report" data-toggle="tooltip"
+                        data-placement="right" title="Daily checklist Reports">Reports</a></li>
+               </ul>
+            </li>
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="fa fa-clock-o"
+                     aria-hidden="true"></i> <span class="nav-label"> Timesheets</span> <span
+                     class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/my-timesheet" data-toggle="tooltip" data-placement="right"
+                        title="Timesheet"> My Timesheet</a>
+                  </li>
+
+                  <li class="">
+                     <a href="/get-timesheets" data-toggle="tooltip" data-placement="right" title="timesheets"><span
+                           class="nav-label">Timesheets</span> </span></a>
+                  </li>
+               </ul>
+            </li>
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
+                  <i class="fa fa-wrench"></i> <span class="nav-label">Tools</span>
+                  <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/work-notes" data-toggle="tooltip" data-placement="right"
+                        title="Work Notes">
+                        Work Notes
+                     </a>
+                  </li>
+
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/issue-records" data-toggle="tooltip" data-placement="right"
+                        title="Issue Records">Issue Records
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/credentials" data-toggle="tooltip" data-placement="right"
+                        title="Project Credentials"> Project Credentials
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/my-credentials" data-toggle="tooltip" data-placement="right"
+                        title="My Credentials"> My Credentials
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/easy-access" data-toggle="tooltip" data-placement="right"
+                        title="Easy Access"> Easy Access
+                     </a>
+                  </li>
+
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/email-signature" data-toggle="tooltip" data-placement="right"
+                        title="Email Signature" target="_blank"> Email Signature
+                     </a>
+                  </li>
+
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/guidelines" data-toggle="tooltip" data-placement="right"
+                        title="Guidelines"> Guidelines
+                     </a>
+                  </li>
+               </ul>
+            </li>
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Report"><i class="fa fa-files-o"
+                     aria-hidden="true"></i> <span class="nav-label">Reports</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href="https://epms.2hatslogic.com/report/clients" data-toggle="tooltip"
+                        data-placement="right" title="Client Report">Clients</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/report/projects" data-toggle="tooltip"
+                        data-placement="right" title="Project Report">Projects</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/report/users" data-toggle="tooltip"
+                        data-placement="right" title="Employee Report">Users</a></li>
+                  <li class=""><a href="https://epms.2hatslogic.com/report/performance" data-toggle="tooltip"
+                        data-placement="right" title="Employee Performance Report">Performance</a></li>
+                  <li class="">
+                     <a href="#" data-toggle="tooltip" data-placement="right" title="Task Bounce"> Task Bounce <span
+                           class="fa arrow"></span></a>
+                     <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="https://epms.2hatslogic.com/task-bounce-list">List</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/task-bounce-report">Report</a></li>
+                     </ul>
+                  </li>
+                  <li class=""><a href="https://epms.2hatslogic.com/report/employee-leave-report" data-toggle="tooltip"
+                        data-placement="right" title="Employee Leave Report">Employee Leave Report</a></li>
+               </ul>
+            </li>
+
+
+            <li class="">
+               <a href="https://epms.2hatslogic.com/payslip"><i class="fa fa-money"></i> <span
+                     class="nav-label">Payslip</span></a>
+            </li>
+
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
+                  <i class="fa fa-life-ring" aria-hidden="true"></i>
+                  <span class="nav-label">Miscellaneous</span>
+                  <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/manage-holidays" data-toggle="tooltip" data-placement="right"
+                        title="Holidays">
+                        Holidays
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://epms.2hatslogic.com/newsletters" data-toggle="tooltip" data-placement="right"
+                        title="Newsletters">
+                        Newsletters
+                     </a>
+                  </li>
+               </ul>
+            </li>
+
+
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
+                  <i class="fa fa-medkit"></i> <span class="nav-label">Leaves</span>
+                  <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href=""> Apply</a>
+                     <ul class="nav nav-third-level">
+                        <li class="">
+                           <a href="https://epms.2hatslogic.com/apply-leave" data-toggle="tooltip"
+                              data-placement="right" title="Apply Leave">
+                              Apply Leave
+                           </a>
+                        </li>
+                        <li class="">
+                           <a href="https://epms.2hatslogic.com/compensations" data-toggle="tooltip"
+                              data-placement="right" title="Apply Compensatory">
+                              Apply Compensatory Off
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+
+
+
+
+         </ul>
+      </div>
+   </nav>
+   <!-- end -->
+   <div id="page-wrapper" class="gray-bg">
+      <div class="row border-bottom">
+         <script src="https://demo.thecoherence.app/js/all.js"></script>
+         <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>
+         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+               <a class="navbar-minimalize minimalize-styl-2 btn btn-primary toggle-nav-user" href="#"><i
+                     class="fa fa-bars"></i> </a>
+               <b style="font-size: 22px;font-weight: 700;padding-left: 12px ;margin: 14px 5px 5px 20px;float: left;">2Hats
+                  Logic</b>
+            </div>
+            <ul class="nav navbar-top-links navbar-right">
+               <li class="g-search-item">
+                  <div class="inner-addon right-addon" style="width:500px">
+                     <i class="fa fa-search"></i>
+                     <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                     <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"
+                        style="height: 40px;" name="q" id="gSearch" class="form-control global-search-box">
+                  </div>
+               </li>
+               <li class="logout">
+                  <a href="https://demo.thecoherence.app/logout">
+                     <i class="fa fa-power-off"></i>
+                  </a>
+               </li>
+            </ul>
+            <div id="globalSearchResultWrapper" class="global-search"></div>
+         </nav>
+         <div class="ibox-content breadcrumbs-outer-div">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="https://demo.thecoherence.app">Dashboard</a></li>
+               <li class="breadcrumb-item active">Gantt</li>
+            </ol>
+            <button id="pause-task" class=" hidden"><i class="fa-pause fa"></i></button>
+         </div>
+         <!-- Create Task Modal -->
+         <div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span
+                           aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                     <h4 class="modal-title text-center">Add EOD Report</h4>
+                  </div>
+                  <div class="modal-body">
+                     <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form"
+                        method="POST" autocomplete="off">
+                        <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z"> <input
+                           type="hidden" name="added_on" value="2023-05-05">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="form-group">
+                                 <label>What did you do today? <span class="required-label">*</span></label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="todays_task" id="todays_task"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                              </div>
+                              <div class="form-group">
+                                 <label>Are there any obstacles hindering your progress? <span
+                                       class="required-label">*</span></label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="impediments"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_impediments"></div>
+                              </div>
+                              <div class="form-group">
+                                 <label>Do you have any plans for tomorrow? </label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="tommorows_task"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="submit-section mt20">
+                           <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper wrapper-content page-wrapper gantt-page">
+         <div class="row">
+            <div class="col-md-12 form-group text-right">
+               <div>
+                  <a href="#" class="btn btn-w-m btn-info create-modal" data-toggle="modal"
+                     data-target="#create_project"><i class="fa fa-plus"></i> Add Project</a>
+               </div>
+            </div>
+         </div>
+         <div id="create_project_action" data-action="https://demo.thecoherence.app/gantt">
+            <!-- Create Project Modal -->
+            <div id="create_project" class="modal custom-modal fade" role="dialog">
+               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span
+                              aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title text-center">Add New Project</h4>
+                     </div>
+                     <div class="modal-body">
+                        <form action="https://demo.thecoherence.app/projects" id="add_project_form" method="POST"
+                           autocomplete="off">
+                           <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z">
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <div class="form-group">
+                                    <label>Project Name <span class="required-label">*</span></label>
+                                    <input class="form-control" type="text" name="project_name" id="project_name_id">
+                                    <div class="text-danger text-left field-error" id="label_project_name"></div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group form-focus select-focus focused">
+                                    <label>Client <span class="required-label">*</span></label>
+                                    <select class="chosen-select" name="client">
+                                       <option value="">Select Client</option>
+                                       <option value="2">Casper-Franecki</option>
+                                       <option value="4">Daniel and Sons</option>
+                                       <option value="6">ENR System</option>
+                                       <option value="1">Franecki-Bogan</option>
+                                       <option value="3">Jaskolski-Conroy</option>
+                                       <option value="7">Mobile Goods</option>
+                                       <option value="8">MRJ Company</option>
+                                       <option value="9">Test</option>
+                                       <option value="10">Test company</option>
+                                       <option value="5">Uber</option>
+                                    </select>
+                                    <div class="text-danger text-left field-error" id="label_client"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <div class="form-group form-focus select-focus focused">
+                                    <label for="">Priority <span class="required-label">*</span></label>
+                                    <select class="chosen-select" id="priority" name="priority">
+                                       <option selected>High</option>
+                                       <option>Medium</option>
+                                       <option> Low</option>
+                                    </select>
+                                    <div class="text-danger text-left field-error" id="label_priority"></div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group form-focus select-focus focused">
+                                    <label>Project Category</label>
+                                    <select class="chosen-select" id="category" name="category">
+                                       <option selected>External</option>
+                                       <option>Internal</option>
+                                       <option>Upskilling</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <div class="form-group">
+                                    <label>Start Date <span class="required-label">*</span></label>
+                                    <input class="form-control datetimepicker" type="text" name="start_date">
+                                    <div class="text-danger text-left field-error" id="label_start_date"></div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6">
+                                 <div class="form-group">
+                                    <label>End Date </label>
+                                    <input class="form-control datetimepicker" type="text" name="end_date">
+                                    <div class="text-danger text-left field-error" id="label_end_date"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group form-focus select-focus focused">
+                                    <label>Cost Type <span class="required-label">*</span></label>
+                                    <select class="chosen-select" id="cost_type" name="cost_type">
+                                       <option>Hourly</option>
+                                       <option>Fixed</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6">
+                                 <div class="form-group">
+                                    <label>Rate <span class="required-label">*</span></label>
+                                    <input class="form-control" type="text" name="rate" id="rate_id">
+                                    <div class="text-danger text-left field-error" id="label_rate"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group">
+                                    <label>Estimated Hours</label>
+                                    <input class="form-control " type="text" name="estimated_hours"
+                                       id="estimated_hours_id">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group form-focus select-focus focused">
+                                    <label>Project Type</label>
+                                    <input class="form-control typeahead_type" type="text" name="project_type">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group">
+                                    <label>URL</label>
+                                    <input class="form-control" type="text" name="site_url" id="url_id">
+                                    <div class="text-danger text-left field-error" id="label_url"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label>Description</label>
+                              <textarea rows="5" class="form-control summernote" placeholder="Enter your message here"
+                                 name="description"></textarea>
+                           </div>
+                           <div class="submit-section">
+                              <button class="btn btn-primary submit-btn create-project">Submit</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /Create Project Modal -->
+         </div>
+         <div class="row ">
+            <div class="col-md-4">
+               <div class=" widget style1 aqua-bg">
+                  <!-- <h3>This Month Availability</h3>
+                        <h2>2032 Hrs</h2> -->
+                  <div class="row">
+                     <div class="col-xs-4">
+                        <i class="fa fa-clock-o fa-4x"></i>
+
+                     </div>
+                     <div class="col-xs-8 text-right">
+                        <span> This Month Availability</span>
+
+                        <h3 class="font-bold">2023 <span class="small">
+                              Hours </span>
+                        </h3>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="widget style1 beer-bg pl-15">
+                  <!-- <h3>This Month Assigned</h3>
+                        <h2>0 Hrs</h2> -->
+                  <div class="row">
+                     <div class="col-xs-4">
+                        <i class="fa fa-clock-o fa-4x"></i>
+
+                     </div>
+                     <div class="col-xs-8 text-right">
+                        <span> This Month Assigned</span>
+
+                        <h3 class="font-bold">0 <span class="small">
+                              Hours </span>
+                        </h3>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3">
+               <div class="widget style1 mandy-bg">
+                  <!-- <h3>This Month Balance</h3> -->
+                  <!-- <h2>0 Hrs</h2> -->
+                  <div class="row">
+                     <div class="col-xs-4">
+                        <i class="fa fa-clock-o fa-4x"></i>
+
+                     </div>
+                     <div class="col-xs-8 text-right">
+                        <span> This Month Balance</span>
+
+                        <h3 class="font-bold">0 <span class="small">
+                              Hours </span>
+                        </h3>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="ibox-content">
+                  <table class="table table-striped ">
+                     <thead>
+                        <tr class="mainrow" data-id="0">
+                           <th class="w-250">Projects</th>
+                           <th class="w-250">Client</th>
+                           <th class="w-100">Start Date</th>
+                           <th class="w-100">End Date</th>
+                           <th class="w-250">Resourses</th>
+                           <th class="w-100">Estimate Hours</th>
+                           <th class="w-100">Used Hours</th>
+                           <th class="w-100">Category</th>
+                           <th class="w-100">Priority</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+
+                        <tr class="mainrow" data-id="52" style="height: 56.9688px;">
+                           <td class="w-250"><a href="https://demo.thecoherence.app/gantt-project-task/52">Demo project
+                                 2</a></td>
+                           <td class="w-250">Daniel and Sons</td>
+                           <td class="w-100">May 01</td>
+                           <td class="w-100">May 31</td>
+                           <td class="w-250">
+                              Abini three,
+                              admin ,
+
+                           </td>
+                           <td class="w-100">62 hrs</td>
+                           <td class="w-100">5 hrs</td>
+                           <td class="w-100">External</td>
+                           <td class="w-100">High</td>
+                        </tr>
+                        <tr class="mainrow" data-id="53" style="height: 56.9688px;">
+                           <td class="w-250"><a href="https://demo.thecoherence.app/gantt-project-task/52">Demo project
+                                 2</a></td>
+                           <td class="w-250">Daniel and Sons</td>
+                           <td class="w-100">May 01</td>
+                           <td class="w-100">May 31</td>
+                           <td class="w-250">
+                              Abini three,
+                              admin ,
+
+                           </td>
+                           <td class="w-100">62 hrs</td>
+                           <td class="w-100">5 hrs</td>
+                           <td class="w-100">External</td>
+                           <td class="w-100">High</td>
+                        </tr>
+                        <tr class="mainrow" data-id="54" style="height: 56.9688px;">
+                           <td class="w-250"><a href="https://demo.thecoherence.app/gantt-project-task/52">Demo project
+                                 2</a></td>
+                           <td class="w-250">Daniel and Sons</td>
+                           <td class="w-100">May 01</td>
+                           <td class="w-100">May 31</td>
+                           <td class="w-250">
+                              Abini three,
+                              admin ,
+
+                           </td>
+                           <td class="w-100">62 hrs</td>
+                           <td class="w-100">5 hrs</td>
+                           <td class="w-100">External</td>
+                           <td class="w-100">High</td>
+                        </tr>
+                        <tr class="mainrow" data-id="55" style="height: 56.9688px;">
+                           <td class="w-250"><a href="https://demo.thecoherence.app/gantt-project-task/52">Demo project
+                                 2</a></td>
+                           <td class="w-250">Daniel and Sons</td>
+                           <td class="w-100">May 01</td>
+                           <td class="w-100">May 31</td>
+                           <td class="w-250">
+                              Abini three,
+                              admin ,
+
+                           </td>
+                           <td class="w-100">62 hrs</td>
+                           <td class="w-100">5 hrs</td>
+                           <td class="w-100">External</td>
+                           <td class="w-100">High</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="col-md-8">
+               <div class="ibox-content">
+                  <table class="table table-striped table-bordered ">
+                     <thead>
+                        <tr class="mainrow" id="mainrow0">
+                           <th class="w-100 text-center">May 01</th>
+                           <th class="w-100 text-center">May 02</th>
+                           <th class="w-100 text-center">May 03</th>
+                           <th class="w-100 text-center">May 04</th>
+                           <th class="w-100 text-center">May 05</th>
+                           <th class="w-100 text-center">May 06</th>
+                           <th class="w-100 text-center">May 07</th>
+                           <th class="w-100 text-center">May 08</th>
+                           <th class="w-100 text-center">May 09</th>
+                           <th class="w-100 text-center">May 10</th>
+                           <th class="w-100 text-center">May 11</th>
+                           <th class="w-100 text-center">May 12</th>
+                           <th class="w-100 text-center">May 13</th>
+                           <th class="w-100 text-center">May 14</th>
+                           <th class="w-100 text-center">May 15</th>
+                           <th class="w-100 text-center">May 16</th>
+                           <th class="w-100 text-center">May 17</th>
+                           <th class="w-100 text-center">May 18</th>
+                           <th class="w-100 text-center">May 19</th>
+                           <th class="w-100 text-center">May 20</th>
+                           <th class="w-100 text-center">May 21</th>
+                           <th class="w-100 text-center">May 22</th>
+                           <th class="w-100 text-center">May 23</th>
+                           <th class="w-100 text-center">May 24</th>
+                           <th class="w-100 text-center">May 25</th>
+                           <th class="w-100 text-center">May 26</th>
+                           <th class="w-100 text-center">May 27</th>
+                           <th class="w-100 text-center">May 28</th>
+                           <th class="w-100 text-center">May 29</th>
+                           <th class="w-100 text-center">May 30</th>
+                           <th class="w-100 text-center">May 31</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr class="mainrow" id="mainrow52" style="height: 56.9688px;">
+                           <!-- check any extra days in project task after project end date -->
+                           <th colspan="31">
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100" style="width:27%">
+                                 </div>
+                              </div>
+                           </th>
+                        </tr>
+                        <tr class="mainrow" id="mainrow53" style="height: 56.9688px;">
+                           <!-- check any extra days in project task after project end date -->
+                           <th colspan="31">
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100" style="width:100%">
+                                 </div>
+                              </div>
+                           </th>
+                        </tr>
+                        <tr class="mainrow" id="mainrow53" style="height: 56.9688px;">
+                           <!-- check any extra days in project task after project end date -->
+                           <th colspan="31">
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100" style="width:100%">
+                                 </div>
+                              </div>
+                           </th>
+                        </tr>
+                        <tr class="mainrow" id="mainrow53" style="height: 56.9688px;">
+                           <!-- check any extra days in project task after project end date -->
+                           <th colspan="31">
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100" style="width:100%">
+                                 </div>
+                              </div>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <nav>
+            <ul class="pagination">
+               <li class="page-item">
+                  <a class="page-link" href="https://demo.thecoherence.app/gantt?page=1" rel="prev"
+                     aria-label="&laquo; Previous">&lsaquo;</a>
+               </li>
+               <li class="page-item"><a class="page-link" href="https://demo.thecoherence.app/gantt?page=1">1</a>
+               </li>
+               <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+               <li class="page-item disabled" aria-disabled="true" aria-label="Next &raquo;">
+                  <span class="page-link" aria-hidden="true">&rsaquo;</span>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="footer">
+         <div>
+            <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+         </div>
+      </div>
+      <div class="floatingButtonWrap">
+         <div class="floatingButtonInner">
+            <a href="#" class="floatingButton">
+               <i class="fa fa-plus icon-default"></i>
+            </a>
+            <ul class="floatingMenu">
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+               </li>
+               <li>
+                  <a href="https://app.gitbook.com/" target="_blank">Gitbook</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div id="change_easy_access" class="modal custom-modal fade" role="dialog">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add New</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST"
+                     autocomplete="off">
+                     <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z">
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <label>Link <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="link" id="link" value="">
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary add-to-easy-access">Save</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/iCheck/icheck.min.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/iCheck/custom.css" rel="stylesheet">
+<script src="https://demo.thecoherence.app/js/jquery.mask.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/typehead/bootstrap3-typeahead.min.js"></script>
+<script src="https://demo.thecoherence.app/js/jquery.mask.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/projects/script-min.js"></script>
+<script>
+   $(document).ready(function () {
+      $('.mainrow').each(function () {
+         var id = $(this).attr('data-id');
+         if (id) {
+            var height = $(this).height()
+            $('#mainrow' + id).height(height);
+         }
+      });
+
+
+   });
+
+   function collapseProjectBox(id) {
+      $(".project-sub-table-" + id).toggleClass('collase-active');
+      $("#project-leftbar" + id).toggleClass('active-row');
+      $("#project-rightbar" + id).toggleClass('active-row');
+   }
+</script>
+</body>
+
+</html>
