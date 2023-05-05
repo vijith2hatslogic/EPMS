@@ -1,0 +1,1973 @@
+<partial src="head.html" title="Homepage"></partial>
+<div id="wrapper">
+    <!-- --------------------side nav -start- --------------------------------->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="avatar">
+                                <img id="header_pic" alt="image" class="img-circle"
+                                    src="https://epms.2hatslogic.com/storage/userimage/e8yy2uvDlmFrU7wMd6Lo60YfdczVdDQUI0xjRj7G.png"
+                                    style="width: 50px" />
+                            </span>
+
+                            <span class="user-basic"> <span class="block m-t-sm"> <strong class="font-bold">Vijith
+                                        Pangath</strong>
+                                </span> <span class="text-muted text-xs block">Senior Front End Developer <b
+                                        class="caret"></b></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="https://epms.2hatslogic.com/profile">Profile</a></li>
+                            <li><a href="https://epms.2hatslogic.com/change-password">Change Password</a></li>
+                            <li><a href="https://epms.2hatslogic.com/logout">Logout</a></li>
+                        </ul>
+                    </div>
+                    <!-- mobile view -->
+                    <div class="logo-element"><a href="https://epms.2hatslogic.com"><img
+                                src="https://epms.2hatslogic.com/images/logo-icon.png" alt="logo"
+                                style="width: 50%"></a></div>
+                </li>
+                <li class="">
+                    <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i
+                            class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> </span></a>
+                </li>
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar"
+                            aria-hidden="true"></i> <span class="nav-label">Projects</span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/projects" data-toggle="tooltip" data-placement="right"
+                                title="Active Projects">
+                                Active Projects
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/archived-projects" data-toggle="tooltip"
+                                data-placement="right" title="Archived Tasks">
+                                Archived Projects
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i
+                            class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
+                </li>
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar"
+                            aria-hidden="true"></i> <span class="nav-label">Tasks</span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="active">
+                            <a href="https://epms.2hatslogic.com/tasks" data-toggle="tooltip" data-placement="right"
+                                title="Active Tasks">
+                                Active Tasks
+                            </a>
+                        </li>
+                        <li class=""><a href="https://epms.2hatslogic.com/ongoing-tasks" data-toggle="tooltip"
+                                data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/upcoming-tasks" data-toggle="tooltip"
+                                data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/completed-tasks" data-toggle="tooltip"
+                                data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/archived-tasks" data-toggle="tooltip"
+                                data-placement="right" title="Archived Tasks">
+                                Archived Tasks
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="fa fa-list"
+                            aria-hidden="true"></i> <span class="nav-label">Checklists</span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/use-checklists" data-toggle="tooltip"
+                                data-placement="right" title="Update Checklists">
+                                Checklists
+                            </a>
+                        </li>
+                        <li class=""><a href="https://epms.2hatslogic.com/checklists" data-toggle="tooltip"
+                                data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/checklist-report" data-toggle="tooltip"
+                                data-placement="right" title="Daily checklist Reports">Reports</a></li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="fa fa-clock-o"
+                            aria-hidden="true"></i> <span class="nav-label"> Timesheets</span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/my-timesheet" data-toggle="tooltip"
+                                data-placement="right" title="Timesheet"> My Timesheet</a>
+                        </li>
+
+                        <li class="">
+                            <a href="/get-timesheets" data-toggle="tooltip" data-placement="right"
+                                title="timesheets"><span class="nav-label">Timesheets</span> </span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
+                        <i class="fa fa-wrench"></i> <span class="nav-label">Tools</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/work-notes" data-toggle="tooltip"
+                                data-placement="right" title="Work Notes">
+                                Work Notes
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/issue-records" data-toggle="tooltip"
+                                data-placement="right" title="Issue Records">Issue Records
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/credentials" data-toggle="tooltip"
+                                data-placement="right" title="Project Credentials"> Project Credentials
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/my-credentials" data-toggle="tooltip"
+                                data-placement="right" title="My Credentials"> My Credentials
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/easy-access" data-toggle="tooltip"
+                                data-placement="right" title="Easy Access"> Easy Access
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/email-signature" data-toggle="tooltip"
+                                data-placement="right" title="Email Signature" target="_blank"> Email Signature
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/guidelines" data-toggle="tooltip"
+                                data-placement="right" title="Guidelines"> Guidelines
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Report"><i class="fa fa-files-o"
+                            aria-hidden="true"></i> <span class="nav-label">Reports</span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="https://epms.2hatslogic.com/report/clients" data-toggle="tooltip"
+                                data-placement="right" title="Client Report">Clients</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/report/projects" data-toggle="tooltip"
+                                data-placement="right" title="Project Report">Projects</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/report/users" data-toggle="tooltip"
+                                data-placement="right" title="Employee Report">Users</a></li>
+                        <li class=""><a href="https://epms.2hatslogic.com/report/performance" data-toggle="tooltip"
+                                data-placement="right" title="Employee Performance Report">Performance</a></li>
+                        <li class="">
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="Task Bounce"> Task Bounce
+                                <span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li class=""><a href="https://epms.2hatslogic.com/task-bounce-list">List</a></li>
+                                <li class=""><a href="https://epms.2hatslogic.com/task-bounce-report">Report</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="https://epms.2hatslogic.com/report/employee-leave-report"
+                                data-toggle="tooltip" data-placement="right" title="Employee Leave Report">Employee
+                                Leave Report</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="https://epms.2hatslogic.com/payslip"><i class="fa fa-money"></i> <span
+                            class="nav-label">Payslip</span></a>
+                </li>
+
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
+                        <i class="fa fa-life-ring" aria-hidden="true"></i>
+                        <span class="nav-label">Miscellaneous</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/manage-holidays" data-toggle="tooltip"
+                                data-placement="right" title="Holidays">
+                                Holidays
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://epms.2hatslogic.com/newsletters" data-toggle="tooltip"
+                                data-placement="right" title="Newsletters">
+                                Newsletters
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
+                        <i class="fa fa-medkit"></i> <span class="nav-label">Leaves</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level collapse">
+                        <li class=""><a href=""> Apply</a>
+                            <ul class="nav nav-third-level">
+                                <li class="">
+                                    <a href="https://epms.2hatslogic.com/apply-leave" data-toggle="tooltip"
+                                        data-placement="right" title="Apply Leave">
+                                        Apply Leave
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://epms.2hatslogic.com/compensations" data-toggle="tooltip"
+                                        data-placement="right" title="Apply Compensatory">
+                                        Apply Compensatory Off
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+    </nav>
+    <!-- end -->
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <script src="https://demo.thecoherence.app/js/all.js"></script>
+            <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary toggle-nav-user" href="#"><i
+                            class="fa fa-bars"></i> </a>
+                    <b
+                        style="font-size: 22px;font-weight: 700;padding-left: 12px ;margin: 14px 5px 5px 20px;float: left;">2Hats
+                        Logic</b>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="g-search-item">
+                        <div class="inner-addon right-addon" style="width:500px">
+                            <i class="fa fa-search"></i>
+                            <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                            <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"
+                                style="height: 40px;" name="q" id="gSearch" class="form-control global-search-box">
+                        </div>
+                    </li>
+                    <li class="logout">
+                        <a href="https://demo.thecoherence.app/logout">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div id="globalSearchResultWrapper" class="global-search"></div>
+            </nav>
+            <div class="ibox-content breadcrumbs-outer-div">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="https://demo.thecoherence.app">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Gantt</li>
+                </ol>
+                <button id="pause-task" class=" hidden"><i class="fa-pause fa"></i></button>
+            </div>
+            <!-- Create Task Modal -->
+            <div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span
+                                    aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title text-center">Add EOD Report</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form"
+                                method="POST" autocomplete="off">
+                                <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z">
+                                <input type="hidden" name="added_on" value="2023-05-05">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>What did you do today? <span class="required-label">*</span></label>
+                                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                                name="todays_task" id="todays_task"></textarea>
+                                            <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Are there any obstacles hindering your progress? <span
+                                                    class="required-label">*</span></label>
+                                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                                name="impediments"></textarea>
+                                            <div class="text-danger text-left field-error" id="label_impediments"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Do you have any plans for tomorrow? </label>
+                                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                                name="tommorows_task"></textarea>
+                                            <div class="text-danger text-left field-error" id="label_tommorows_task">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submit-section mt20">
+                                    <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper-content page-wrapper gantt-project-page">
+
+
+            <div id="create_task_action" data-action="https://demo.thecoherence.app/gantt-project-task/57">
+                <!-- Create Task Modal -->
+                <div id="create_task" class="modal custom-modal fade" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span
+                                        aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title text-center">Add New Task</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="https://demo.thecoherence.app/tasks" enctype="multipart/form-data"
+                                    id="add_task_form" method="POST" autocomplete="off">
+                                    <input type="hidden" name="project_id" value="57">
+                                    <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z">
+                                    <div class="tabs-container">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li class="active"><a class="nav-link" data-toggle="tab" href="#tab-1">
+                                                    Task Details</a></li>
+                                            <li><a class="nav-link" data-toggle="tab" href="#tab-2">Task
+                                                    Checklists</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div role="tabpanel" id="tab-1" class="tab-pane active">
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group">
+                                                                <label>Project Name <span
+                                                                        class="required-label">*</span></label>
+                                                                <input class="form-control" type="text"
+                                                                    value="Gantt Project" readonly>
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_project_name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label>Task Title <span
+                                                                        class="required-label">*</span></label>
+                                                                <input class="form-control" type="text"
+                                                                    name="task_title" id="task_title">
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_task_title"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label for="">Parent Task</label>
+                                                                <select class="chosen-select" id="task_parent"
+                                                                    name="task_parent">
+                                                                    <option value="">Select</option>
+                                                                    <option value="263">Main task</option>
+                                                                    <option value="264">Main task 2</option>
+                                                                    <option value="258">Task1</option>
+
+
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6 ">
+                                                            <div class="form-group">
+                                                                <label>Estimated Time <span
+                                                                        class="required-label">*</span></label>
+                                                                <div class="cal-icon">
+                                                                    <input class="form-control" type="text"
+                                                                        name="estimated_time" id="estimated_time">
+                                                                </div>
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_estimated_time"></div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group">
+                                                                <label>Start Date <span
+                                                                        class="required-label">*</span></label>
+                                                                <input class="form-control datetimepicker" type="text"
+                                                                    name="start_date">
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_start_date"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group">
+                                                                <label>Deadline <span
+                                                                        class="required-label">*</span></label>
+                                                                <input class="form-control datetimepicker" type="text"
+                                                                    name="end_date">
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_end_date"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label for="">Priority</label>
+                                                                <select class="chosen-select" id="task_priority"
+                                                                    name="task_priority">
+                                                                    <option value="Critical">Critical</option>
+                                                                    <option value="High">High</option>
+                                                                    <option value="Medium" selected>Medium</option>
+                                                                    <option value="Low"> Low</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label>Assign To</label>
+                                                                <select class="chosen-select" id="task_assigned_users"
+                                                                    name="task_assigned_users[]" multiple>
+                                                                    <option value="20">Abini Subramanian</option>
+                                                                    <option value="22">Abini three</option>
+                                                                    <option value="21">Abini 2 2</option>
+                                                                    <option value="3">Admin </option>
+                                                                    <option value="28">Aneesh Sreedharan</option>
+                                                                    <option value="23">Dev3 three</option>
+                                                                    <option value="13">Developer test</option>
+                                                                    <option value="16">Developer 2 two</option>
+                                                                    <option value="7">Durward Abernathy Walter
+                                                                    </option>
+                                                                    <option value="5">Eryn Crist Erdman</option>
+                                                                    <option value="4">Jimmie Von Langosh</option>
+                                                                    <option value="17">Luca jone</option>
+                                                                    <option value="27">Malu krishna</option>
+                                                                    <option value="10">Miss Antonetta Robel Huel
+                                                                    </option>
+                                                                    <option value="11">Ms. Margarete Schneider I
+                                                                        Harber</option>
+                                                                    <option value="12">Parker Jones Emmerich
+                                                                    </option>
+                                                                    <option value="6">Prince Feeney Lueilwitz
+                                                                    </option>
+                                                                    <option value="14">QA ONE</option>
+                                                                    <option value="15">QA TWO</option>
+                                                                    <option value="19">Test QA QA</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label>Technical Reviewer</label>
+                                                                <select class="chosen-select" id="task_assigned_users"
+                                                                    name="reviewer_id">
+                                                                    <option value="">Select</option>
+                                                                    <option value="20">Abini Subramanian</option>
+                                                                    <option value="22">Abini three</option>
+                                                                    <option value="21">Abini 2 2</option>
+                                                                    <option value="3">Admin </option>
+                                                                    <option value="28">Aneesh Sreedharan</option>
+                                                                    <option value="23">Dev3 three</option>
+                                                                    <option value="13">Developer test</option>
+                                                                    <option value="16">Developer 2 two</option>
+                                                                    <option value="7">Durward Abernathy Walter
+                                                                    </option>
+                                                                    <option value="5">Eryn Crist Erdman</option>
+                                                                    <option value="4">Jimmie Von Langosh</option>
+                                                                    <option value="17">Luca jone</option>
+                                                                    <option value="27">Malu krishna</option>
+                                                                    <option value="10">Miss Antonetta Robel Huel
+                                                                    </option>
+                                                                    <option value="11">Ms. Margarete Schneider I
+                                                                        Harber</option>
+                                                                    <option value="12">Parker Jones Emmerich
+                                                                    </option>
+                                                                    <option value="6">Prince Feeney Lueilwitz
+                                                                    </option>
+                                                                    <option value="14">QA ONE</option>
+                                                                    <option value="15">QA TWO</option>
+                                                                    <option value="19">Test QA QA</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label>Need to be approved by: </label>
+                                                                <select class="chosen-select form-control m-b"
+                                                                    id="approval_users" name="approval_users[]"
+                                                                    multiple>
+                                                                    <option value="3">Admin </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label>URL</label>
+                                                                <input class="form-control" type="text" name="task_url"
+                                                                    id="url">
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_task_url"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label>Task Id <small>(Jira)</small></label>
+                                                                <input class="form-control" type="text" name="task_id">
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_task_id"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Description</label>
+                                                        <textarea rows="4" class="form-control summernote"
+                                                            placeholder="Enter your message here"
+                                                            name="task_description"></textarea>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group form-focus select-focus focused">
+                                                                <label for="">Tag </label>
+                                                                <select class="chosen-select" id="tag" name="tag">
+                                                                    <option value="">Select Tag</option>
+                                                                    <option value="demo-tag">demo tag</option>
+                                                                    <option value="tag">tag</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="btn btn-primary btn-xs pull-right"
+                                                                data-toggle="modal" data-target="#add_tag"><i
+                                                                    class="fa fa-plus"></i> Add Tag</a>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label>Attach Files</label>
+                                                                <input class="form-control" type="file" name="files[]"
+                                                                    multiple />
+                                                                <div class="text-danger text-left field-error"
+                                                                    id="label_files"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-md-6 text-right">
+                                                            <span>Add to Agile Board</span> <input checked=""
+                                                                type="checkbox" class="i-checks" name="add_to_board">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div role="tabpanel" id="tab-2" class="tab-pane">
+                                                <div class="panel-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table task-checklist">
+
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p class="parent-category"><input
+                                                                                type="checkbox" class="check-all">
+                                                                            <span>PHP Code</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="1" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>All
+                                                                                functions have comments</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="2" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>All
+                                                                                comments are strictly PHPDoc
+                                                                                format</span>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p class="parent-category"><input
+                                                                                type="checkbox" class="check-all">
+                                                                            <span>HTML Code</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="3" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>All code
+                                                                                indentations are validated</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="4" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>No
+                                                                                repeating IDs in a page</span>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p class="parent-category"><input
+                                                                                type="checkbox" class="check-all">
+                                                                            <span>Going Live</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="5" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>Remove
+                                                                                the maintenance message</span>
+                                                                        </p>
+                                                                        <p class="child-category">
+                                                                            <input value="6" type="checkbox"
+                                                                                class="i-checks" name="checklists[]">
+                                                                            <span>Make sure
+                                                                                error reporting is turned off</span>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="submit-section mt20">
+                                        <button class="btn btn-primary submit-btn create-task">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Create task Modal -->
+            </div>
+            <div id="edit_task" data-action="https://demo.thecoherence.app/gantt-project-task/57"
+                class="modal custom-modal fade" role="dialog">
+
+            </div>
+            <div id="delete_task_action" data-action="https://demo.thecoherence.app/gantt-project-task/57">
+                <div class="modal custom-modal fade" id="delete_task" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span
+                                        aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title text-center">Delete Task</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-header">
+                                    <p>Are you sure want to delete?</p>
+                                </div>
+                                <div class="modal-btn delete-action">
+                                    <div class="row" style="padding-top: 10px">
+                                        <input type="hidden" id="delete_task_id" value="">
+                                        <input type="hidden" id="delete_task_type" value="">
+                                        <div class="col-sm-6">
+                                            <a href="javascript:void(0);" data-dismiss="modal"
+                                                class="btn btn-default float-right cancel-btn">Cancel</a>
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            <a href="javascript:void(0);"
+                                                class="btn btn-primary continue-btn">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 m-b">
+                    <h3>Project Management : <a href="/projects/57">Gantt Project</a></h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="ibox-content">
+                        <table class="table ">
+                            <thead>
+                                <tr class="mainrow">
+                                    <th class="w-350">Projects</th>
+                                    <th class="w-150">Start Date</th>
+                                    <th class="w-150">End Date</th>
+                                    <th class="w-250">Resourses</th>
+                                    <th class="w-100">Progress</th>
+                                    <th class="w-100">Status</th>
+                                    <th class="w-150">Priority</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr class="mainrow" id="mainrow-left258">
+                                    <td class="w-350">
+                                        <div class="task-name">
+                                            <div>
+                                                <i id="collase-icon258" onclick="collapsebox(258)"
+                                                    class="collase-icon fa fa-plus-circle"></i>
+                                                <a href="/tasks/258"><span>Task1</span></a>
+                                            </div>
+                                            <div class="icon-container">
+                                                <span class="add-i">
+                                                    <a href="#" class="" data-id="258" data-tooltip="tooltip"
+                                                        data-placement="top" title="Add Sub task">
+                                                        <i class="fa fa-plus"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="edit-i">
+                                                    <a data-tooltip="tooltip" data-placement="top" title="Edit">
+                                                        <i data-id="258" class="fa fa-pencil edit-task"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="dlt-i">
+                                                    <a href="#" class="delete_task_onclick" data-id="258"
+                                                        data-tooltip="tooltip" data-placement="top" title="Delete">
+                                                        <i data-toggle="modal" data-target="#delete_task"
+                                                            class="fa fa-trash" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(258,'startdate')">
+                                        <div class="task-text" id="startdate-text-258">
+                                            May 04
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="startdate-input-258" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(258,'startdate')" value="04/05/2023"
+                                                id="task-startdate258">
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(258,'enddate')">
+                                        <div class="task-text" id="enddate-text-258">
+                                            May 08
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="enddate-input-258" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(258,'enddate')" value="08/05/2023"
+                                                id="task-enddate258">
+                                        </div>
+                                    </td>
+                                    <td class="w-250" class="resource-column" onclick="editField(258,'resource')">
+                                        <div class="task-text" id="resource-text-258">
+                                            <span>
+                                                <img title="Developer test" alt="Developer test" class="img-circle"
+                                                    src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                                    height="35">
+                                            </span>
+
+                                            <span>
+                                                <img title="developer 2 two" alt="developer 2 two" class="img-circle"
+                                                    src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                                    height="35">
+                                            </span>
+
+                                            <span>
+                                                <img title="Luca jone" alt="Luca jone" class="img-circle"
+                                                    src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                                    height="35">
+                                            </span>
+
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="resource-input-258" style="display:none">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-focus select-focus focused">
+                                                        <select class="chosen-select form-control m-b"
+                                                            onchange="updateTask(258,'resource')" id="assigned_users258"
+                                                            name="assigned_users[]" multiple>
+                                                            <option value="20">
+                                                                Abini Subramanian</option>
+                                                            <option value="22">
+                                                                Abini three</option>
+                                                            <option value="21">
+                                                                Abini 2 2</option>
+                                                            <option value="3">
+                                                                Admin </option>
+                                                            <option value="28">
+                                                                Aneesh Sreedharan</option>
+                                                            <option value="23">
+                                                                Dev3 three</option>
+                                                            <option value="13" selected>
+                                                                Developer test</option>
+                                                            <option value="16" selected>
+                                                                Developer 2 two</option>
+                                                            <option value="7">
+                                                                Durward Abernathy Walter</option>
+                                                            <option value="5">
+                                                                Eryn Crist Erdman</option>
+                                                            <option value="4">
+                                                                Jimmie Von Langosh</option>
+                                                            <option value="17" selected>
+                                                                Luca jone</option>
+                                                            <option value="27">
+                                                                Malu krishna</option>
+                                                            <option value="10">
+                                                                Miss Antonetta Robel Huel</option>
+                                                            <option value="11">
+                                                                Ms. Margarete Schneider I Harber</option>
+                                                            <option value="12">
+                                                                Parker Jones Emmerich</option>
+                                                            <option value="6">
+                                                                Prince Feeney Lueilwitz</option>
+                                                            <option value="14">
+                                                                QA ONE</option>
+                                                            <option value="15">
+                                                                QA TWO</option>
+                                                            <option value="19">
+                                                                Test QA QA</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-100" onclick="editField(258,'percentage')">
+                                        <div class="task-text" id="percentage-text-258">
+                                            56%
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="percentage-input-258" style="display:none">
+                                            <input type="number" min="0" max="100" class="form-control" value="56"
+                                                onblur="updateTask(258,'percentage')" id="task-percentage258">
+                                        </div>
+                                    </td>
+                                    <td class="w-100">
+                                        Not Started
+                                        <span class="hover-icon">
+                                            <i class="fa fa-lock"></i>
+                                        </span>
+                                    </td>
+
+                                    <td class="w-150" onclick="editField(258,'priority')">
+                                        <div class="task-text" id="priority-text-258">
+                                            High
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="priority-input-258"
+                                            onchange="updateTask(258,'priority')" style="display:none">
+                                            <select class="form-control" id="task-priority258">
+                                                <option value="High">High</option>
+                                                <option value="Medium" selected>Medium</option>
+                                                <option value="Low"> Low</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="sub-table-258" style="display:none;">
+                                    <td colspan="7" style="padding-left:0px;padding-right:0px">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr class="mainrow" id="mainrow-left262">
+                                                    <td class="w-350">
+                                                        <div class="task-name">
+                                                            <div><a href="/tasks/262"><span>subtask</span></a></div>
+                                                            <div class="icon-container">
+                                                                <span class="edit-i">
+                                                                    <a data-tooltip="tooltip" data-placement="top"
+                                                                        title="Edit">
+                                                                        <i data-id="262" class="fa fa-pencil edit-task"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                </span>
+                                                                <span class="dlt-i">
+                                                                    <a href="#" class="delete_task_onclick"
+                                                                        data-id="262" data-tooltip="tooltip"
+                                                                        data-placement="top" title="Delete">
+                                                                        <i data-toggle="modal"
+                                                                            data-target="#delete_task"
+                                                                            class="fa fa-trash" aria-hidden="true"></i>
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150" onclick="editField(262,'startdate')">
+                                                        <div class="task-text" id="startdate-text-262">
+                                                            May 05
+                                                            <span class="hover-icon">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="task-update" id="startdate-input-262"
+                                                            style="display:none">
+                                                            <input type="text" class="form-control datetimepickernew"
+                                                                onchange="updateTask(262,'startdate')"
+                                                                value="05/05/2023" id="task-startdate262">
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150" onclick="editField(262,'enddate')">
+                                                        <div class="task-text" id="enddate-text-262">
+                                                            May 05
+                                                            <span class="hover-icon">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="task-update" id="enddate-input-262"
+                                                            style="display:none">
+                                                            <input type="text" class="form-control datetimepickernew"
+                                                                onchange="updateTask(262,'enddate')" value="05/05/2023"
+                                                                id="task-enddate262">
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-250" class="resource-column"
+                                                        onclick="editField(262,'resource')">
+                                                        <div class="task-text" id="resource-text-262">
+                                                            <span class="hover-icon">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="task-update" id="resource-input-262"
+                                                            style="display:none">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-focus select-focus focused">
+                                                                        <select class="chosen-select form-control m-b"
+                                                                            onchange="updateTask(262,'resource')"
+                                                                            id="assigned_users262"
+                                                                            name="assigned_users[]" multiple>
+                                                                            <option value="20">
+                                                                                Abini Subramanian</option>
+                                                                            <option value="22">
+                                                                                Abini three</option>
+                                                                            <option value="21">
+                                                                                Abini 2 2</option>
+                                                                            <option value="3">
+                                                                                Admin </option>
+                                                                            <option value="28">
+                                                                                Aneesh Sreedharan</option>
+                                                                            <option value="23">
+                                                                                Dev3 three</option>
+                                                                            <option value="13">
+                                                                                Developer test</option>
+                                                                            <option value="16">
+                                                                                Developer 2 two</option>
+                                                                            <option value="7">
+                                                                                Durward Abernathy Walter</option>
+                                                                            <option value="5">
+                                                                                Eryn Crist Erdman</option>
+                                                                            <option value="4">
+                                                                                Jimmie Von Langosh</option>
+                                                                            <option value="17">
+                                                                                Luca jone</option>
+                                                                            <option value="27">
+                                                                                Malu krishna</option>
+                                                                            <option value="10">
+                                                                                Miss Antonetta Robel Huel</option>
+                                                                            <option value="11">
+                                                                                Ms. Margarete Schneider I Harber
+                                                                            </option>
+                                                                            <option value="12">
+                                                                                Parker Jones Emmerich</option>
+                                                                            <option value="6">
+                                                                                Prince Feeney Lueilwitz</option>
+                                                                            <option value="14">
+                                                                                QA ONE</option>
+                                                                            <option value="15">
+                                                                                QA TWO</option>
+                                                                            <option value="19">
+                                                                                Test QA QA</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-100" onclick="editField(262,'percentage')">
+                                                        <div class="task-text" id="percentage-text-262">
+                                                            0%
+                                                            <span class="hover-icon">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="task-update" id="percentage-input-262"
+                                                            style="display:none">
+                                                            <input type="number" min="0" max="100" class="form-control"
+                                                                value="0" onblur="updateTask(262,'percentage')"
+                                                                id="task-percentage262">
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-100">
+                                                        Not Started
+                                                        <span class="hover-icon">
+                                                            <i class="fa fa-lock"></i>
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-150" onclick="editField(262,'priority')">
+                                                        <div class="task-text" id="priority-text-262">
+                                                            Medium
+                                                            <span class="hover-icon">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="task-update" id="priority-input-262"
+                                                            onchange="updateTask(262,'priority')" style="display:none">
+                                                            <select class="form-control" id="task-priority262">
+                                                                <option value="High">High</option>
+                                                                <option value="Medium" selected>Medium</option>
+                                                                <option value="Low"> Low</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr class="mainrow" id="mainrow-left263">
+                                    <td class="w-250">
+                                        <div class="task-name">
+
+                                            <div>
+                                                <i class="collase-icon-hidden fa fa-plus-circle"></i>
+                                                <a href="/tasks/263"><span>Main task</span></a>
+                                            </div>
+                                            <div class="icon-container">
+                                                <span class="add-i">
+                                                    <a href="#" class="" data-id="258" data-tooltip="tooltip"
+                                                        data-placement="top" title="Add Sub task">
+                                                        <i class="fa fa-plus"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="edit-i">
+                                                    <a data-tooltip="tooltip" data-placement="top" title="Edit">
+                                                        <i data-id="263" class="fa fa-pencil edit-task"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="dlt-i">
+                                                    <a href="#" class="delete_task_onclick" data-id="263"
+                                                        data-tooltip="tooltip" data-placement="top" title="Delete">
+                                                        <i data-toggle="modal" data-target="#delete_task"
+                                                            class="fa fa-trash" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(263,'startdate')">
+                                        <div class="task-text" id="startdate-text-263">
+                                            May 05
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="startdate-input-263" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(263,'startdate')" value="05/05/2023"
+                                                id="task-startdate263">
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(263,'enddate')">
+                                        <div class="task-text" id="enddate-text-263">
+                                            May 05
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="enddate-input-263" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(263,'enddate')" value="05/05/2023"
+                                                id="task-enddate263">
+                                        </div>
+                                    </td>
+                                    <td class="w-250" class="resource-column" onclick="editField(263,'resource')">
+                                        <div class="task-text" id="resource-text-263">
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="resource-input-263" style="display:none">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-focus select-focus focused">
+                                                        <select class="chosen-select form-control m-b"
+                                                            onchange="updateTask(263,'resource')" id="assigned_users263"
+                                                            name="assigned_users[]" multiple>
+                                                            <option value="20">
+                                                                Abini Subramanian</option>
+                                                            <option value="22">
+                                                                Abini three</option>
+                                                            <option value="21">
+                                                                Abini 2 2</option>
+                                                            <option value="3">
+                                                                Admin </option>
+                                                            <option value="28">
+                                                                Aneesh Sreedharan</option>
+                                                            <option value="23">
+                                                                Dev3 three</option>
+                                                            <option value="13">
+                                                                Developer test</option>
+                                                            <option value="16">
+                                                                Developer 2 two</option>
+                                                            <option value="7">
+                                                                Durward Abernathy Walter</option>
+                                                            <option value="5">
+                                                                Eryn Crist Erdman</option>
+                                                            <option value="4">
+                                                                Jimmie Von Langosh</option>
+                                                            <option value="17">
+                                                                Luca jone</option>
+                                                            <option value="27">
+                                                                Malu krishna</option>
+                                                            <option value="10">
+                                                                Miss Antonetta Robel Huel</option>
+                                                            <option value="11">
+                                                                Ms. Margarete Schneider I Harber</option>
+                                                            <option value="12">
+                                                                Parker Jones Emmerich</option>
+                                                            <option value="6">
+                                                                Prince Feeney Lueilwitz</option>
+                                                            <option value="14">
+                                                                QA ONE</option>
+                                                            <option value="15">
+                                                                QA TWO</option>
+                                                            <option value="19">
+                                                                Test QA QA</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-100" onclick="editField(263,'percentage')">
+                                        <div class="task-text" id="percentage-text-263">
+                                            0%
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="percentage-input-263" style="display:none">
+                                            <input type="number" min="0" max="100" class="form-control" value="0"
+                                                onblur="updateTask(263,'percentage')" id="task-percentage263">
+                                        </div>
+                                    </td>
+                                    <td class="w-100">
+                                        Not Started
+                                        <span class="hover-icon">
+                                            <i class="fa fa-lock"></i>
+                                        </span>
+                                    </td>
+
+                                    <td class="w-150" onclick="editField(263,'priority')">
+                                        <div class="task-text" id="priority-text-263">
+                                            Medium
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="priority-input-263"
+                                            onchange="updateTask(263,'priority')" style="display:none">
+                                            <select class="form-control" id="task-priority263">
+                                                <option value="High">High</option>
+                                                <option value="Medium" selected>Medium</option>
+                                                <option value="Low"> Low</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="mainrow" id="mainrow-left264">
+                                    <td class="w-250">
+                                        <div class="task-name">
+                                            <div>
+                                                <i class="collase-icon-hidden fa fa-plus-circle"></i>
+                                                <a href="/tasks/264"><span>Main task 2</span></a>
+                                            </div>
+                                            <div class="icon-container">
+                                                <span class="add-i">
+                                                    <a href="#" class="" data-id="258" data-tooltip="tooltip"
+                                                        data-placement="top" title="Add Sub task">
+                                                        <i class="fa fa-plus"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="edit-i">
+                                                    <a data-tooltip="tooltip" data-placement="top" title="Edit">
+                                                        <i data-id="264" class="fa fa-pencil edit-task"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="dlt-i">
+                                                    <a href="#" class="delete_task_onclick" data-id="264"
+                                                        data-tooltip="tooltip" data-placement="top" title="Delete">
+                                                        <i data-toggle="modal" data-target="#delete_task"
+                                                            class="fa fa-trash" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(264,'startdate')">
+                                        <div class="task-text" id="startdate-text-264">
+                                            May 05
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="startdate-input-264" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(264,'startdate')" value="05/05/2023"
+                                                id="task-startdate264">
+                                        </div>
+                                    </td>
+                                    <td class="w-150" onclick="editField(264,'enddate')">
+                                        <div class="task-text" id="enddate-text-264">
+                                            May 05
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="enddate-input-264" style="display:none">
+                                            <input type="text" class="form-control datetimepickernew"
+                                                onchange="updateTask(264,'enddate')" value="05/05/2023"
+                                                id="task-enddate264">
+                                        </div>
+                                    </td>
+                                    <td class="w-250" class="resource-column" onclick="editField(264,'resource')">
+                                        <div class="task-text" id="resource-text-264">
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="resource-input-264" style="display:none">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-focus select-focus focused">
+                                                        <select class="chosen-select form-control m-b"
+                                                            onchange="updateTask(264,'resource')" id="assigned_users264"
+                                                            name="assigned_users[]" multiple>
+                                                            <option value="20">
+                                                                Abini Subramanian</option>
+                                                            <option value="22">
+                                                                Abini three</option>
+                                                            <option value="21">
+                                                                Abini 2 2</option>
+                                                            <option value="3">
+                                                                Admin </option>
+                                                            <option value="28">
+                                                                Aneesh Sreedharan</option>
+                                                            <option value="23">
+                                                                Dev3 three</option>
+                                                            <option value="13">
+                                                                Developer test</option>
+                                                            <option value="16">
+                                                                Developer 2 two</option>
+                                                            <option value="7">
+                                                                Durward Abernathy Walter</option>
+                                                            <option value="5">
+                                                                Eryn Crist Erdman</option>
+                                                            <option value="4">
+                                                                Jimmie Von Langosh</option>
+                                                            <option value="17">
+                                                                Luca jone</option>
+                                                            <option value="27">
+                                                                Malu krishna</option>
+                                                            <option value="10">
+                                                                Miss Antonetta Robel Huel</option>
+                                                            <option value="11">
+                                                                Ms. Margarete Schneider I Harber</option>
+                                                            <option value="12">
+                                                                Parker Jones Emmerich</option>
+                                                            <option value="6">
+                                                                Prince Feeney Lueilwitz</option>
+                                                            <option value="14">
+                                                                QA ONE</option>
+                                                            <option value="15">
+                                                                QA TWO</option>
+                                                            <option value="19">
+                                                                Test QA QA</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="w-100" onclick="editField(264,'percentage')">
+                                        <div class="task-text" id="percentage-text-264">
+                                            0%
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="percentage-input-264" style="display:none">
+                                            <input type="number" min="0" max="100" class="form-control" value="0"
+                                                onblur="updateTask(264,'percentage')" id="task-percentage264">
+                                        </div>
+                                    </td>
+                                    <td class="w-100">
+                                        Not Started
+                                        <span class="hover-icon">
+                                            <i class="fa fa-lock"></i>
+                                        </span>
+                                    </td>
+
+                                    <td class="w-150" onclick="editField(264,'priority')">
+                                        <div class="task-text" id="priority-text-264">
+                                            Medium
+                                            <span class="hover-icon">
+                                                <i class="fa fa-pencil"></i>
+                                            </span>
+                                        </div>
+                                        <div class="task-update" id="priority-input-264"
+                                            onchange="updateTask(264,'priority')" style="display:none">
+                                            <select class="form-control" id="task-priority264">
+                                                <option value="High">High</option>
+                                                <option value="Medium" selected>Medium</option>
+                                                <option value="Low"> Low</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr class="mainrow">
+                                    <th>
+                                        <a href="#" class="btn btn-sm btn-info create-modal" data-toggle="modal"
+                                            data-target="#add_task">
+                                            <i class="fa fa-plus"></i>
+                                            Add Task
+                                        </a>
+                                    </th>
+                                    <th class="w-150"></th>
+                                    <th class="w-150"></th>
+                                    <th class="w-250"></th>
+                                    <th class="w-100"></th>
+                                    <th class="w-100"></th>
+                                    <th class="w-100"></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="ibox-content">
+                        <table class="table  table-bordered">
+                            <thead>
+                                <tr class="mainrow">
+                                    <th class="w-100 text-center">May 01</th>
+                                    <th class="w-100 text-center">May 02</th>
+                                    <th class="w-100 text-center">May 03</th>
+                                    <th class="w-100 text-center">May 04</th>
+                                    <th class="w-100 text-center">May 05</th>
+                                    <th class="w-100 text-center">May 06</th>
+                                    <th class="w-100 text-center">May 07</th>
+                                    <th class="w-100 text-center">May 08</th>
+                                    <th class="w-100 text-center">May 09</th>
+                                    <th class="w-100 text-center">May 10</th>
+                                    <th class="w-100 text-center">May 11</th>
+                                    <th class="w-100 text-center">May 12</th>
+                                    <th class="w-100 text-center">May 13</th>
+                                    <th class="w-100 text-center">May 14</th>
+                                    <th class="w-100 text-center">May 15</th>
+                                    <th class="w-100 text-center">May 16</th>
+                                    <th class="w-100 text-center">May 17</th>
+                                    <th class="w-100 text-center">May 18</th>
+                                    <th class="w-100 text-center">May 19</th>
+                                    <th class="w-100 text-center">May 20</th>
+                                    <th class="w-100 text-center">May 21</th>
+                                    <th class="w-100 text-center">May 22</th>
+                                    <th class="w-100 text-center">May 23</th>
+                                    <th class="w-100 text-center">May 24</th>
+                                    <th class="w-100 text-center">May 25</th>
+                                    <th class="w-100 text-center">May 26</th>
+                                    <th class="w-100 text-center">May 27</th>
+                                    <th class="w-100 text-center">May 28</th>
+                                    <th class="w-100 text-center">May 29</th>
+                                    <th class="w-100 text-center">May 30</th>
+                                    <th class="w-100 text-center">May 31</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr class="mainrow" id="mainrow-right258">
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+
+
+
+
+
+                                    <th colspan="5" style="min-width:500px;">
+                                        <div class="progress">
+                                            <div class="progress-bar active" id="task-progress-bar258" title="56%"
+                                                role="progressbar" aria-valuenow="56" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:56%">
+                                                <div class="progress-value" id="task-progress-value258">56%</div>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                </tr>
+                                <tr class="sub-table-258" style="display:none;">
+                                    <td colspan="31" style="padding-left:0px;padding-right:0px">
+                                        <table class="table">
+                                            <tbody>
+
+                                                <tr class="mainrow" id="mainrow-right262">
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th colspan="1" style="min-width:100px;">
+                                                        <div class="progress">
+                                                            <div class="progress-bar active" title="0%"
+                                                                role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                                                aria-valuemax="100" style="width:0%">
+                                                                <div class="progress-value">0%</div>
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                    <th class="w-100">
+
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr class="mainrow" id="mainrow-right263">
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+
+                                    <th colspan="1" style="min-width:100px;">
+                                        <div class="progress">
+                                            <div class="progress-bar active" id="task-progress-bar263" title="0%"
+                                                role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:0%">
+                                                <div class="progress-value" id="task-progress-value263">0%</div>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                </tr>
+
+                                <tr class="mainrow" id="mainrow-right264">
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+
+                                    <th colspan="1" style="min-width:100px;">
+                                        <div class="progress">
+                                            <div class="progress-bar active" id="task-progress-bar264" title="0%"
+                                                role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                                aria-valuemax="100" style="width:0%">
+                                                <div class="progress-value" id="task-progress-value264">0%</div>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                    <th class="w-100"></th>
+
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="mainrow">
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                    <th style="min-width:100px;text-align:center"></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div>
+                <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+            </div>
+        </div>
+
+        <div class="floatingButtonWrap">
+            <div class="floatingButtonInner">
+                <a href="#" class="floatingButton">
+                    <i class="fa fa-plus icon-default"></i>
+                </a>
+                <ul class="floatingMenu">
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://app.gitbook.com/" target="_blank">Gitbook</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="change_easy_access" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span
+                                aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title text-center">Add New</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form"
+                            method="POST" autocomplete="off">
+                            <input type="hidden" name="_token" value="qf7pg9AqamMOwKMGeACrCwmEfSNpDlaTwAbhtT4z">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label>Link <span class="required-label">*</span></label>
+                                        <input class="form-control" type="text" name="link" id="link" value="">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="submit-section mt20">
+                            <button class="btn btn-primary add-to-easy-access">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+
+
+
+<script src="https://demo.thecoherence.app/js/plugins/iCheck/icheck.min.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/iCheck/custom.css" rel="stylesheet">
+<script src="https://demo.thecoherence.app/js/jquery.mask.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/tasks/script-min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.datetimepickernew').datepicker({
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            format: "dd/mm/yyyy",
+            autoclose: true
+        });
+        rowHeight();
+    });
+
+    function rowHeight() {
+        var maxHeight = 0;
+        $('.mainrow').each(function () {
+            if ($(this).height() > maxHeight) {
+                maxHeight = $(this).height();
+            }
+        });
+        $('table tr').height(maxHeight);
+    }
+    function collapsebox(id) {
+        $("#collase-icon" + id).toggleClass('fa-plus-circle fa-minus-circle');
+        $(".sub-table-" + id).toggleClass('collase-active');
+        $("#leftbar" + id).toggleClass('active-row');
+        $("#rightbar" + id).toggleClass('active-row');
+    }
+
+    $("thead, tfoot").on('click', function () {
+        editDisable();
+    });
+
+    $(document).on('mousedown', function (event) {
+        var target = $(event.target);
+        if (!target.closest('table').length) {
+            editDisable();
+        }
+    });
+
+    function editDisable() {
+        $(".task-text").css('display', 'block');
+        $(".task-update").css('display', 'none');
+    }
+
+    function editField(id, type) {
+        $(".task-text").css('display', 'block');
+        $(".task-update").css('display', 'none');
+        $("#" + type + "-text-" + id).css('display', 'none');
+        $("#" + type + "-input-" + id).css('display', 'block');
+        changeRowHeight(id);
+    }
+
+    function changeRowHeight(id) {
+        var maxHeight = 0;
+        $('#mainrow-left' + id).each(function () {
+            if ($(this).height() > maxHeight) {
+                maxHeight = $(this).height();
+            }
+        });
+        $('#mainrow-right' + id).height(maxHeight);
+    }
+
+    function updateTask(id, type) {
+        var resources = $('#assigned_users' + id).val();
+        var percentage = $('#task-percentage' + id).val();
+        var startdate = $('#task-startdate' + id).val();
+        var enddate = $('#task-enddate' + id).val();
+        var priority = $('#task-priority' + id).val();
+        if (type == 'percentage') {
+            if (percentage > 100) {
+                toastr.warning('Please enter below 100.', 'Failed');
+                return false;
+            }
+        }
+        $.ajax({
+            url: "https://demo.thecoherence.app/gantt-task-update",
+            data: {
+                'task_id': id,
+                'type': type,
+                'resources': resources,
+                'percentage': percentage,
+                'startdate': startdate,
+                'enddate': enddate,
+                'priority': priority
+            },
+            type: 'POST',
+            success: function (response) {
+                toastr.success('Task has been updated successfully', 'Task updated');
+                $("#" + type + "-text-" + id).html(response);
+                if (type == 'percentage') {
+                    $("#task-progress-bar" + id).css('width', response)
+                    $("#task-progress-value" + id).html(response)
+                } else if (type == "startdate" || type == "enddate") {
+                    window.location.href = window.location.href;
+                }
+                $(".task-text").css('display', 'block');
+                $(".task-update").css('display', 'none');
+                changeRowHeight(id);
+            },
+            error: function (error) {
+                toastr.warning('Sorry, Please reload this page.', 'Failed');
+            }
+        });
+    }
+
+</script>
+</body>
+
+</html>
