@@ -25,6 +25,19 @@
         height: 20px;
     }
 
+    .progress-bar-div {
+        width: 100%;
+        background: rgb(231, 92, 98);
+        border-radius: 4px;
+        height: 20px;
+
+        .progress-percentage {
+            background: var(--c-aqua);
+            border-radius: 4px;
+            height: 20px;
+        }
+    }
+
     .collase-active {
         display: table-row !important;
     }
@@ -162,12 +175,20 @@
 
     td:hover .hover-icon {
         display: inline-block;
+
+        i {
+            color: var(--c-secondary);
+        }
     }
 
     .hover-icon {
         pointer-events: none;
-        opacity: 0.5;
+        opacity: 0.8;
         display: none;
+
+        i {
+            color: var(--c-primary);
+        }
     }
 
     .task-name {
