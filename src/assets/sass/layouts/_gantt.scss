@@ -181,10 +181,18 @@
         }
     }
 
+    .task-text {
+        position: relative;
+        padding-right: 15px;
+    }
+
     .hover-icon {
         pointer-events: none;
-        opacity: 0.8;
-        display: none;
+        opacity: 1;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0px, -50%);
 
         i {
             color: var(--c-primary);
