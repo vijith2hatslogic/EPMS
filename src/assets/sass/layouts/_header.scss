@@ -18,6 +18,10 @@
             i{
                 top: 50%;
                 transform: translateY(-50%);
+                position: absolute;
+                padding: 13px;
+                right: 0;
+                pointer-events: none;
             }
         }
     }

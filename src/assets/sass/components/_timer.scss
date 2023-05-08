@@ -1,6 +1,6 @@
 .timer-div{
     .timer-inner {
-        display: flex;
+        @include flex;
         padding: 24px;
     
         .time-wrap {
