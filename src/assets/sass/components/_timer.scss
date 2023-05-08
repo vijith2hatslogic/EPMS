@@ -2,6 +2,11 @@
     .timer-inner {
         @include flex;
         padding: 24px;
+
+        img{
+            width: 70px;
+            height: 70px;
+        }
     
         .time-wrap {
             margin-left: 20px;
