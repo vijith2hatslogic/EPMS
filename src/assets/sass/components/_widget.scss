@@ -6,6 +6,18 @@
         border-radius: 10px;
         padding: 7px 20px;
     }
+
+    h3{
+
+        font-size: 30px;
+
+       @include below(1449px){
+            font-size: 20px;
+       }
+        span{
+            font-size: 12px;
+        }
+    }
     .small{
         color: var(--c-white);
     }

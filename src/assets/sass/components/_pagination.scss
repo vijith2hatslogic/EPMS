@@ -1,0 +1,33 @@
+
+
+.pagination {
+	li {
+		& + li {
+			a,span {
+				margin-left: 8px;
+			}
+		}
+		color: var(--c-gray-3);
+		a, span {
+			border-radius: 4px;
+			width: 48px;
+			height: 48px;
+			line-height: 2.7;
+		}
+	}
+	li.disabled {
+		a, span {
+			background: var( --c-gray-4);
+			border-color: var( --c-gray-4);
+		}
+	}
+	display: flex;
+	align-items: center;
+	text-align: center;
+	li.active {
+		a,span {
+			background:var(--c-primary);
+			color: var(--c-white);
+		}
+	}
+}
