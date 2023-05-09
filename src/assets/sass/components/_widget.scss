@@ -1,5 +1,14 @@
 .widget{
     color: var(--c-white);
+
+    &--with-icon{
+        @include flex(center,space-between);
+        border-radius: 10px;
+        padding: 7px 20px;
+    }
+    .small{
+        color: var(--c-white);
+    }
     i{
         opacity: 0.5;
     }
