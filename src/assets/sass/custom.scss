@@ -1249,7 +1249,7 @@ div.dt-button-info {
 .btn-circle.btn-lg {
     width: 50px;
     height: 50px;
-    padding: 10px 16px;
+    // padding: 10px 16px;
     border-radius: 25px;
     font-size: 18px;
     line-height: 1.33;
@@ -10713,7 +10713,7 @@ ul.notes li:nth-child(3n) div {
 .floatingMenu li a {
     padding: 8px 15px;
     display: inline-block;
-    background: #1dc9a6;
+    background: var(--c-primary);
     color: #ffffff;
     border-radius: 5px;
     overflow: hidden;

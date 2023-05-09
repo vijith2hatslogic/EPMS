@@ -59,6 +59,9 @@ body.mini-navbar .nav-header{
 				}
 			}
 		}
+		.arrow{
+			line-height: 28px;
+		}
 	}
 	
     ul.nav-second-level {
@@ -149,6 +152,11 @@ body.mini-navbar .nav-header{
 					cursor: pointer;
 					color: var(--c-white);
 					background-color: transparent;
+				}
+
+				i{
+					margin-right: 10px;
+					font-size: 18px;
 				}
 			}
 		
