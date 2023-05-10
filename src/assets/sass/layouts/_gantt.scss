@@ -1,5 +1,6 @@
 .gantt-page {
 
+
     table {
 
         thead {
@@ -17,6 +18,8 @@
         .w-100 {
             min-width: 100px !important;
         }
+
+
     }
 
     .progress {
@@ -38,12 +41,16 @@
         }
     }
 
+
+
     .collase-active {
         display: table-row !important;
+
+
     }
 
     .active-row {
-        background: #ffffff;
+        background: var(--c-white);
     }
 
     .summarybox {
@@ -148,6 +155,9 @@
             }
         }
 
+        .subtask-bg {
+            background-color: var(--c-gray-5);
+        }
     }
 
     .collase-icon {
@@ -166,7 +176,7 @@
     }
 
     .active-row {
-        background: #ffffff;
+        background: var(--c-white);
     }
 
     .icon-container {
@@ -211,5 +221,136 @@
         .add-i {
             margin-right: 10px;
         }
+    }
+
+    .resource-input {
+        position: relative;
+        padding-right: 15px;
+        text-align: center;
+
+        .resource-icon {
+            opacity: 1;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+    }
+
+    .table-row {
+        display: table-row !important;
+    }
+
+    .collase-active td table td:first-child {
+        padding: 8px;
+    }
+
+    .collase-active td table td:nth-child(2) {
+        padding-left: 35px;
+    }
+
+    .blink-border {
+        border-left: 1px solid var(--c-gray-4);
+        border-right: 1px solid var(--c-gray-4);
+        animation: blink 2s linear infinite;
+        background: #f2dede;
+        &.noblink-bdr{
+            border-left: 0px;
+        border-right: 0px;
+        animation: none;
+        background: transparent;
+        }
+    }
+
+    @keyframes blink {
+        0% {
+            border-color: var(--c-gray-4);
+            background: #f2dede;
+        }
+
+        50% {
+            border-color: var(--c-gray-4);
+            background: transparent;
+        }
+
+        100% {
+            border-color: var(--c-gray-4);
+            background: #f2dede;
+        }
+    }
+
+    .display-none {
+        display: none !important;
+    }
+    &.resource-management-sec{
+        .w-250 {
+            min-width: 250px!important;
+            width: 250px!important;
+        }
+
+        .w-100 {
+            min-width: 100px !important;
+            width: 100px!important;
+        }
+        .w-150 {
+            min-width: 150px !important;
+            width: 150px!important;
+        }
+        margin-top: 30px;
+        .resource-management-heading{
+            padding-top: 20px;
+            h3{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        .sub-table-td{
+            padding: 0px;
+            td{
+                div.btn-primary{
+                    padding: 3px 10px 5px;
+                    i{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+#taskModal {
+    .gantt-task-modal-body{
+        padding: 20px 30px 0px 30px;
+        table th{
+            border-top: 0px;
+        }
+    }
+    .modal-footer {
+        margin-top: 0;
+        padding: 0px 30px 25px 30px;
+        border: 0;
+        text-align: left;
+    }
+}
+#assignDaysModal{
+    .modal-body {
+        padding: 20px 30px 0px 30px;
+        .row{
+            margin: 0px;
+        }
+    }
+    .tabs-container{
+        float: left;
+        .form-group{
+            padding: 0px;
+        }
+    }
+    .modal-footer {
+        margin-top: 0;
+        padding: 0px 30px 25px 30px;
+        border: 0;
+        text-align: left;
     }
 }
