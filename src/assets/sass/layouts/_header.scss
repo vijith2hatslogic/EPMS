@@ -1,7 +1,7 @@
 .navbar-fixed-top, .navbar-static-top{
     background: var(--c-white);
-    min-height: 90px;
-    padding: 18px 24px;
+    min-height: 75px;
+    padding: 11px 24px;
 
     .header-left{
         @include flex(center,space-between);
@@ -12,7 +12,8 @@
             width: 416px;
             input
             {
-                padding: 18px 24px;
+                padding: 11px 24px;
+                border-radius: 10px;
                 height: 100%;
             }
             .epms-icon{
