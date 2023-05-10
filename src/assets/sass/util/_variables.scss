@@ -39,11 +39,6 @@ $font-bold: "Inter", Helvetica, Arial, sans-serif;
 // Theme colours
 :root {
     --c-primary: #063f70; // Buttons - OK
-    --c-primary-01:#012343; // Sidebar BG
-    --c-primary-02:#012b50; // Header
-    --c-primary-03:#0d365d; // Active
-    --c-primary-04:#082c4e; // Second Level
-
     --c-secondary: #F2994A;
     --c-success: #27AE60;
     --c-info: #2F80ED;
@@ -57,9 +52,9 @@ $font-bold: "Inter", Helvetica, Arial, sans-serif;
     --c-mandy: #E75C62;
     --c-beer: #E2B93B;
     --c-aqua: #67D2E1;
-    --c-gray-1: #333333;
-    --c-gray-2:#4F4F4F;
-    --c-gray-3:#828282;
+    --c-gray-1: #7E7E7E;
+    --c-gray-2:#939393;
+    --c-gray-3:#B2B2B2;
     --c-gray-4:#E0E0E0;
-    --c-gray-5:#f5f5f5;
+    --c-gray-5:#FaFaFa;
 }
