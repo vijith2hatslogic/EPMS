@@ -1,6 +1,9 @@
 
 
 .pagination {
+    display: flex;
+	align-items: center;
+	text-align: center;
 	li {
 		& + li {
 			a,span {
@@ -10,10 +13,16 @@
 		color: var(--c-gray-3);
 		a, span {
 			border-radius: 4px;
-            width: 38px;
-            height: 38px;
+            width: 35px;
+            height: 35px;
             line-height: 2;
+
 		}
+        &.previous, &.next{
+            a{
+                width: auto;
+            }
+        }
 	}
 	li.disabled {
 		a, span {
@@ -21,9 +30,6 @@
 			border-color: var( --c-gray-4);
 		}
 	}
-	display: flex;
-	align-items: center;
-	text-align: center;
 	li.active {
 		a,span {
 			background:var(--c-primary);
