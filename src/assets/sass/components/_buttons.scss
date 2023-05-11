@@ -32,3 +32,96 @@
         border-color: var(--c-success);
     }
 }
+
+
+.floatingButtonWrap {
+    
+	display: block;
+	position: fixed;
+	right: 50px;
+	bottom: 50px; 
+	z-index: 999999999;
+
+    .floatingButtonInner {
+        position: relative;
+
+        .floatingButton {
+            display: block;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            background: -webkit-linear-gradient(45deg, #8769a9, #507cb3);
+            background: -o-linear-gradient(45deg, #8769a9, #507cb3);
+            background: linear-gradient(45deg, #8769a9, #507cb3);
+            color: var(--c-white);
+            line-height: 50px;
+            position: absolute;
+            border-radius: 50% 50%;
+            bottom: 0px;
+            right: 0px;
+            border: 5px solid #b2bedc;
+            opacity: 1;
+            transition: all 0.4s;
+            .fa {
+                font-size: 15px !important;
+            }
+            &:hover {
+                opacity: 1;
+                color: var(--c-white);
+            }
+            &:focus {
+                opacity: 1;
+                color: var(--c-white);
+            }
+            &:active {
+                opacity: 1;
+                color: var(--c-white);
+            }
+            i {
+                transform: rotate(0deg);
+                transition: all 0.4s;
+            }
+
+            &.open {
+                opacity: 1;
+                color: var(--c-white);
+                i {
+                    transform: rotate(270deg);
+                }
+            }
+        }
+
+        .floatingMenu {
+            position: absolute;
+            bottom: 60px;
+            right: 0px;
+            display: none;
+            li {
+                width: 100%;
+                float: right;
+                list-style: none;
+                text-align: right;
+                margin-bottom: 5px;
+                a {
+                    padding: 8px 15px;
+                    display: inline-block;
+                    background: var(--c-primary);
+                    color: var(--c-white);
+                    border-radius: 5px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    transition: all 0.4s;
+                    -webkit-box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+                    box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+                    &:hover {
+                        margin-right: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
