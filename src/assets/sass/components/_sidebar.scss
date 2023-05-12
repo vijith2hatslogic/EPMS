@@ -1,20 +1,22 @@
 
 body.mini-navbar {
-
-  ul.nav.nav-second-level.collapse.in {
-	background: var(--c-white);
-	min-width: 200px !important;
-	box-shadow: inset 10px 0 16px -15px rgba(0,0,0,0.5);
-	a {
-		padding: 7px 10px 7px 52px;
-	}
-	li {
+	ul.nav.nav-second-level{
+		box-shadow: inset 10px 0 16px -15px rgba(0,0,0,0.5);
 		a {
-			&:before {
-				left: 1.5rem;
+			padding: 7px 10px 7px 52px;
+		}
+		li {
+			a {
+				&:before {
+					left: 1.5rem;
+				}
 			}
 		}
 	}
+  ul.nav.nav-second-level.collapse.in {
+	background: var(--c-white);
+	min-width: 200px !important;
+	
 }
 
 .nav-header, .nav-header { 
@@ -101,7 +103,7 @@ body.mini-navbar .nav-header{
 
 
 		&.collapse.in{
-			box-shadow: inset 0px -7px 10px rgba(0, 0, 0, 0.05);
+			// box-shadow: inset 0px -7px 10px rgba(0, 0, 0, 0.05);
 		}
 
 		li{

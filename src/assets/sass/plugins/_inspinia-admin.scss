@@ -279,7 +279,7 @@ body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover>.nav-second
 .mini-navbar .nav li:focus>.nav-second-level {
     display: block;
     border-radius: 0 2px 2px 0;
-    min-width: 140px;
+    min-width: 200px;
     height: auto;
 }
 
@@ -300,9 +300,14 @@ body.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
     position: absolute;
     left: 70px;
     top: 0;
-    background-color: #2f4050;
-    padding: 10px 10px 10px 10px;
+    background-color: var(--c-white);
+    padding: 0px 10px 0px 10px;
     font-size: 12px;
+    min-width: 200px;
+}
+.metismenu .nav-second-level.collapsing{
+    // padding: 0px 0px 0px 0px;
+    min-width: 200px;
 }
 
 .canvas-menu.mini-navbar .nav-second-level {
@@ -310,7 +315,7 @@ body.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
 }
 
 .mini-navbar li.active .nav-second-level {
-    left: 65px;
+    left: 70px;
 }
 
 .navbar-default .special_link a {
