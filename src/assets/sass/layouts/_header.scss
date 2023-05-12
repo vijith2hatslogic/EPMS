@@ -1,10 +1,11 @@
 .navbar-fixed-top, .navbar-static-top{
     background: var(--c-white);
-    min-height: 75px;
-    padding: 11px 24px;
+    min-height: 60px;
+    padding: 4px 24px;
 
     .header-left{
         @include flex(center,space-between);
+        margin-top: 3px;
     }
     .g-search-item {
         .inner-addon 
@@ -12,7 +13,7 @@
             width: 416px;
             input
             {
-                padding: 11px 24px;
+                padding: 10px 24px;
                 border-radius: 10px;
                 height: 100%;
             }
@@ -57,7 +58,7 @@ ul.navbar-controls {
     // font-size: 22px;
     // color: var(--c-primary);
     // display: inline-block;
-    margin-top: 6px;
+    margin-top: 0;
     float: right;
 
     img{
