@@ -1,7 +1,7 @@
 .navbar-fixed-top, .navbar-static-top{
     background: var(--c-white);
-    min-height: 60px;
-    padding: 7px 24px;
+    height: 60px;
+    padding: 9px 24px;
 
     .header-left{
         @include flex(center,space-between);
