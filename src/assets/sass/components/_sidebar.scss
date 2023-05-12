@@ -16,6 +16,7 @@ body.mini-navbar {
   ul.nav.nav-second-level.collapse.in {
 	background: var(--c-white);
 	min-width: 200px !important;
+	box-shadow: inset 10px 0 16px -15px rgba(0,0,0,0.5);
 	
 }
 
