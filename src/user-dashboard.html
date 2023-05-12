@@ -1,0 +1,689 @@
+<partial src="head.html" title="Homepage"></partial>
+<div id="wrapper">
+<!-- --------------------side nav -start- --------------------------------->
+<nav class="navbar-default navbar-static-side" role="navigation">
+   <a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+   <i class="fa fa-angle-left"></i> 
+   </a>
+   <div class="sidebar-collapse">
+      <ul class="nav metismenu" id="side-menu">
+         <li class="nav-header">
+            <div class="profile-element">
+               <span class="avatar">
+               <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" style="width: 50px" />
+               </span>
+               <span class="user-basic">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                  <span class="clear"> 
+                  <span class="block m-t-sm"> <strong class="font-bold">Jimmie Von Langosh</strong>
+                  </span> 
+                  <span class="small text-muted text-xs block">Web Developer </span>
+                  </a>
+                  </span>
+            </div>
+            <!-- mobile view -->
+            <div class="logo-element"><a href="https://demo.thecoherence.app"><img src="https://demo.thecoherence.app/images/logo-icon.png" alt="logo" style="width: 50%"></a></div>
+         </li>
+         <li class="active">
+         <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="ri-dashboard-line"></i><span class="nav-label">Dashboard</span> </span></a>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-file-2-line"></i><span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class=""><a href="https://demo.thecoherence.app/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="ri-list-check-3"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
+                  Checklists
+                  </a>
+               </li>
+               <li class=""><a href="https://demo.thecoherence.app/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="ri-time-line"></i><span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
+            <i class="ri-tools-line"></i><span class="nav-label">Tools</span>
+            <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
+                  Work Notes
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
+            <i class="ri-function-line"></i>
+            <span class="nav-label">Miscellaneous</span>
+            <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
+                  Holidays
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
+                  Newsletters
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
+            <i class="ri-file-add-line"></i> <span class="nav-label">Leaves</span>
+            <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href=""> Apply</a>
+                  <ul class="nav nav-third-level">
+                     <li class="">
+                        <a href="https://demo.thecoherence.app/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
+                        Apply Leave
+                        </a>
+                     </li>
+                     <li class="">
+                        <a href="https://demo.thecoherence.app/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
+                        Apply Compensatory Off
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</nav>
+<!-- end -->
+<div id="page-wrapper" class="gray-bg">
+<div class="row border-bottom">
+   <script src="https://demo.thecoherence.app/js/all.js"></script>
+   <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>  
+   <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+      <div class="row align-items-center position-relative">
+         <div class="col-lg-8">
+            <div class="header-left">
+               <div class="">
+                  <a href="/dashboard" class="brand">
+                  <img src="https://demo.thecoherence.app/images/2hats-logo.png" alt="logo">
+                  </a>
+               </div>
+               <div class="">
+                  <div class="g-search-item pull-right">
+                     <div class="inner-addon right-addon">
+                        <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                        <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                        <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"  name="q" id="gSearch" class="form-control global-search-box">
+                     </div>
+                  </div>
+                  <div id="globalSearchResultWrapper" class="global-search"></div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <ul class="navbar-controls">
+               <li>
+                  <a href="https://demo.thecoherence.app/profile">
+                  <i class="ri-user-line epms-icon epms-icon--1x"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://demo.thecoherence.app/change-password">
+                  <i class="ri-settings-5-line epms-icon epms-icon--1x"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://demo.thecoherence.app/logout">
+                  <i class="ri-logout-circle-r-line epms-icon epms-icon--1x"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <div class="ibox-content breadcrumbs-outer-div">
+      <ol class="breadcrumb">
+         <li class="breadcrumb-item active">Dashboard</li>
+      </ol>
+      <button id="pause-task" class=" hidden"><i class="fa-pause fa"></i></button>
+   </div>
+   <!-- Create Task Modal -->
+   <div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                  class="sr-only">Close</span></button>
+               <h4 class="modal-title text-center">Add EOD Report</h4>
+            </div>
+            <div class="modal-body">
+               <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
+                  <input type="hidden" name="_token" value="i2rmw6fbiC6iyEzkDao1bIi1HugqanVKlW3m8VlJ">                    <input type="hidden" name="added_on" value="2023-05-12">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="form-group">
+                           <label>What did you do today? <span class="required-label">*</span></label>
+                           <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                              name="todays_task" id="todays_task"></textarea>
+                           <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                        </div>
+                        <div class="form-group">
+                           <label>Are there any obstacles hindering your progress? <span
+                              class="required-label">*</span></label>
+                           <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                              name="impediments"></textarea>
+                           <div class="text-danger text-left field-error" id="label_impediments"></div>
+                        </div>
+                        <div class="form-group">
+                           <label>Do you have any plans for tomorrow? </label>
+                           <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                              name="tommorows_task"></textarea>
+                           <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="wrapper wrapper-content page-wrapper ">
+   <div class="row">
+      <div class="col-lg-3">
+         <div class="ibox float-e-margins ibox-overall">
+            <div class="ibox-title">
+               <span class="label label-success pull-right">Overall</span>
+               <h5>Completed Tasks</h5>
+            </div>
+            <div class="ibox-content">
+               <h2 class="no-margins">14</h2>
+               <div class="stat-percent font-bold text-success"><small>Total Tasks: </small>19 </div>
+               <small> Tasks</small>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-3">
+         <div class="ibox float-e-margins ibox-tasks">
+            <div class="ibox-title">
+               <span class="label label-warning pull-right"><i class="ri-time-line"></i></span>
+               <h5>Tasks</h5>
+            </div>
+            <div class="ibox-content">
+               <div class="row">
+                  <div class="col-md-6 text-left">
+                     <h2 class="no-margins">6</h2>
+                     <small>Upcoming Tasks</small>
+                  </div>
+                  <div class="col-md-6 text-right">
+                     <h2 class="no-margins">22</h2>
+                     <small>Ongoing Tasks</small>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-3">
+         <div class="ibox float-e-margins ibox-total-hours">
+            <div class="ibox-title">
+               <span class="label label-danger pull-right">Overall</span>
+               <h5>Total Hours Worked</h5>
+            </div>
+            <div class="ibox-content">
+               <div class="row">
+                  <div class="col-md-6 text-left">
+                     <h2 class="no-margins">23h 7m</h2>
+                     <small>Total</small>
+                  </div>
+                  <div class="col-md-6 text-right">
+                     <h2 class="no-margins">17h 0m</h2>
+                     <small>Billed</small>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-3">
+         <div class="ibox float-e-margins ibox-week">
+            <div class="ibox-title">
+               <span class="label label-info pull-right">This Week</span>
+               <h5>0h 0m</h5>
+            </div>
+            <div class="ibox-content">
+               <div id="sparkline1"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row" style="margin-top: 20px" ;>
+      <div class="col-md-12">
+         <div class="panel-group skilled-panel">
+            <div class="panel panel-primary  tasks-in-progress-panel">
+               <div class="panel-heading">
+                  <a data-toggle="collapse" href="#collapse1" style="color: white">
+                     <h4 class="panel-title">
+                        <i class="fa fa-tasks"></i> Tasks in Progress<span class="pull-right"><i class="epms-icon--1x ri-arrow-up-s-line"></i></span>
+                     </h4>
+                  </a>
+               </div>
+               <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <div class="col-lg-12">
+                        <div class="table-responsive">
+                           <table class="table table-striped  table-hover dataTableProductive">
+                              <thead>
+                                 <tr>
+                                    <th>Task</th>
+                                    <th>Project</th>
+                                    <th>Deadline</th>
+                                    <th>Estimated Hours</th>
+                                    <th>Time Spent</th>
+                                    <th>Action</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <input type="hidden" id="start_task_status" value="In Progress"> 
+                                 <input type="hidden" id="finish_task_status" value="Development Completed">   
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10911">Gantt chart</a></td>
+                                    <td>EPMS</td>
+                                    <td>2023-04-28</td>
+                                    <td>40h 0m</td>
+                                    <td>9h 49m</td>
+                                    <td data-task-id="10911" id="td_10911">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10911"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10991">CRAI-97: Improve image handling</a></td>
+                                    <td>Treestones Creaitor</td>
+                                    <td>2023-05-19</td>
+                                    <td>24h 0m</td>
+                                    <td>13h 54m</td>
+                                    <td data-task-id="10991" id="td_10991">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10991"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10749">UI Touch ups</a></td>
+                                    <td>EPMS</td>
+                                    <td>2023-03-17</td>
+                                    <td>40h 0m</td>
+                                    <td>9h 47m</td>
+                                    <td data-task-id="10749" id="td_10749">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10749"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10549">SaaS bug fixes</a></td>
+                                    <td>EPMS</td>
+                                    <td>2023-03-31</td>
+                                    <td>100h 0m</td>
+                                    <td>0h 48m</td>
+                                    <td data-task-id="10549" id="td_10549">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10549"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10652">ISC-Fixes-General</a></td>
+                                    <td>Inventory Sales cloud</td>
+                                    <td>2023-06-30</td>
+                                    <td>40h 0m</td>
+                                    <td>18h 45m</td>
+                                    <td data-task-id="10652" id="td_10652">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10652"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                                 <tr class="gradeX">
+                                    <td><a href="/tasks/10637">Coherence Website refresh</a></td>
+                                    <td>Coherence App</td>
+                                    <td>2023-03-21</td>
+                                    <td>8h 0m</td>
+                                    <td>57h 5m</td>
+                                    <td data-task-id="10637" id="td_10637">
+                                       <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
+                                       <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10637"></i>
+                                       </button>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal custom-modal fade" id="stop_session" role="dialog">
+            <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                     <h4 class="modal-title text-center">Stop Task Session</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="form-header">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <div class="form-group form-focus select-focus focused">
+                                 <label for="">Session Type </label>
+                                 <select class="chosen-select" id="stop_session_type" name="session_type">
+                                    <option 
+                                       value="development">
+                                       Development
+                                    </option>
+                                    <option 
+                                       value="project-management">
+                                       Project Management
+                                    </option>
+                                    <option 
+                                       value="qa">
+                                       QA
+                                    </option>
+                                    <option 
+                                       value="technical-support">
+                                       Technical Support
+                                    </option>
+                                    <option 
+                                       value="others">
+                                       Others
+                                    </option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <div class="form-group">
+                                 <label class="col-form-label">Describe what you have done in this session? <span class="required-label">*</span></label>
+                                 <div>
+                                    <textarea rows="4" class="form-control" id="stop_session_comment"></textarea>
+                                    <div class="text-danger text-left field-error" id="label_comment"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-btn stop-action">
+                        <div class="row" style="padding-top: 10px">
+                           <div class="col-sm-6">
+                              <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                           </div>
+                           <div class="col-sm-6 text-right">
+                              <a href="javascript:void(0);" class="btn btn-primary continue-btn">Stop Session</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div>
+            <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+         </div>
+      </div>
+      <div class="floatingButtonWrap">
+         <div class="floatingButtonInner">
+            <a href="#" class="floatingButton">
+            <i class="epms-icon--1x ri-add-line"></i>
+            </a>
+            <ul class="floatingMenu">
+               <li>
+                  <a href="http://demo.thecoherence.app/tasks/7" target="_blank">Current Task</a>
+               </li>
+               <li>
+                  <a href="https://www.google.com/" target="_blank">Google</a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!-- Creates the bootstrap modal where the image will appear -->
+      <div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add New</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="i2rmw6fbiC6iyEzkDao1bIi1HugqanVKlW3m8VlJ">                    
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <label>Link <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="link" id="link" value="">
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary add-to-easy-access">Save</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script type="text/javascript">
+   if($('#wishmodal').length){
+   
+      $(window).on('load',function(){
+          $('#wishmodal').modal('show');
+          setTimeout(function() {
+              if($('.modal-content-type').attr('data-id') == 'Wish'){
+                  $('#wishmodal').fireworks();
+              }
+              if($('.modal-content-type').attr('data-file_type') == 'Video'){
+                  $("#video_btn").trigger('click');
+              }
+          });
+      });
+   
+      $('#wishmodal').on('hidden.bs.modal', function (e) {
+          e.preventDefault();
+          var editUrl = '/user-wish-notified';
+          $.ajax({
+              type: 'GET',
+              url: editUrl,
+              data: {},
+              success: function(data) {
+              }
+          });
+      });
+   
+   }
+</script>
+<script src="https://demo.thecoherence.app/js/resources/dashboard/employee-script-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://demo.thecoherence.app/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script type="text/javascript">
+   var currentUser = "4";
+       var sparklineCharts = function(){
+   
+   $("#sparkline1").sparkline([0,0,0,0,0,0,0], {
+   
+    type: 'line',
+   
+    width: '100%',
+   
+    height: '60',
+   
+    lineColor: '#1ab394',
+   
+    fillColor: "#ffffff"
+   
+   });
+   
+   
+   };
+</script>
+<script type="text/javascript">
+   var _registration = null;
+   function registerServiceWorker() {
+   return navigator.serviceWorker.register('js/service-worker.js')
+   .then(function(registration) {
+     console.log('Service worker successfully registered.');
+     _registration = registration;
+     return registration;
+   })
+   .catch(function(err) {
+     console.error('Unable to register service worker.', err);
+   });
+   }
+   
+   function askPermission() {
+   return new Promise(function(resolve, reject) {
+     const permissionResult = Notification.requestPermission(function(result) {
+       resolve(result);
+     });
+   
+     if (permissionResult) {
+       permissionResult.then(resolve, reject);
+     }
+   })
+   .then(function(permissionResult) {
+     if (permissionResult !== 'granted') {
+       throw new Error('We weren\'t granted permission.');
+     }
+     else{
+       subscribeUserToPush();
+     }
+   });
+   }
+   
+   function urlBase64ToUint8Array(base64String) {
+   const padding = '='.repeat((4 - base64String.length % 4) % 4);
+   const base64 = (base64String + padding)
+     .replace(/\-/g, '+')
+     .replace(/_/g, '/');
+     const rawData= window.atob(base64);
+   const outputArray = new Uint8Array(rawData.length);
+   
+   for (let i = 0; i < rawData.length; ++i) {
+     outputArray[i] = rawData.charCodeAt(i);
+   }
+   return outputArray;
+   }
+   
+   function getSWRegistration(){
+   var promise = new Promise(function(resolve, reject) {
+   // do a thing, possibly async, then…
+   
+   if (_registration != null) {
+     resolve(_registration);
+   }
+   else {
+     // reject(Error("It broke"));
+     console.log('Error');
+   }
+   });
+   return promise;
+   }
+   
+   function subscribeUserToPush() {
+   getSWRegistration()
+   .then(function(registration) {
+     console.log(registration);
+     const subscribeOptions = {
+       userVisibleOnly: true,
+       applicationServerKey: urlBase64ToUint8Array("")
+     };
+     console.log(subscribeOptions);
+     return registration.pushManager.subscribe(subscribeOptions);
+   })
+   .then(function(pushSubscription) {
+     console.log('Received PushSubscription: ', JSON.stringify(pushSubscription));
+     sendSubscriptionToBackEnd(pushSubscription);
+     return pushSubscription;
+   });
+   }
+   
+   function sendSubscriptionToBackEnd(subscription) {
+   console.log(subscription);
+   return fetch('/save-subscription/4', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json',
+       'X-CSRF-TOKEN': "i2rmw6fbiC6iyEzkDao1bIi1HugqanVKlW3m8VlJ"
+     },
+     body: JSON.stringify(subscription)
+   })
+   .then(function(response) {
+     if (!response.ok) {
+       throw new Error('Bad status code from server.');
+     }
+   
+     return response.json();
+   })
+   .then(function(responseData) {
+     if (!(responseData.data && responseData.data.success)) {
+       throw new Error('Bad response from server.');
+     }
+   });
+   }
+   
+   
+   function enableNotifications(){
+   askPermission();
+   }
+   registerServiceWorker();
+   enableNotifications();
+   subscribeUserToPush();
+</script>        </body>
+</html>

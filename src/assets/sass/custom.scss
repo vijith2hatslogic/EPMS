@@ -3882,6 +3882,10 @@ code {
     margin-bottom: 25px;
     margin-top: 0;
     padding: 0;
+    box-shadow: 0 4px 24px rgba(130, 130, 130, 0.2);
+}
+#sparkline1 canvas{
+    height: 45px!important;
 }
 
 .ibox.collapsed .ibox-content {
@@ -3911,6 +3915,21 @@ code {
     color: inherit;
     border-width: 1px 0;
 }
+.ibox-content h2{
+    font-weight: 500;
+}
+.ibox-overall h2{
+     color: var(--c-primary);
+}
+.ibox-tasks h2{
+     color: var(--c-beer);
+}
+.ibox-total-hours h2{
+     color: var(--c-mandy);
+}
+.ibox-week h2{
+     color: var(--c-success);
+}
 
 .ibox-footer {
     color: inherit;
@@ -3919,7 +3938,17 @@ code {
     background: #ffffff;
     padding: 10px 15px;
 }
-
+.panel-group .panel.tasks-in-progress-panel{
+    border: 0px;
+}
+.panel.tasks-in-progress-panel .panel-heading {
+    padding: 20px 30px 15px;
+    background: var(--c-white);
+    color: var(--c-primary);
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom: 1px solid var(--c-gray-4);
+}
 table.table-mail tr td {
     padding: 12px;
 }
