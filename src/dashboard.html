@@ -1,139 +1,110 @@
 <partial src="head.html" title="Homepage"></partial>
-
 <div id="wrapper">
     <!-- --------------------side nav -start- --------------------------------->
 <nav class="navbar-default navbar-static-side" role="navigation">
+<a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+    <i class="fa fa-angle-left"></i> 
+</a>
 <div class="sidebar-collapse">
     <ul class="nav metismenu" id="side-menu">
         <li class="nav-header">
-            <div class="dropdown profile-element">
-                <span><img id="header_pic" alt="image" class="img-circle" src="https://epms.2hatslogic.com/storage/userimage/YplDEm37bOCwUEkQ4XZWxu0Kg8XgK0AwxuI0qpMv.jpeg" style="width: 50px" /></span>
-                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                    <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Saniya Claudia</strong>
-                        </span> <span class="text-muted text-xs block">Junior Front End Developer <b class="caret"></b></span> </span>
-                </a>
-                <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                    <li><a href="https://epms.2hatslogic.com/profile">Profile</a></li>
-                    <li><a href="https://epms.2hatslogic.com/change-password">Change Password</a></li>
-                    <li><a href="https://epms.2hatslogic.com/logout">Logout</a></li>
-                </ul>
+            <div class="profile-element">
+                <span class="avatar">
+                    <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" style="width: 50px">
+                </span>
+                <span class="user-basic">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear"> 
+                            <span class="block"> <strong class="font-bold">Jimmie Von Langosh</strong>
+                        </span> 
+                        <span class="small text-muted text-xs block">Web Developer </span>
+                    </span></a>
+                </span>
             </div>
             <!-- mobile view -->
-            <div class="logo-element"><a href="https://epms.2hatslogic.com"><img src="https://epms.2hatslogic.com/images/logo-icon.png" alt="logo" style="width: 50%"></a></div>
+            <div class="logo-element"><a href="https://demo.thecoherence.app"><img src="https://demo.thecoherence.app/images/logo-icon.png" alt="logo" style="width: 50%"></a></div>
         </li>
                     <li class="active">
-            <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> </span></a>
+            <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="ri-dashboard-line"></i><span class="nav-label">Dashboard</span> </a>
         </li>
-                                <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
+                                                                    <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-file-2-line"></i><span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/projects" data-toggle="tooltip" data-placement="right" title="Active Projects">
-                        Active Projects
-                    </a>
-                </li>
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/archived-projects" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
-                       Archived Projects
-                    </a>
-                </li>
-            </ul>
-        </li>
-        
-                                <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
-            <ul class="nav nav-second-level collapse">
-                                    <li class=""><a href="https://epms.2hatslogic.com/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+                                    <li class=""><a href="https://demo.thecoherence.app/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+                <li class=""><a href="https://demo.thecoherence.app/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+                <li class=""><a href="https://demo.thecoherence.app/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
                                 </ul>
         </li>
                     
                     <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="fa fa-list" aria-hidden="true"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="ri-list-check-3"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
                 <li class="">
-                    <a href="https://epms.2hatslogic.com/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
+                    <a href="https://demo.thecoherence.app/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
                         Checklists
                     </a>
                 </li>
-                <li class=""><a href="https://epms.2hatslogic.com/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+                <li class=""><a href="https://demo.thecoherence.app/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+                <li class=""><a href="https://demo.thecoherence.app/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
             </ul>
         </li>
         
                     <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="fa fa-clock-o" aria-hidden="true"></i> <span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="ri-time-line"></i><span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
                                     <li class="">
-                    <a href="https://epms.2hatslogic.com/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
+                    <a href="https://demo.thecoherence.app/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
                 </li>
                                                     </ul>
         </li>
         
                     <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
-                <i class="fa fa-wrench"></i> <span class="nav-label">Tools</span>
+            <i class="ri-tools-line"></i><span class="nav-label">Tools</span>
                 <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
                 <li class="">
-                    <a href="https://epms.2hatslogic.com/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
+                    <a href="https://demo.thecoherence.app/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
                         Work Notes
                     </a>
                 </li>
                                        
                 <li class="">
-                    <a href="https://epms.2hatslogic.com/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
+                    <a href="https://demo.thecoherence.app/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
                     </a>
                 </li>
                                                                             <li class="">
-                    <a href="https://epms.2hatslogic.com/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
+                    <a href="https://demo.thecoherence.app/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
                     </a>
                 </li>
                                       
-             <li class="">
-                  <a href="https://epms.2hatslogic.com/qa-feedback" data-toggle="tooltip" data-placement="right" title="QA Feedback"> QA Feedback
-                   </a>
-             </li>
+             
                                     <li class="">
-                    <a href="https://epms.2hatslogic.com/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
+                    <a href="https://demo.thecoherence.app/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
                     </a>
                 </li>
-                 
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/email-signature" data-toggle="tooltip" data-placement="right" title="Email Signature" target="_blank"> Email Signature
-                    </a>
-                </li>
-                                     
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/guidelines" data-toggle="tooltip" data-placement="right" title="Guidelines"> Guidelines
-                    </a>
-                </li>
-                                </ul>
+                                                    </ul>
         </li>
         
         
         
-                                <li class="" >
-            <a href="https://epms.2hatslogic.com/payslip"><i class="fa fa-money"></i> <span class="nav-label">Payslip</span></a>
-        </li>
-        
+                    
         
                     <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
-                <i class="fa fa-life-ring" aria-hidden="true"></i>
+            <i class="ri-function-line"></i>
                 <span class="nav-label">Miscellaneous</span>
                 <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
                                     <li class="">
-                    <a href="https://epms.2hatslogic.com/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
+                    <a href="https://demo.thecoherence.app/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
                         Holidays
                     </a>
                 </li>
                                                         <li class="">
-                    <a href="https://epms.2hatslogic.com/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
+                    <a href="https://demo.thecoherence.app/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
                         Newsletters
                     </a>
                 </li>
@@ -143,19 +114,19 @@
                                    
         <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
-                <i class="fa fa-medkit"></i> <span class="nav-label">Leaves</span>
+            <i class="ri-file-add-line"></i> <span class="nav-label">Leaves</span>
                 <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
                                     <li class=""><a href=""> Apply</a>
-                    <ul class="nav nav-third-level">
+                    <ul class="nav nav-third-level collapse">
                         <li class="">
-                            <a href="https://epms.2hatslogic.com/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
+                            <a href="https://demo.thecoherence.app/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
                                 Apply Leave
                             </a>
                         </li>
                         <li class="">
-                            <a href="https://epms.2hatslogic.com/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
+                            <a href="https://demo.thecoherence.app/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
                                 Apply Compensatory Off
                             </a>
                         </li>
@@ -171,41 +142,56 @@
 </div>
 </nav>
 <!-- end -->
-    <div id="page-wrapper" class="gray-bg">
+    <div id="page-wrapper" class="gray-bg" style="min-height: 604px;">
         <div class="row border-bottom">
-            <script src="https://epms.2hatslogic.com/js/all.js"></script>
-<script src="https://epms.2hatslogic.com/js/resources/partials/task-script.min.js"></script>  
+            <script src="https://demo.thecoherence.app/js/all.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>  
 
 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
 
-<div class="navbar-header">
-    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary toggle-nav-user" href="#"><i
-            class="fa fa-bars"></i> </a>
-    <b style="font-size: 22px;font-weight: 700;padding-left: 12px ;margin: 14px 5px 5px 20px;float: left;">2Hats
-        Logic</b>
-</div>
-
-        <ul class="nav navbar-top-links navbar-right">
-        <li class="g-search-item">
-            <div class="inner-addon right-addon" style="width:500px">
-                <i class="fa fa-search"></i>
-                <i class="fa fa-spinner fa-lg" style="display: none"></i>
-                <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"
-                    style="height: 40px;" name="q" id="gSearch" class="form-control global-search-box">
+<div class="row align-items-center position-relative">
+    <div class="col-lg-8">
+        <div class="header-left">
+            <div class="">
+                <a href="/dashboard" class="brand">
+                    <img src="https://demo.thecoherence.app/images/2hats-logo.png" alt="logo">
+                </a>
             </div>
-        </li>
-                    <li id="eod_report_li">
-            <a href="#" data-toggle="modal" data-target="#add_eod_report" id="eodReportLink">
-                <i class="fa fa-plus"></i> Add EOD Report
-            </a>
-        </li>
-                    <li>
-            <a href="https://epms.2hatslogic.com/logout">
-                <i class="fa fa-sign-out"></i> Log out
-            </a>
-        </li>
-    </ul>
-    <div id="globalSearchResultWrapper" class="global-search"></div>
+            <div class="">
+                <div class="g-search-item pull-right">
+                    <div class="inner-addon right-addon">
+                     <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                        <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                        <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text" name="q" id="gSearch" class="form-control global-search-box">
+                    </div>
+                </div>
+                <div id="globalSearchResultWrapper" class="global-search"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <ul class="navbar-controls">
+                            
+            <li>
+                <a href="https://demo.thecoherence.app/profile">
+                <i class="ri-user-line epms-icon epms-icon--1x"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://demo.thecoherence.app/change-password">
+                <i class="ri-settings-5-line epms-icon epms-icon--1x"></i>
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://demo.thecoherence.app/logout">
+                <i class="ri-logout-circle-r-line epms-icon epms-icon--1x"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 </nav>
 
 <div class="ibox-content breadcrumbs-outer-div">
@@ -225,34 +211,29 @@
 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                    class="sr-only">Close</span></button>
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title text-center">Add EOD Report</h4>
         </div>
         <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <input type="hidden" name="added_on" value="2023-04-27">
+            <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
+                <input type="hidden" name="_token" value="Qk41cjYaas58OznAtULuAuS5zFrYJDGSg1uibmbv">                    <input type="hidden" name="added_on" value="2023-05-15">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
                             <label>What did you do today? <span class="required-label">*</span></label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="todays_task" id="todays_task"></textarea>
+                            <textarea rows="4" class="form-control" placeholder="Enter your reply here" name="todays_task" id="todays_task"></textarea>
                             <div class="text-danger text-left field-error" id="label_todays_task"></div>
                         </div>
 
                         <div class="form-group">
-                            <label>Are there any obstacles hindering your progress? <span
-                                    class="required-label">*</span></label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="impediments"></textarea>
+                            <label>Are there any obstacles hindering your progress? <span class="required-label">*</span></label>
+                            <textarea rows="4" class="form-control" placeholder="Enter your reply here" name="impediments"></textarea>
                             <div class="text-danger text-left field-error" id="label_impediments"></div>
                         </div>
 
                         <div class="form-group">
                             <label>Do you have any plans for tomorrow? </label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="tommorows_task"></textarea>
+                            <textarea rows="4" class="form-control" placeholder="Enter your reply here" name="tommorows_task"></textarea>
                             <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
                         </div>
                     </div>
@@ -275,8 +256,8 @@
                 <h5>Completed Tasks</h5>
             </div>
             <div class="ibox-content">
-                <h2 class="no-margins">340</h2>
-                <div class="stat-percent font-bold text-success"><small>Total Tasks: </small>379 </div>
+                <h2 class="no-margins">0</h2>
+                <div class="stat-percent font-bold text-success"><small>Total Tasks: </small>0 </div>
                 <small> Tasks</small>
             </div>
         </div>
@@ -284,7 +265,7 @@
 <div class="col-lg-3">
     <div class="ibox float-e-margins">
         <div class="ibox-title">
-            <span class="label label-warning pull-right"><i class="fa fa-clock-o"></i></span>
+            <span class="label label-warning pull-right"><i class="ri-time-line"></i></span>
             <h5>Tasks</h5>
         </div>
         <div class="ibox-content">
@@ -294,7 +275,7 @@
                     <small>Upcoming Tasks</small>
                 </div>
                 <div class="col-md-6 text-right">
-                    <h2 class="no-margins">39</h2>
+                    <h2 class="no-margins">0</h2>
                     <small>Ongoing Tasks</small>
                 </div>
             </div>
@@ -310,11 +291,11 @@
         <div class="ibox-content">
             <div class="row">
                 <div class="col-md-6 text-left">
-                    <h2 class="no-margins">4796h 21m</h2>
+                    <h2 class="no-margins">23h 7m</h2>
                     <small>Total</small>
                 </div>
                 <div class="col-md-6 text-right">
-                    <h2 class="no-margins">2307h 40m</h2>
+                    <h2 class="no-margins">17h 0m</h2>
                     <small>Billed</small>
                 </div>
             </div>
@@ -325,26 +306,27 @@
     <div class="ibox float-e-margins">
         <div class="ibox-title">
             <span class="label label-info pull-right">This Week</span>
-            <h5>24h 41m</h5>
+            <h5>0h 0m</h5>
         </div>
         <div class="ibox-content">
-            <div id="sparkline1"></div>
+            <div id="sparkline1"><canvas style="display: inline-block; width: 328px; height: 60px; vertical-align: top;" width="328" height="60"></canvas></div>
         </div>
     </div>
 </div>
 </div>
-<div class="row" style="margin-top: 20px" ;>
+<div class="row" style="margin-top: 20px" ;="">
 <div class="col-md-12">
     <div class="panel-group skilled-panel">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <a data-toggle="collapse" href="#collapse1" style="color: white">
                     <h4 class="panel-title">
-                        <i class="fa fa-tasks"></i> Tasks in Progress<span class="pull-right"><i class="fa fa-chevron-up"></i></span></h4>
+                        <i class="fa fa-tasks"></i> Tasks in Progress<span class="pull-right"><i class="epms-icon--1x ri-arrow-up-s-line"></i></span></h4>
                 </a>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body">
+                    <div class="col-lg-12">
                         <div class="table-responsive">
 
                             <table class="table table-striped table-bordered table-hover dataTableProductive">
@@ -370,459 +352,10 @@
                                 <tbody>
                                                                                                                                                 <input type="hidden" id="start_task_status" value="In Progress"> 
                                 <input type="hidden" id="finish_task_status" value="Development Completed">   
-                                                                        <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/8872">2HATS site changes</a></td>
-
-                                        <td>2Hats Logic</td>
-
-                                        <td>2022-12-31</td>
-
-                                        <td>10h 0m</td>
-
-                                        <td >62h 0m</td>
-                                                                                        <td data-task-id="8872" id="td_8872">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_8872"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/5685">EPMS ongoing updates</a></td>
-
-                                        <td>EPMS</td>
-
-                                        <td>2022-12-31</td>
-
-                                        <td>5000h 0m</td>
-
-                                        <td >3h 8m</td>
-                                                                                        <td data-task-id="5685" id="td_5685">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_5685"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10749">UI Touch ups</a></td>
-
-                                        <td>EPMS</td>
-
-                                        <td>2023-03-17</td>
-
-                                        <td>40h 0m</td>
-
-                                        <td >9h 38m</td>
-                                                                                        <td data-task-id="10749" id="td_10749">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10749"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10894">Report Export</a></td>
-
-                                        <td>Cydcor</td>
-
-                                        <td>2023-04-19</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >4h 41m</td>
-                                                                                        <td data-task-id="10894" id="td_10894">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10894"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10097">ISC-61 Customer Groups</a></td>
-
-                                        <td>Inventory Sales cloud</td>
-
-                                        <td>2023-01-25</td>
-
-                                        <td>150h 0m</td>
-
-                                        <td >0h 10m</td>
-                                                                                        <td data-task-id="10097" id="td_10097">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10097"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10882">Bug Fixes</a></td>
-
-                                        <td>Teqtivity - SaaS</td>
-
-                                        <td>2023-07-31</td>
-
-                                        <td>200h 0m</td>
-
-                                        <td >2h 33m</td>
-                                                                                        <td data-task-id="10882" id="td_10882">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10882"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/2052">Front-end : Upskilling</a></td>
-
-                                        <td>2Hats Logic</td>
-
-                                        <td>2022-07-14</td>
-
-                                        <td>5000h 0m</td>
-
-                                        <td >779h 24m</td>
-                                                                                        <td data-task-id="2052" id="td_2052">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_2052"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10898">Badges - Replacement</a></td>
-
-                                        <td>Patriot Gold Group</td>
-
-                                        <td>2023-04-19</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >2h 22m</td>
-                                                                                        <td data-task-id="10898" id="td_10898">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10898"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10892">Brochure Button Text</a></td>
-
-                                        <td>Patriot Gold Group</td>
-
-                                        <td>2023-04-19</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >3h 1m</td>
-                                                                                        <td data-task-id="10892" id="td_10892">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10892"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10455">Coins to Add</a></td>
-
-                                        <td>Patriot Gold Group</td>
-
-                                        <td>2023-03-02</td>
-
-                                        <td>4h 0m</td>
-
-                                        <td >42h 30m</td>
-                                                                                        <td data-task-id="10455" id="td_10455">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10455"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10669">ISC-Fixes-Create/Edit Product</a></td>
-
-                                        <td>Inventory Sales cloud</td>
-
-                                        <td>2023-03-31</td>
-
-                                        <td>6h 0m</td>
-
-                                        <td >10h 25m</td>
-                                                                                        <td data-task-id="10669" id="td_10669">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10669"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10477">285 - Optimize site speed on mobile</a></td>
-
-                                        <td>Blvr Rebuilt</td>
-
-                                        <td>2023-03-14</td>
-
-                                        <td>4h 0m</td>
-
-                                        <td >3h 45m</td>
-                                                                                        <td data-task-id="10477" id="td_10477">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10477"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/7722">Wordpress Conversion</a></td>
-
-                                        <td>Patriot Wealth USA</td>
-
-                                        <td>2022-05-16</td>
-
-                                        <td>2h 0m</td>
-
-                                        <td >24h 2m</td>
-                                                                                        <td data-task-id="7722" id="td_7722">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_7722"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10826">Documentation - Bookstack platform setup</a></td>
-
-                                        <td>EPMS</td>
-
-                                        <td>2023-04-12</td>
-
-                                        <td>40h 0m</td>
-
-                                        <td >1h 40m</td>
-                                                                                        <td data-task-id="10826" id="td_10826">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10826"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10853">Template for Legacy Youth Leadership site</a></td>
-
-                                        <td>Thirst project</td>
-
-                                        <td>2023-04-14</td>
-
-                                        <td>4h 0m</td>
-
-                                        <td >0h 0m</td>
-                                                                                        <td data-task-id="10853" id="td_10853">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10853"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10799">Rep Report</a></td>
-
-                                        <td>Cydcor</td>
-
-                                        <td>2023-04-05</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >1h 51m</td>
-                                                                                        <td data-task-id="10799" id="td_10799">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10799"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/4003">Teqtivity Demo site bug fix</a></td>
-
-                                        <td>Teqtivity</td>
-
-                                        <td>2023-06-30</td>
-
-                                        <td>200h 0m</td>
-
-                                        <td >0h 33m</td>
-                                                                                        <td data-task-id="4003" id="td_4003">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_4003"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10770">Radio Button List</a></td>
-
-                                        <td>Cydcor</td>
-
-                                        <td>2023-04-03</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >4h 22m</td>
-                                                                                        <td data-task-id="10770" id="td_10770">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10770"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10759">bogbrancheguiden.dk - Header banner style issue</a></td>
-
-                                        <td>Diamond paint</td>
-
-                                        <td>2023-03-31</td>
-
-                                        <td>2h 0m</td>
-
-                                        <td >1h 18m</td>
-                                                                                        <td data-task-id="10759" id="td_10759">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10759"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10739">Website issues fixing</a></td>
-
-                                        <td>Diamond paint</td>
-
-                                        <td>2023-03-30</td>
-
-                                        <td>10h 0m</td>
-
-                                        <td >2h 39m</td>
-                                                                                        <td data-task-id="10739" id="td_10739">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10739"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/8565">Fixed Header</a></td>
-
-                                        <td>Teqtivity</td>
-
-                                        <td>2023-03-30</td>
-
-                                        <td>50h 0m</td>
-
-                                        <td >1h 59m</td>
-                                                                                        <td data-task-id="8565" id="td_8565">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_8565"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10537">Integrating custom form on next pages</a></td>
-
-                                        <td>Dansk Varme</td>
-
-                                        <td>2023-03-10</td>
-
-                                        <td>14h 0m</td>
-
-                                        <td >29h 4m</td>
-                                                                                        <td data-task-id="10537" id="td_10537">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10537"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10502">Nations theme - Add additional templates</a></td>
-
-                                        <td>YFCI</td>
-
-                                        <td>2023-03-13</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >8h 8m</td>
-                                                                                        <td data-task-id="10502" id="td_10502">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10502"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10424">API credentials DB encryption</a></td>
-
-                                        <td>Teqtivity</td>
-
-                                        <td>2023-03-31</td>
-
-                                        <td>20h 0m</td>
-
-                                        <td >0h 33m</td>
-                                                                                        <td data-task-id="10424" id="td_10424">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10424"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                            <tr class="gradeX">
-                                         
-                                        <td><a href="/tasks/10004">New Featrure : Redesign Team Report</a></td>
-
-                                        <td>TripActions</td>
-
-                                        <td>2023-03-31</td>
-
-                                        <td>8h 0m</td>
-
-                                        <td >3h 37m</td>
-                                                                                        <td data-task-id="10004" id="td_10004">
-                                                                                                        
-                                                <label id="hours">00</label>hr <label id="minutes">00</label>m <label id="seconds">00</label>s
-                                                <button class="btn btn-info" type="button" id="start-button"><i class="fa fa-play" id="icon_10004"></i>
-                                                    </button>
-                                                                                                </td>
-                                                                                </tr>
-                                                                        </tbody>
+                                                                    </tbody>
                             </table>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -831,7 +364,7 @@
 <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title text-center">Stop Task Session</h4>
         </div>
         <div class="modal-body">
@@ -840,32 +373,23 @@
                     <div class="col-sm-12">
                         <div class="form-group form-focus select-focus focused">
                             <label for="">Session Type </label>
-                            <select class="chosen-select" id="stop_session_type" name="session_type">
-                                                                        <option 
-                                                                                    value="development">
+                            <select class="chosen-select" id="stop_session_type" name="session_type" style="display: none;">
+                                                                        <option value="development">
                                         Development
                                     </option>
-                                                                        <option 
-                                                                                    value="project-management">
+                                                                        <option value="project-management">
                                         Project Management
                                     </option>
-                                                                        <option 
-                                                                                    value="qa">
+                                                                        <option value="qa">
                                         QA
                                     </option>
-                                                                        <option 
-                                                                                    value="technical-support">
+                                                                        <option value="technical-support">
                                         Technical Support
                                     </option>
-                                                                        <option 
-                                                                                    value="others">
+                                                                        <option value="others">
                                         Others
                                     </option>
-                                                                        <option 
-                                                                                    value="meeting">
-                                        Meeting
-                                    </option>
-                                                                </select>
+                                                                </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="stop_session_type_chosen"><a class="chosen-single" tabindex="-1"><span>Development</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
                         </div>
                     </div>
                 </div>
@@ -897,49 +421,43 @@
 </div>                    </div>
         <div class="footer">
 <div>
-    <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+    <strong>Copyright</strong> 2Hats Logic Pvt Ltd © 2023
 </div>
 </div>
 
 <div class="floatingButtonWrap">
 <div class="floatingButtonInner">
     <a href="#" class="floatingButton">
-        <i class="fa fa-plus icon-default"></i>
+        <i class="epms-icon--1x ri-add-line"></i>
     </a>
     <ul class="floatingMenu">
         <li>
-            <a href="/tasks/10749" target="_blank">UI Touch ups</a>
+            <a href="http://demo.thecoherence.app/tasks/7" target="_blank">Current Task</a>
         </li>
+                    <li>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+        </li>
+        
+
                 </ul>
 </div>
 </div>
     <!-- Creates the bootstrap modal where the image will appear -->
 
-<div class="modal fade" id="eodmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog" style="width:500px;">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Hi, Saniya Claudia</h4>
-              </div>
-              <div class="modal-body text-center text-danger" style="padding:30px;">
-                  <p style="" class="text-center"><b>Please fill your daily status report before you leave.You can find the option to add report on top right near logout.</b></p>
-                  <img src="https://epms.2hatslogic.com/images/dsr.png" style="width:200px;margin-top:20px;opacity: 0.5;" alt="logo">
-              </div>
-          </div>
-        </div>
-    </div>
 
-<div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
+<div id="change_easy_access" class="modal custom-modal fade" role="dialog">
 <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title text-center">Add New</h4>
         </div>
         <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <div class="row">
+            <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
+                <input type="hidden" name="_token" value="Qk41cjYaas58OznAtULuAuS5zFrYJDGSg1uibmbv">                    <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <div class="form-group">
                             <label>Link <span class="required-label">*</span></label>
@@ -955,15 +473,14 @@
         </div>
     </div>
 </div>
-</div>
-    </div>
+</div>        </div>
 </div>
 
-<script src="https://epms.2hatslogic.com/js/plugins/datapicker/bootstrap-datepicker.js"></script>
-<script src="https://epms.2hatslogic.com/js/plugins/daterangepicker/daterangepicker.js"></script>
-<script src="https://epms.2hatslogic.com/js/bootstrap-datetimepicker.min.js"></script>
-<script src="https://epms.2hatslogic.com/js/resources/partials/script.min.js"></script>
-<script src="https://epms.2hatslogic.com/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
 
 <script type="text/javascript">
 
@@ -996,18 +513,15 @@
     }
 </script>
 
-<script type="text/javascript">
-eodmodal();
-</script>
 
-        <script src="https://epms.2hatslogic.com/js/resources/dashboard/employee-script-min.js"></script>
+        <script src="https://demo.thecoherence.app/js/resources/dashboard/employee-script-min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="https://epms.2hatslogic.com/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="https://demo.thecoherence.app/js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <script type="text/javascript">
-        var currentUser = "9";
+        var currentUser = "4";
             var sparklineCharts = function(){
 
-     $("#sparkline1").sparkline([6.0166666666667,7.1833333333333,6.3166666666667,5.1666666666667,0,0,0], {
+     $("#sparkline1").sparkline([0,0,0,0,0,0,0], {
 
          type: 'line',
 
@@ -1107,11 +621,11 @@ return pushSubscription;
 
 function sendSubscriptionToBackEnd(subscription) {
 console.log(subscription);
-return fetch('/save-subscription/9', {
+return fetch('/save-subscription/4', {
 method: 'POST',
 headers: {
   'Content-Type': 'application/json',
-  'X-CSRF-TOKEN': "uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6"
+  'X-CSRF-TOKEN': "Qk41cjYaas58OznAtULuAuS5zFrYJDGSg1uibmbv"
 },
 body: JSON.stringify(subscription)
 })
@@ -1136,4 +650,180 @@ askPermission();
 registerServiceWorker();
 enableNotifications();
 subscribeUserToPush();
-</script>  
+</script>        
+
+</div></div>
+<script src="https://epms.2hatslogic.com/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://epms.2hatslogic.com/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://epms.2hatslogic.com/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://epms.2hatslogic.com/js/resources/partials/script.min.js"></script>
+<script src="https://epms.2hatslogic.com/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script type="text/javascript">
+   if($('#wishmodal').length){
+   
+      $(window).on('load',function(){
+          $('#wishmodal').modal('show');
+          setTimeout(function() {
+              if($('.modal-content-type').attr('data-id') == 'Wish'){
+                  $('#wishmodal').fireworks();
+              }
+              if($('.modal-content-type').attr('data-file_type') == 'Video'){
+                  $("#video_btn").trigger('click');
+              }
+          });
+      });
+   
+      $('#wishmodal').on('hidden.bs.modal', function (e) {
+          e.preventDefault();
+          var editUrl = '/user-wish-notified';
+          $.ajax({
+              type: 'GET',
+              url: editUrl,
+              data: {},
+              success: function(data) {
+              }
+          });
+      });
+   
+   }
+</script>
+<script type="text/javascript">
+   eodmodal();
+</script>
+<script src="https://epms.2hatslogic.com/js/resources/dashboard/employee-script-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://epms.2hatslogic.com/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script type="text/javascript">
+   var currentUser = "9";
+       var sparklineCharts = function(){
+   
+   $("#sparkline1").sparkline([6.0166666666667,7.1833333333333,6.3166666666667,5.1666666666667,0,0,0], {
+   
+    type: 'line',
+   
+    width: '100%',
+   
+    height: '60',
+   
+    lineColor: '#1ab394',
+   
+    fillColor: "#ffffff"
+   
+   });
+   
+   
+   };
+</script>
+<script type="text/javascript">
+   var _registration = null;
+   function registerServiceWorker() {
+   return navigator.serviceWorker.register('js/service-worker.js')
+   .then(function(registration) {
+   console.log('Service worker successfully registered.');
+   _registration = registration;
+   return registration;
+   })
+   .catch(function(err) {
+   console.error('Unable to register service worker.', err);
+   });
+   }
+   
+   function askPermission() {
+   return new Promise(function(resolve, reject) {
+   const permissionResult = Notification.requestPermission(function(result) {
+     resolve(result);
+   });
+   
+   if (permissionResult) {
+     permissionResult.then(resolve, reject);
+   }
+   })
+   .then(function(permissionResult) {
+   if (permissionResult !== 'granted') {
+     throw new Error('We weren\'t granted permission.');
+   }
+   else{
+     subscribeUserToPush();
+   }
+   });
+   }
+   
+   function urlBase64ToUint8Array(base64String) {
+   const padding = '='.repeat((4 - base64String.length % 4) % 4);
+   const base64 = (base64String + padding)
+   .replace(/\-/g, '+')
+   .replace(/_/g, '/');
+   const rawData= window.atob(base64);
+   const outputArray = new Uint8Array(rawData.length);
+   
+   for (let i = 0; i < rawData.length; ++i) {
+   outputArray[i] = rawData.charCodeAt(i);
+   }
+   return outputArray;
+   }
+   
+   function getSWRegistration(){
+   var promise = new Promise(function(resolve, reject) {
+   // do a thing, possibly async, then…
+   
+   if (_registration != null) {
+   resolve(_registration);
+   }
+   else {
+   // reject(Error("It broke"));
+   console.log('Error');
+   }
+   });
+   return promise;
+   }
+   
+   function subscribeUserToPush() {
+   getSWRegistration()
+   .then(function(registration) {
+   console.log(registration);
+   const subscribeOptions = {
+     userVisibleOnly: true,
+     applicationServerKey: urlBase64ToUint8Array("")
+   };
+   console.log(subscribeOptions);
+   return registration.pushManager.subscribe(subscribeOptions);
+   })
+   .then(function(pushSubscription) {
+   console.log('Received PushSubscription: ', JSON.stringify(pushSubscription));
+   sendSubscriptionToBackEnd(pushSubscription);
+   return pushSubscription;
+   });
+   }
+   
+   function sendSubscriptionToBackEnd(subscription) {
+   console.log(subscription);
+   return fetch('/save-subscription/9', {
+   method: 'POST',
+   headers: {
+     'Content-Type': 'application/json',
+     'X-CSRF-TOKEN': "uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6"
+   },
+   body: JSON.stringify(subscription)
+   })
+   .then(function(response) {
+   if (!response.ok) {
+     throw new Error('Bad status code from server.');
+   }
+   
+   return response.json();
+   })
+   .then(function(responseData) {
+   if (!(responseData.data && responseData.data.success)) {
+     throw new Error('Bad response from server.');
+   }
+   });
+   }
+   
+   
+   function enableNotifications(){
+   askPermission();
+   }
+   registerServiceWorker();
+   enableNotifications();
+   subscribeUserToPush();
+</script>
