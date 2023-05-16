@@ -8,15 +8,24 @@
 }
 
 
-.chosen-container-active.chosen-with-drop {
+.chosen-container-active
+{
+
+ &.chosen-with-drop {
 	.chosen-single {
 		border: rem(1) solid var(--c-primary);
 	}
+}
+.chosen-choices{
+	border: rem(1) solid var(--c-aqua);
+}
 }
 .chosen-container-single 
 {
 
     .chosen-single{
         border: rem(1) solid var(--c-gray-4);
+		border-radius: 4px;
     }
 }
+
