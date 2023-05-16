@@ -18,6 +18,20 @@
             line-height: 2;
 
 		}
+
+		a{
+			&:hover{
+				background-color: var(--c-white);
+			}
+			&:focus-visible {
+				outline: 0;
+			}
+
+			i{
+				line-height: 1;
+			}
+		}
+
         &.previous, &.next{
             a{
                 width: auto;
@@ -29,11 +43,36 @@
 			background: var( --c-gray-4);
 			border-color: var( --c-gray-4);
 		}
+		a{
+			&:focus, &:hover{
+				
+				outline: none;
+				background: var( --c-gray-4);
+				border-color: var( --c-gray-4);
+			}
+		}
 	}
 	li.active {
 		a,span {
 			background:var(--c-primary);
 			color: var(--c-white);
+			cursor: pointer;
+		}
+
+		a{
+			&:focus{
+				border: none;
+				outline: none;
+				background: var(--c-primary);
+				color: var(--c-white);
+			}
+
+			&:hover{
+				background: var(--c-primary);
+				color: var(--c-white);
+			}
+
 		}
 	}
 }
+
