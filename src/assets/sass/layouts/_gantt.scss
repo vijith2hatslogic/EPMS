@@ -82,9 +82,9 @@
 
 
 
-
-
-
+.project-table{
+    table-layout:fixed;
+}
 .gantt-project-page {
     table {
 
@@ -98,10 +98,12 @@
 
         .w-250 {
             min-width: 250px;
+            width: 250px!important;
         }
 
         .w-100 {
             min-width: 100px !important;
+            width: 100px!important;
         }
 
         .w-350 {
