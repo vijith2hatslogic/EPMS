@@ -1,7 +1,6 @@
 .heading-inline{
     hr{
         border: 0;
-        // display: none;
     }
 }
 
@@ -16,4 +15,11 @@
 
 .task-title{
     color: var(--c-primary);
+    font-size: rem(21);
+}
+
+.swal2-container .swal2-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.25;
 }

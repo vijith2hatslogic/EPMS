@@ -7,3 +7,14 @@
         border: rem(1) solid var(--c-gray-4);
     }
 }
+
+
+.note-editor {
+	.panel-heading.note-toolbar {
+		.note-color {
+			.dropdown-toggle {
+				padding: 8px 4px;
+			}
+		}
+	}
+}
