@@ -93,8 +93,10 @@ ul.nav.navbar-top-links.navbar-right {
     font-size: rem(22);
 }
 
-.swal2-title {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.25;
+.swal2-container{
+    .swal2-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
 }
