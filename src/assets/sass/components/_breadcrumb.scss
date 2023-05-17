@@ -1,11 +1,14 @@
 .breadcrumbs-outer-div{
     border: 0;
     background: var(--c-gray-5);
-    min-height:35px;
+    min-height: 30px;
+    font-size: 12px; 
+
     .breadcrumb{
         background: transparent;
     }
+
     &.ibox-content{
-         padding: 8px 23px;
+         padding: 6px 22px;
     }
 }
