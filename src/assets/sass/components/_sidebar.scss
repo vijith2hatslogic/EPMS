@@ -1,127 +1,65 @@
 
-body.mini-navbar {
-	.metismenu {
-		.nav-second-level{
-			&.collapsing{
-				min-width: 200px;
-			}
-		}
-	}
-	ul.nav.nav-second-level{
-		position: absolute;
-		left: 70px;
-		top: 0;	
-		background-color: var(--c-white);
-		padding: 0px 10px 0px 10px;
-		font-size: 12px;
-		min-width: 200px;
-		box-shadow: inset 10px 0 16px -15px rgba(0,0,0,0.5);
-		a {
-			padding: 7px 10px 7px 52px;
-		}
-		li {
-			a {
-				&:before {
-					left: 1.5rem;
-				}
-			}
-		}
-	}
-	ul.nav.nav-second-level.collapse.in {
-		background: var(--c-white);
-		min-width: 200px !important;
-		box-shadow: inset 10px 0 16px -15px rgba(0,0,0,0.5);
-		
-	}
-
-	.nav-header, .nav-header { 
-		background-color: var(--c-white);
-		border-bottom: rem(1) solid rgba(255, 255, 255, 0.1);
-
-	}
+body.mini-navbar .nav-header, .nav-header { 
+  background-color: var(--c-primary-02);
+  //background-color: transparent;
+  border-bottom: rem(1) solid rgba(255, 255, 255, 0.1);
 }
-body{
-	&:not(.fixed-sidebar):not(.canvas-menu).mini-navbar {
-		.nav {
-			li {
-				&:hover {
-					& > .nav-second-level {
-						display: block ;
-						border-radius: 0 2px 2px 0 ;
-						min-width: 200px ;
-						height: auto ;
-					}
-						
-				}
-					
-			}
-				
-		}
-			
-	}
-		
-} 
+
+
 .nav-header {
-    padding: 12px 18px;
-	height: 75px;
+    padding: 12px 25px;
+	height: 110px;
 	.profile-element{
 
-		top: 50%;
-		position: relative;
+		top: 50%; 
 		transform: translateY(-50%);
-		display: flex;
-		align-items: center;
 		a{
-			color: var(--c-dark-variant-one);
+			color: var(--c-white);
 			background: transparent;
 			&:hover, &:focus{
 				background: transparent;
 			}
 		}
+		a.dropdown-toggle {
+			@include flex;
 
-            .user-basic{
-                margin-left: rem(15);
-				h3{
-					margin: 0;
-					font-size: 14px;
-				}
-				span{
-					margin-top: 4px;
-					color: var(--c-dark-variant-one);
-				}
-            }
+            
+		
+		}.user-basic{
+			margin-left: rem(15);
+			float: right;
+		}
 	
 	}
 }
-
 
 body.mini-navbar .nav-header{
 	height: 65px;
 }
 
 .navbar-default{
-    border-color: var(--c-white);
-	background:  var(--c-white);
+    border-color: var(--c-primary-01);
+	background:  var(--c-primary-01);
 
 	ul.metismenu{
 		& > li.active{
 			& > a{
-				background: var(--c-secondary);
-				color: var(--c-white);
-				border-radius: 0px 5px 5px 0px;
-
-				i{
-					color: var(--c-white);
+				&:before{
+					content: "";
+					height: 100%;
+					width: rem(4);
+					background: var(--c-secondary);
+					position: absolute;
+					left: 0;
+					top: 0;
 				}
 			}
-		}
-		.arrow{
-			line-height: 28px;
 		}
 	}
 	
     ul.nav-second-level {
 		position: relative;
+        background: var(--c-primary-04);
 		
 		&:before {
 			position: absolute;
@@ -130,14 +68,9 @@ body.mini-navbar .nav-header{
 			top: 0;
 			left: rem(35);
 			bottom: 0;
-			background: var(--c-gray-1);
+			background: var(--c-white);
 			width: 1px;
 			opacity: 0.5;
-		}
-
-
-		&.collapse.in{
-			// box-shadow: inset 0px -7px 10px rgba(0, 0, 0, 0.05);
 		}
 
 		li{
@@ -153,18 +86,17 @@ body.mini-navbar .nav-header{
 			&.active{
                 & > a{
                     background: transparent;
-					opacity: 1;
                 }
             }
 
 			&:hover{
 				a{
-					color: var(--c-gray-1);
+					color: var(--c-white);
+					opacity: 0.75;
 				}
 			}
 
 			a{
-				opacity: 0.75;
 				&:before {
 					content: "";
 					position: absolute;
@@ -175,7 +107,7 @@ body.mini-navbar .nav-header{
 					width: rem(7);
 					height: rem(7);
 					border-radius: 50%;
-					background: var(--c-gray-1);
+					background: var(--c-white);
 					margin-top: rem(-3.5);
 					z-index: 1;
 				}
@@ -201,30 +133,24 @@ body.mini-navbar .nav-header{
 		
 		li {
 			& > a{
-				color: var(--c-gray-1);
-				
+				color: var(--c-white);
+				opacity: 0.75;
 
 				&:focus{
-					background-color: var(--c-white);
-					color: var(--c-gray-1);
+					background-color: var(--c-primary-03);
+					color: var(--c-white);
 				}
 
 				&:hover{
 					cursor: pointer;
-					color: var(--c-gray-1);
+					color: var(--c-white);
 					background-color: transparent;
-				}
-
-				i{
-					margin-right: 10px;
-					font-size: 18px;
-					color: var(--c-gray-1);
 				}
 			}
 		
 			&.active {
 				& > a {
-					
+					background: var(--c-primary-03);
 					opacity: 1;
 				}
 			}
@@ -232,21 +158,8 @@ body.mini-navbar .nav-header{
 	}
 }
 
-a.navbar-minimalize.toggle-nav-user {
 
-	i{
-		background: var(--c-secondary);
-		font-size: 20px;
-		line-height: 1.5;
-		width: 30px;
-		height: 30px;
-		border-radius: 50%;
-	}
-	position: absolute;
-    top: 5px;
-    right: -25px;
-    z-index: 99;
-    margin: 0;
-    box-shadow: none;
-		color: var(--c-white);
+.nav-header .text-muted {
+	color: var(--c-white);
+    opacity: 0.65;
 }
