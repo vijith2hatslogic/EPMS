@@ -1,26 +1,25 @@
-.breadcrumbs-outer-div{
-    border: 0;
-    background: var(--c-gray-5);
-    min-height:35px;
-    display: flex;
-    justify-content: flex-start;
-    .breadcrumb{
-        background: transparent;
-    }
-    &.ibox-content{
-         padding: 8px 23px 8px 0;
-    }
-    
-    &::before{
-        content: "";
-        background-image: url('../img/edge-spape.svg');
-        width: 24px;
+.breadcrumbs-outer-div {
+  border: 0;
+  background: var(--c-gray-5);
+  min-height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  .breadcrumb {
+    background: transparent;
+  }
+  &.ibox-content {
+    padding: 8px 23px 8px 0;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../img/edge-spape.svg");
+    width: 24px;
     height: 20px;
     background-repeat: no-repeat;
     position: relative;
     left: 0px;
     padding: 0;
     top: -8px;
-
-    }
+  }
 }

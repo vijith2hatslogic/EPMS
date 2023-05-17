@@ -1,25 +1,25 @@
-.heading-inline{
-    hr{
-        border: 0;
-    }
+.heading-inline {
+  hr {
+    border: 0;
+  }
 }
 
 .session-title {
-    font-weight: 700;
-    font-size: rem(20);
-    line-height: rem(28);
-    color: var( --c-primary);
-    // margin: 0 rem(28);
-    display: inline;
+  font-weight: 700;
+  font-size: rem(20);
+  line-height: rem(28);
+  color: var(--c-primary);
+  // margin: 0 rem(28);
+  display: inline;
 }
 
-.task-title{
-    color: var(--c-primary);
-    font-size: rem(21);
+.task-title {
+  color: var(--c-primary);
+  font-size: rem(21);
 }
 
 .swal2-container .swal2-title {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.25;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
 }

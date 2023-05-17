@@ -54,6 +54,8 @@
 .brand {
   margin-top: 0;
   float: right;
+  min-height: 45px;
+  @include flex(center,flex-start);
 
   img {
     width: 100%;
