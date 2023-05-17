@@ -54,6 +54,10 @@ body.mini-navbar {
 			align-items: center;
 		}
 	}
+	.navbar-default ul.nav-second-level:before,
+	.navbar-default ul.nav-second-level li a:before{
+		display: none
+	}
 }
 
 .navbar-default {
@@ -64,6 +68,8 @@ body.mini-navbar {
 		&>li {
 			&.active {
 				&>a {
+					color: var(--c-secondary);
+
 					&:before {
 						content: "";
 						height: 100%;
@@ -73,6 +79,13 @@ body.mini-navbar {
 						left: 0;
 						top: 0;
 					}
+				}
+			}
+
+			&:hover {
+				& > a {
+					color: var(--c-secondary);
+					opacity: 1;
 				}
 			}
 
@@ -116,8 +129,8 @@ body.mini-navbar {
 
 			&:hover {
 				a {
-					color: var(--c-white);
-					opacity: 0.75;
+					color: var(--c-secondary);
+					opacity: 1;
 				}
 			}
 
