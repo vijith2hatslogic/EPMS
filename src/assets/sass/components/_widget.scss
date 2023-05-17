@@ -9,10 +9,10 @@
 
     h3{
 
-        font-size: 30px;
+        font-size: 25px;
 
        @include below(1449px){
-            font-size: 20px;
+            font-size: 17px;
        }
         span{
             font-size: 12px;
