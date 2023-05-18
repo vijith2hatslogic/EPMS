@@ -1,6 +1,5 @@
 body.mini-navbar {
   .metismenu {
-
     .nav-second-level {
       &.collapsing {
         min-width: 200px;
@@ -38,11 +37,10 @@ body.mini-navbar {
     .logo-element {
       opacity: 1;
       visibility: visible;
-      a{
+      a {
         float: left;
       }
     }
-   
   }
 }
 body {
@@ -114,7 +112,6 @@ body {
       }
     }
   }
-
 }
 
 body.mini-navbar .nav-header {
@@ -127,12 +124,12 @@ body.mini-navbar .nav-header {
 
   ul.metismenu {
     & > li {
+      max-width: calc(100% - 10px);
       &.active {
         & > a {
           background: var(--c-secondary);
           color: var(--c-white);
           border-radius: 0px 5px 5px 0px;
-          max-width: calc(100% - 10px);
 
           i {
             color: var(--c-white);
