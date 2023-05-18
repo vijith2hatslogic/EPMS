@@ -2,13 +2,13 @@
   border: 0;
   background: var(--c-gray-5);
   min-height: 35px;
-  display: flex;
-  justify-content: flex-start;
+  position: relative;
+  @include flex(center, space-between);
   .breadcrumb {
     background: transparent;
   }
   &.ibox-content {
-    padding: 8px 23px 8px 0;
+    padding: 8px 23px;
   }
 
   &::before {
@@ -17,9 +17,9 @@
     width: 24px;
     height: 20px;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     left: 0px;
     padding: 0;
-    top: -8px;
+    top: 0;
   }
 }

@@ -1,0 +1,11 @@
+.swal2-confirm{
+    background-color: var(--c-info);
+}
+.swal2-container.swal2-center.swal2-backdrop-show{
+    z-index: 2001;
+}
+
+.swal2-icon{
+    width: rem(56);
+    height: rem(56);
+}
