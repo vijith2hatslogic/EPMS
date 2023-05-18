@@ -1,0 +1,2074 @@
+<partial src="head.html" title="Homepage"></partial>
+<div id="wrapper">
+   <!-- --------------------side nav -start- --------------------------------->
+   <nav class="navbar-default navbar-static-side" role="navigation">
+      <a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+      <i class="fa fa-angle-left"></i> 
+      </a>
+      <div class="sidebar-collapse">
+         <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+               <div class="profile-element">
+                  <span class="avatar">
+                  <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" style="width: 50px" />
+                  </span>
+                  <span class="user-basic">
+                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                     <span class="clear"> 
+                     <span class="block"> <strong class="font-bold">Admin </strong>
+                     </span> 
+                     <span class="small text-muted text-xs block desc">Web Developer </span>
+                     </a>
+                     </span>
+               </div>
+               <!-- mobile view -->
+               <div class="logo-element">
+               <a href="https://demo.thecoherence.app/profile">
+               <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" />
+               </a>
+               </div>
+            </li>
+            <li class="">
+            <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="ri-dashboard-line"></i><span class="nav-label">Dashboard</span> </span></a>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-folder-3-line"></i><span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/projects" data-toggle="tooltip" data-placement="right" title="Active Projects">
+                     Active Projects
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/archived-projects" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                     Archived Projects
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
+            </li>
+            <li class="active">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-file-2-line"></i><span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="active">
+                     <a href="https://demo.thecoherence.app/tasks" data-toggle="tooltip" data-placement="right" title="Active Tasks">
+                     Active Tasks
+                     </a>
+                  </li>
+                  <li class=""><a href="https://demo.thecoherence.app/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/archived-tasks" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                     Archived Tasks
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="ri-list-check-3"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
+                     Checklists
+                     </a>
+                  </li>
+                  <li class=""><a href="https://demo.thecoherence.app/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="ri-time-line"></i><span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
+                  </li>
+                  <li class="">
+                     <a href="/get-timesheets" data-toggle="tooltip" data-placement="right" title="timesheets"><span class="nav-label">Timesheets</span> </span></a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
+               <i class="ri-tools-line"></i><span class="nav-label">Tools</span>
+               <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
+                     Work Notes
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/credentials" data-toggle="tooltip" data-placement="right" title="Project Credentials"> Project Credentials
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/email-signature" data-toggle="tooltip" data-placement="right" title="Email Signature" target="_blank"> Email Signature
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/guidelines" data-toggle="tooltip" data-placement="right" title="Guidelines"> Guidelines
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Report"><i class="fa fa-files-o" aria-hidden="true"></i> <span class="nav-label">Reports</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href="https://demo.thecoherence.app/report/performance" data-toggle="tooltip" data-placement="right" title="Employee Performance Report">Performance</a></li>
+                  <li class="">
+                     <a href="#" data-toggle="tooltip" data-placement="right" title="Task Bounce"> Task Bounce <span class="fa arrow"></span></a>
+                     <ul class="nav nav-second-level collapse">
+                        <li class=""><a href="https://demo.thecoherence.app/task-bounce-list">List</a></li>
+                        <li class=""><a href="https://demo.thecoherence.app/task-bounce-report">Report</a></li>
+                     </ul>
+                  </li>
+                  <li class=""><a href="https://demo.thecoherence.app/daily-status-report" data-toggle="tooltip" data-placement="right" title="Employee Daily Status Report">Daily Status Report</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/report/employee-leave-report" data-toggle="tooltip" data-placement="right" title="Employee Leave Report">Employee Leave Report</a></li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Billing"><i class="ri-currency-line"></i><span class="nav-label"> Billing</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href="/monthly-bill/">Monthly Bill</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/manage-billable-hours">Manage Billable Hours</a></li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/client-sheet" data-toggle="tooltip" data-placement="right" title="Client Timesheet">Client Timesheet</a>
+                  </li>
+                  <li class=""><a href="https://demo.thecoherence.app/invoicing">Invoicing</a></li>
+               </ul>
+            </li>
+            <li class="" >
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Billing"><i class="ri-cash-line"></i> <span class="nav-label"> Payroll</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href="https://demo.thecoherence.app/payroll">Manage Payroll</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/salary-component" data-toggle="tooltip" data-placement="right" title="Salary Components">Salary Components</a></li>
+               </ul>
+            </li>
+            <li class="" >
+               <a href="https://demo.thecoherence.app/payslip"><i class="ri-cash-line"></i> <span class="nav-label">Payslip</span></a>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Users">
+               <i class="ri-group-line"></i> <span class="nav-label">Users</span>
+               <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/users" data-toggle="tooltip" data-placement="right" title="Users">
+                     <span class="nav-label">Users</span>
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/clients" data-toggle="tooltip" data-placement="right" title="Clients">
+                     <span class="nav-label">Clients</span>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
+               <i class="ri-function-line"></i>
+               <span class="nav-label">Miscellaneous</span>
+               <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
+                     Holidays
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
+                     Newsletters
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/alerts" data-toggle="tooltip" data-placement="right" title="Manage Popup Alerts">
+                     Manage Popup Alerts
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/recruitments" data-toggle="tooltip" data-placement="right" title="Recruitments">
+                     Recruitments
+                     </a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/recruitment-schedules" data-toggle="tooltip" data-placement="right" title="Recruitment Schedules">
+                     Recruitment Schedules
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
+               <i class="ri-file-add-line"></i> <span class="nav-label">Leaves</span>
+               <span class="fa arrow"></span>
+               </a>
+               <ul class="nav nav-second-level collapse">
+                  <li class="">
+                     <a href=""> Apply</a>
+                     <ul class="nav nav-third-level">
+                        <li class="">
+                           <a href="https://demo.thecoherence.app/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
+                           Apply Leave
+                           </a>
+                        </li>
+                        <li class="">
+                           <a href="https://demo.thecoherence.app/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
+                           Apply Compensatory Off
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/pending-leave-applications" data-toggle="tooltip" data-placement="right" title="Pending Applications">Pending Applications</a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/previous-leave-applications" data-toggle="tooltip" data-placement="right" title="Approved Applications">Approved Applications</a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/assign-leave" data-toggle="tooltip" data-placement="right" title="Assign Leave">Assign Leave</a>
+                  </li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/compensatory-applications" data-toggle="tooltip" data-placement="right" title="Compensatory Applications">Compensatory Applications</a>
+                  </li>
+               </ul>
+            </li>
+            <li class="">
+               <a href="#" data-toggle="tooltip" data-placement="right" title="Settings"><i class="ri-settings-5-line"></i> <span class="nav-label">Settings</span> <span class="fa arrow"></span></a>
+               <ul class="nav nav-second-level collapse">
+                  <li class=""><a href="https://demo.thecoherence.app/company-info" data-toggle="tooltip" data-placement="right" title="Overheads">Company Information</a></li>
+                  <li class="">
+                     <a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads">Overheads & Expenses</a>
+                     <ul class="nav nav-third-level">
+                        <li class=""><a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads & Expenses">Manage Expenses</a></li>
+                        <li class=""><a href="https://demo.thecoherence.app/fixed-overhead" data-toggle="tooltip" data-placement="right" title="Manage Overheads"> Fixed Overheads</a></li>
+                     </ul>
+                  </li>
+                  <li class=""><a href="https://demo.thecoherence.app/user-access-levels" data-toggle="tooltip" data-placement="right" title="User Access Levels">User Access Levels</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/session-types" data-toggle="tooltip" data-placement="right" title="Session Types">Session Types</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/base-currency" data-toggle="tooltip" data-placement="right" title="Base Currency">Base Currency</a></li>
+                  <li class=""><a href="https://demo.thecoherence.app/reports-settings" data-toggle="tooltip" data-placement="right" title="Report Settings">Report Settings</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <!-- end -->
+   <div id="page-wrapper" class="gray-bg">
+      <div class="row border-bottom">
+         <script src="https://demo.thecoherence.app/js/all.js"></script>
+         <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>  
+         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="row align-items-center position-relative">
+               <div class="col-lg-8">
+                  <div class="header-left">
+                     <div class="">
+                        <a href="/dashboard" class="brand">
+                        <img src="https://demo.thecoherence.app/storage/companylogo/3Zbn9VTi6f3ndiZzJTWFctiAo2rvBfBZGLYP7eff.png" alt="logo">
+                        </a>
+                     </div>
+                     <div class="">
+                        <div class="g-search-item pull-right">
+                           <div class="inner-addon right-addon">
+                              <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                              <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                              <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"  name="q" id="gSearch" class="form-control global-search-box">
+                           </div>
+                        </div>
+                        <div id="globalSearchResultWrapper" class="global-search"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <ul class="navbar-controls">
+                     <li>
+                        <a href="https://demo.thecoherence.app/profile">
+                        <i class="ri-user-line epms-icon epms-icon--1x"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://demo.thecoherence.app/change-password">
+                        <i class="ri-settings-5-line epms-icon epms-icon--1x"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://demo.thecoherence.app/logout">
+                        <i class="ri-logout-circle-r-line epms-icon epms-icon--1x"></i>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="ibox-content breadcrumbs-outer-div">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="https://demo.thecoherence.app">Dashboard</a></li>
+               <li class="breadcrumb-item active">Tasks</li>
+            </ol>
+            <button id="pause-task" class=" hidden"><i class="ri-pause-line"></i></button>
+         </div>
+         <!-- Create Task Modal -->
+         <div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                     <h4 class="modal-title text-center">Add EOD Report</h4>
+                  </div>
+                  <div class="modal-body">
+                     <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
+                        <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">                    <input type="hidden" name="added_on" value="2023-05-18">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="form-group">
+                                 <label>What did you do today? <span class="required-label">*</span></label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="todays_task" id="todays_task"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                              </div>
+                              <div class="form-group">
+                                 <label>Are there any obstacles hindering your progress? <span
+                                    class="required-label">*</span></label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="impediments"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_impediments"></div>
+                              </div>
+                              <div class="form-group">
+                                 <label>Do you have any plans for tomorrow? </label>
+                                 <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="tommorows_task"></textarea>
+                                 <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="submit-section mt20">
+                           <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper wrapper-content page-wrapper ">
+         <div>
+            <!-- Page Title -->
+            <div class="row">
+               <div class="col-md-8">
+                  <strong>
+                     <h3 class="page-title" style="font-size: 25px">Tasks</h3>
+                  </strong>
+               </div>
+               <div class="col-md-4 text-right float-right ml-auto m-b-30">
+                  <a href="" class="btn btn-w-m btn-success create-modal"><i class="ri-add-line"></i> Add Task</a>
+               </div>
+            </div>
+            <div class="content-div animated fadeInUp">
+               <!-- /Page Title -->
+               <div class="modal custom-modal fade" id="delete_task" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                           <h4 class="modal-title text-center">Delete Task</h4>
+                        </div>
+                        <div class="modal-body">
+                           <div class="form-header">
+                              <p>Are you sure want to delete?</p>
+                           </div>
+                           <div class="modal-btn delete-action">
+                              <div class="row" style="padding-top: 10px">
+                                 <input type="hidden" id="delete_task_id" value="">
+                                 <input type="hidden" id="delete_task_type" value="">
+                                 <div class="col-sm-6">
+                                    <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                                 </div>
+                                 <div class="col-sm-6 text-right">
+                                    <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Search Filter -->
+               <div class="ibox-title" id="filter-section">
+                  <h5>Filter</h5>
+                  <div class="ibox-tools">
+                     <i class="fa fa-chevron-down"></i>
+                  </div>
+               </div>
+               <div class="ibox-content mb10 filter-area">
+                  <form action="https://demo.thecoherence.app/task-search" method="post" autocomplete="off" id="search-task">
+                     <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">        
+                     <div class="row filter-row pt-20 pb-20">
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" data-placeholder="Select project" id="search_project_name" name="search_project_name[]" multiple >
+                           </select>
+                           <a href="#" class="clear-single-filter pull-right">clear</a>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="search_task_name" name="search_task_name">
+                              <option value="">Select Task</option>
+                           </select>
+                           <a href="#" class="clear-single-filter pull-right">clear</a>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="search_task_type" name="search_task_type">
+                              <option value="all" selected >All Task
+                              </option>
+                              <option value="upcomming" >
+                                 Upcoming
+                                 Task
+                              </option>
+                              <option value="ongoing" >Task in
+                                 Progress
+                              </option>
+                              <option value="completed" >
+                                 Completed
+                                 Task
+                              </option>
+                              <option value="overdue" >Overdue
+                                 Task
+                              </option>
+                           </select>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="search_project_company" name="search_project_company">
+                              <option value="">Select Client / Account</option>
+                              <option value="2"
+                                 >
+                                 Casper-Franecki
+                              </option>
+                              <option value="4"
+                                 >
+                                 Daniel and Sons
+                              </option>
+                              <option value="6"
+                                 >
+                                 ENR System
+                              </option>
+                              <option value="1"
+                                 >
+                                 Franecki-Bogan
+                              </option>
+                              <option value="3"
+                                 >
+                                 Jaskolski-Conroy
+                              </option>
+                              <option value="7"
+                                 >
+                                 Mobile Goods
+                              </option>
+                              <option value="8"
+                                 >
+                                 MRJ Company
+                              </option>
+                              <option value="9"
+                                 >
+                                 Test
+                              </option>
+                              <option value="10"
+                                 >
+                                 Test company
+                              </option>
+                              <option value="5"
+                                 >
+                                 Uber
+                              </option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="task_status" name="task_status">
+                              <option value="">Select Status</option>
+                              <option value="Not Started" >
+                                 Not Started
+                              </option>
+                              <option value="In Progress" >
+                                 In Progress
+                              </option>
+                              <option value="Under QA" >
+                                 Under QA
+                              </option>
+                              <option value="Development Completed" >
+                                 Development Completed
+                              </option>
+                              <option value="Done" >
+                                 Done
+                              </option>
+                           </select>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="assigned_to" name="assigned_to">
+                              <option value="" selected>Assigned To</option>
+                              <option value="20" >
+                                 Abini Subramanian
+                              </option>
+                              <option value="22" >
+                                 Abini three
+                              </option>
+                              <option value="21" >
+                                 Abini 2 2
+                              </option>
+                              <option value="30" >
+                                 Accountant User Accountant
+                              </option>
+                              <option value="3" >
+                                 Admin 
+                              </option>
+                              <option value="28" >
+                                 Aneesh Sreedharan
+                              </option>
+                              <option value="23" >
+                                 Dev3 three
+                              </option>
+                              <option value="13" >
+                                 Developer test
+                              </option>
+                              <option value="16" >
+                                 Developer 2 two
+                              </option>
+                              <option value="7" >
+                                 Durward Abernathy Walter
+                              </option>
+                              <option value="5" >
+                                 Eryn Crist Erdman
+                              </option>
+                              <option value="4" >
+                                 Jimmie Von Langosh
+                              </option>
+                              <option value="17" >
+                                 Luca jone
+                              </option>
+                              <option value="27" >
+                                 Malu krishna
+                              </option>
+                              <option value="10" >
+                                 Miss Antonetta Robel Huel
+                              </option>
+                              <option value="11" >
+                                 Ms. Margarete Schneider I Harber
+                              </option>
+                              <option value="12" >
+                                 Parker Jones Emmerich
+                              </option>
+                              <option value="6" >
+                                 Prince Feeney Lueilwitz
+                              </option>
+                              <option value="14" >
+                                 QA ONE
+                              </option>
+                              <option value="15" >
+                                 QA TWO
+                              </option>
+                              <option value="29" >
+                                 Rohith K
+                              </option>
+                              <option value="19" >
+                                 Test QA QA
+                              </option>
+                           </select>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <select class="chosen-select" id="filter_tasks" name="filter">
+                              <option value="">Sort By</option>
+                              <option value="Created Date" >Created
+                                 date
+                              </option>
+                              <option value="Deadline" >Deadline</option>
+                              <option value="Time Spent" >Time Spent
+                              </option>
+                           </select>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                           <a href="/tasks" class="btn btn-w-m btn-info" style="padding: 4px 12px;"> Clear Filters</a>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <!-- Search Filter -->        
+               <div class="task ibox-content mt-15">
+                  <div class="table-responsive">
+                     <div>
+                        <table class="table taskTable">
+                           <thead>
+                              <tr>
+                                 <th>Task Title</th>
+                                 <th class="col-3">Jira ID</th>
+                                 <th>Project Name</th>
+                                 <th class="hide-header">Deadline</th>
+                                 <th>Assigned To</th>
+                                 <th>Estimated Time</th>
+                                 <th>Priority</th>
+                                 <th>Status</th>
+                                 <th>Action</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/265">
+                                    TEstdsfsdf2
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/19">Test 123</a>
+                                 </td>
+                                 <td class="hide-cell">May 05, 2023</td>
+                                 <td>                                    Aneesh Sreedharan</br>
+                                 </td>
+                                 <td>3hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/265" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="265" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="265" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/252">
+                                    Demo project2 task 1
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 31, 2023</td>
+                                 <td>                                    Abini three</br>
+                                    Admin </br>
+                                    Eryn Crist Erdman</br>
+                                 </td>
+                                 <td>12hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-danger"
+                                       >In Progress</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/252" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="252" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="252" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/273">
+                                    Task for subtask creation test
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/19">Test 123</a>
+                                 </td>
+                                 <td class="hide-cell">May 09, 2023</td>
+                                 <td>                                    Abini Subramanian</br>
+                                 </td>
+                                 <td>123342hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/273" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="273" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="273" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/37">
+                                    Task 83
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/3">Rosenbaum, Kub and O&#039;Conner</a>
+                                 </td>
+                                 <td class="hide-cell">May 05, 2023</td>
+                                 <td>                                    Abini three</br>
+                                    Admin </br>
+                                    Ms. Margarete Schneider I Harber</br>
+                                    Developer 2 two</br>
+                                 </td>
+                                 <td>5hr</td>
+                                 <td>
+                                    <span >High</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-success"
+                                       >Done</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/37" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="37" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="37" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/258">
+                                    Task1
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/57">Gantt Project</a>
+                                 </td>
+                                 <td class="hide-cell">May 08, 2023</td>
+                                 <td>                                    Admin </br>
+                                    Developer test</br>
+                                    Developer 2 two</br>
+                                    Luca jone</br>
+                                 </td>
+                                 <td>40hr</td>
+                                 <td>
+                                    <span >High</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/258" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="258" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="258" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/253">
+                                    Demo project 3 task
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/53">Demo project 3</a>
+                                 </td>
+                                 <td class="hide-cell">May 31, 2023</td>
+                                 <td>                                    Developer test</br>
+                                 </td>
+                                 <td>12hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-danger"
+                                       >In Progress</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/253" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="253" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="253" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/257">
+                                    2Hats Logic
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 13, 2023</td>
+                                 <td>                                    Abini three</br>
+                                    Eryn Crist Erdman</br>
+                                 </td>
+                                 <td>50hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/257" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="257" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="257" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/281">
+                                    Lulu
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td></td>
+                                 <td>5hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/281" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="281" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="281" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/282">
+                                    Test 1
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td></td>
+                                 <td>7hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/282" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="282" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="282" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/283">
+                                    Test 2
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td></td>
+                                 <td>7hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/283" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="283" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="283" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/284">
+                                    Test 4
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td></td>
+                                 <td>7hr</td>
+                                 <td>
+                                    <span ></span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/284" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="284" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="284" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/285">
+                                    Test 5
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td></td>
+                                 <td>8hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-info"
+                                       >Not Started</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/285" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="285" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="285" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/286">
+                                    Task 1
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td>                                    Jimmie Von Langosh</br>
+                                 </td>
+                                 <td>6.8hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-danger"
+                                       >In Progress</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/286" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="286" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="286" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/287">
+                                    Task 2
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td>                                    Jimmie Von Langosh</br>
+                                 </td>
+                                 <td>9hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-danger"
+                                       >In Progress</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/287" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="287" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="287" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                              <tr class="alert alert-warning">
+                                 <td>
+                                    <a href="/tasks/288">
+                                    Task 3
+                                    </a>
+                                 </td>
+                                 <td class="col-3"> 
+                                 </td>
+                                 <td>
+                                    <a href=" /projects/52">Task 1</a>
+                                 </td>
+                                 <td class="hide-cell">May 15, 2023</td>
+                                 <td>                                    Jimmie Von Langosh</br>
+                                 </td>
+                                 <td>6hr</td>
+                                 <td>
+                                    <span >Medium</span>
+                                 </td>
+                                 <td class="project-completion text-center">
+                                    <span class="label label-danger"
+                                       >In Progress</span>
+                                 </td>
+                                 <td>
+                                    <span class="view-i">
+                                    <a href="/tasks/288" data-tooltip="tooltip" data-placement="top"
+                                       title="View">
+                                    <span class="edit-i">
+                                    <i data-toggle="modal" data-target="#add_task_time" class="ri-eye-fill"
+                                       aria-hidden="true"></i></a></span>
+                                    <span class="edit-i">
+                                    <a data-tooltip="tooltip" data-placement="top" title="Edit"><i
+                                       data-id="288" class="ri-pencil-line edit-task"
+                                       aria-hidden="true"
+                                       style="padding-right: 15px;padding-left:15px"></i></a></span>
+                                    <span class="dlt-i"><a href="#" class="delete_task_onclick"
+                                       data-id="288" data-tooltip="tooltip" data-placement="top"
+                                       title="Delete">
+                                    <i data-toggle="modal" data-target="#delete_task" class="ri-delete-bin-line"
+                                       aria-hidden="true"></i></a></span>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <nav>
+                           <ul class="pagination">
+                              <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                                 <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                              </li>
+                              <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                              <li class="page-item"><a class="page-link" href="https://demo.thecoherence.app/tasks?page=2">2</a></li>
+                              <li class="page-item"><a class="page-link" href="https://demo.thecoherence.app/tasks?page=3">3</a></li>
+                              <li class="page-item"><a class="page-link" href="https://demo.thecoherence.app/tasks?page=4">4</a></li>
+                              <li class="page-item"><a class="page-link" href="https://demo.thecoherence.app/tasks?page=5">5</a></li>
+                              <li class="page-item">
+                                 <a class="page-link" href="https://demo.thecoherence.app/tasks?page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Create Task Modal -->
+            <div id="create_task" class="modal custom-modal fade" role="dialog">
+               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span
+                           aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title text-center">Add New Task</h4>
+                     </div>
+                     <div class="modal-body">
+                        <form action="https://demo.thecoherence.app/tasks" enctype="multipart/form-data" id="add_task_form"
+                           method="POST" autocomplete="off">
+                           <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">                        
+                           <div class="tabs-container">
+                              <ul class="nav nav-tabs" role="tablist">
+                                 <li class="active"><a class="nav-link" data-toggle="tab" href="#tab-1"> Task Details</a>
+                                 </li>
+                                 <li><a class="nav-link" data-toggle="tab" href="#tab-2">Task Checklists</a></li>
+                              </ul>
+                              <div class="tab-content">
+                                 <div role="tabpanel" id="tab-1" class="tab-pane active">
+                                    <div class="panel-body">
+                                       <div class="row">
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label>Project Name<span class="required-label">*</span></label>
+                                                <select class="chosen-select" id="select_project_name"
+                                                   name="project_id">
+                                                   <option value="">Select Project</option>
+                                                   <option value="53">Demo project 3
+                                                   </option>
+                                                   <option value="54">Demo project 4
+                                                   </option>
+                                                   <option value="55">Demo project test
+                                                   </option>
+                                                   <option value="51">Demo project1
+                                                   </option>
+                                                   <option value="58">Gantt chart Test Project
+                                                   </option>
+                                                   <option value="57">Gantt Project
+                                                   </option>
+                                                   <option value="45">Resmi Created Project
+                                                   </option>
+                                                   <option value="3">Rosenbaum, Kub and O&#039;Conner
+                                                   </option>
+                                                   <option value="52">Task 1
+                                                   </option>
+                                                   <option value="49">Test
+                                                   </option>
+                                                   <option value="61">Test 1
+                                                   </option>
+                                                   <option value="19">Test 123
+                                                   </option>
+                                                   <option value="59">test n
+                                                   </option>
+                                                   <option value="60">test n2
+                                                   </option>
+                                                   <option value="56">Test project
+                                                   </option>
+                                                   <option value="44">test123
+                                                   </option>
+                                                   <option value="50">Test34232
+                                                   </option>
+                                                </select>
+                                                <div class="text-danger text-left field-error"
+                                                   id="label_project_id"></div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group">
+                                                <label>Task Title <span class="required-label">*</span></label>
+                                                <input class="form-control" type="text" name="task_title">
+                                                <div class="text-danger text-left field-error"
+                                                   id="label_task_title"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label for="">Parent Task</label>                                            
+                                                <select class="chosen-select" id="task_parent" name="task_parent">
+                                                   <option value="">Select</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group">
+                                                <label>Estimated Time (Eg- 1.5=1h 30m)<span
+                                                   class="required-label">*</span></label>
+                                                <div class="cal-icon">
+                                                   <input class="form-control" type="number" step=".1"
+                                                      name="estimated_time">
+                                                   <div class="text-danger text-left field-error"
+                                                      id="label_estimated_time"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6">
+                                             <div class="form-group">
+                                                <label>Start Date <span class="required-label">*</span></label>
+                                                <input class="form-control datetimepicker" type="text"
+                                                   name="start_date" data-inputmask-inputformat="dd/mm/yyyy">
+                                                <div class="text-danger text-left field-error"
+                                                   id="label_start_date"></div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                             <div class="form-group">
+                                                <label>End Date <span class="required-label">*</span></label>
+                                                <input class="form-control datetimepicker" type="text"
+                                                   name="end_date" data-inputmask-inputformat="dd/mm/yyyy">
+                                                <div class="text-danger text-left field-error" id="label_end_date">
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label for="">Priority </label>
+                                                <select class="chosen-select" id="task_priority"
+                                                   name="task_priority">
+                                                   <option>Critical</option>
+                                                   <option>High</option>
+                                                   <option selected>Medium</option>
+                                                   <option> Low</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label>Assign To</label>
+                                                <select class="chosen-select" id="task_assigned_users"
+                                                   name="task_assigned_users[]" multiple>
+                                                   <option value="20">Abini Subramanian</option>
+                                                   <option value="22">Abini three</option>
+                                                   <option value="21">Abini 2 2</option>
+                                                   <option value="30">Accountant User Accountant</option>
+                                                   <option value="3">Admin </option>
+                                                   <option value="28">Aneesh Sreedharan</option>
+                                                   <option value="23">Dev3 three</option>
+                                                   <option value="13">Developer test</option>
+                                                   <option value="16">Developer 2 two</option>
+                                                   <option value="7">Durward Abernathy Walter</option>
+                                                   <option value="5">Eryn Crist Erdman</option>
+                                                   <option value="4">Jimmie Von Langosh</option>
+                                                   <option value="17">Luca jone</option>
+                                                   <option value="27">Malu krishna</option>
+                                                   <option value="10">Miss Antonetta Robel Huel</option>
+                                                   <option value="11">Ms. Margarete Schneider I Harber</option>
+                                                   <option value="12">Parker Jones Emmerich</option>
+                                                   <option value="6">Prince Feeney Lueilwitz</option>
+                                                   <option value="14">QA ONE</option>
+                                                   <option value="15">QA TWO</option>
+                                                   <option value="29">Rohith K</option>
+                                                   <option value="19">Test QA QA</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label>Technical Reviewer</label>
+                                                <select class="chosen-select" id="task_assigned_users"
+                                                   name="reviewer_id">
+                                                   <option value="">Select</option>
+                                                   <option value="20">Abini Subramanian</option>
+                                                   <option value="22">Abini three</option>
+                                                   <option value="21">Abini 2 2</option>
+                                                   <option value="30">Accountant User Accountant</option>
+                                                   <option value="3">Admin </option>
+                                                   <option value="28">Aneesh Sreedharan</option>
+                                                   <option value="23">Dev3 three</option>
+                                                   <option value="13">Developer test</option>
+                                                   <option value="16">Developer 2 two</option>
+                                                   <option value="7">Durward Abernathy Walter</option>
+                                                   <option value="5">Eryn Crist Erdman</option>
+                                                   <option value="4">Jimmie Von Langosh</option>
+                                                   <option value="17">Luca jone</option>
+                                                   <option value="27">Malu krishna</option>
+                                                   <option value="10">Miss Antonetta Robel Huel</option>
+                                                   <option value="11">Ms. Margarete Schneider I Harber</option>
+                                                   <option value="12">Parker Jones Emmerich</option>
+                                                   <option value="6">Prince Feeney Lueilwitz</option>
+                                                   <option value="14">QA ONE</option>
+                                                   <option value="15">QA TWO</option>
+                                                   <option value="29">Rohith K</option>
+                                                   <option value="19">Test QA QA</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label>Need to be approved by: </label>
+                                                <select class="chosen-select form-control m-b" id="approval_users"
+                                                   name="approval_users[]" multiple>
+                                                   <option value="3">Admin </option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group">
+                                                <label>URL</label>
+                                                <input class="form-control" type="text" name="task_url">
+                                                <div class="text-danger text-left field-error" id="label_task_url">
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group">
+                                                <label>Task Id <small>(Jira)</small></label>
+                                                <input class="form-control" type="text" name="task_id">
+                                                <div class="text-danger text-left field-error" id="label_task_id">
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-12 col-md-12">
+                                             <div class="form-group">
+                                                <label>Description</label>
+                                                <textarea rows="4" class="form-control summernote"
+                                                   placeholder="Enter your message here"
+                                                   name="task_description"></textarea>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row">
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group form-focus select-focus focused">
+                                                <label for="">Tag </label>
+                                                <select class="chosen-select" id="tag" name="tag">
+                                                   <option value="">Select Tag</option>
+                                                   <option value="demo-tag">demo tag</option>
+                                                   <option value="tag">tag</option>
+                                                </select>
+                                             </div>
+                                             <a href="#" class="btn btn-primary btn-xs pull-right"
+                                                data-toggle="modal" data-target="#add_tag"><i
+                                                class="ri-add-line"></i> Add Tag</a>
+                                          </div>
+                                          <div class="col-sm-6 col-md-6">
+                                             <div class="form-group">
+                                                <label>Attach Files</label>
+                                                <input class="form-control" type="file" name="files[]" multiple />
+                                                <div class="text-danger text-left field-error" id="label_files">
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-6 col-md-6 text-right">
+                                             <span>Add to Agile Board</span> <input checked="" type="checkbox" class="i-checks" name="add_to_board"> 
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div role="tabpanel" id="tab-2" class="tab-pane">
+                                    <div class="panel-body">
+                                       <div class="table-responsive">
+                                          <table class="table task-checklist">
+                                             <tbody>
+                                                <tr>
+                                                   <td>
+                                                      <p class="parent-category"><input type="checkbox"
+                                                         class="check-all">
+                                                         <span>PHP Code</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="1" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>All functions have comments</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="2" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>All comments are strictly PHPDoc format</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <p class="parent-category"><input type="checkbox"
+                                                         class="check-all">
+                                                         <span>HTML Code</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="3" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>All code indentations are validated</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="4" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>No repeating IDs in a page</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <p class="parent-category"><input type="checkbox"
+                                                         class="check-all">
+                                                         <span>Going Live</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="5" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>Remove the maintenance message</span>
+                                                      </p>
+                                                      <p class="child-category">
+                                                         <input value="6" type="checkbox"
+                                                            class="i-checks" name="checklists[]">
+                                                         <span>Make sure error reporting is turned off</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="submit-section mt20">
+                              <button class="btn btn-primary submit-btn create-task">Submit</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /Create task Modal -->
+            <!-- Edit Task Modal -->
+            <div id="edit_task" class="modal custom-modal fade in" role="dialog" style="z-index: 100000; display: block;"><div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title text-center">Edit Task</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="https://demo.thecoherence.app/tasks/265" enctype="multipart/form-data" id="edit_task_form" method="POST" autocomplete="off">
+                            <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">                <input type="hidden" name="_method" value="PATCH">                <div class="tabs-container">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="active"><a class="nav-link" data-toggle="tab" href="#edit-tab-1"> Task Details</a>
+                                    </li>
+                                                            <li><a class="nav-link" data-toggle="tab" href="#edit-tab-2">Task Checklists</a></li>
+                                                        </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" id="edit-tab-1" class="tab-pane active">
+                                        <div class="panel-body">
+                                            <input type="hidden" name="project_id" value="19">
+                                            <input type="hidden" name="task_id" value="265">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label for="">Project</label>
+                                                        <select class="chosen-select" id="edit_project_id" name="edit_project_id" style="display: none;">
+                                                                                                            <option value="53">
+                                                                Demo project 3</option>
+                                                                                                            <option value="54">
+                                                                Demo project 4</option>
+                                                                                                            <option value="55">
+                                                                Demo project test</option>
+                                                                                                            <option value="51">
+                                                                Demo project1</option>
+                                                                                                            <option value="58">
+                                                                Gantt chart Test Project</option>
+                                                                                                            <option value="57">
+                                                                Gantt Project</option>
+                                                                                                            <option value="45">
+                                                                Resmi Created Project</option>
+                                                                                                            <option value="3">
+                                                                Rosenbaum, Kub and O'Conner</option>
+                                                                                                            <option value="52">
+                                                                Task 1</option>
+                                                                                                            <option value="49">
+                                                                Test</option>
+                                                                                                            <option value="61">
+                                                                Test 1</option>
+                                                                                                            <option value="19" selected="">
+                                                                Test 123</option>
+                                                                                                            <option value="59">
+                                                                test n</option>
+                                                                                                            <option value="60">
+                                                                test n2</option>
+                                                                                                            <option value="56">
+                                                                Test project</option>
+                                                                                                            <option value="44">
+                                                                test123</option>
+                                                                                                            <option value="50">
+                                                                Test34232</option>
+                                                                                                        </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="edit_project_id_chosen"><a class="chosen-single" tabindex="-1"><span>Test 123</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Task title <span class="required-label">*</span></label>
+                                                        <input class="form-control" type="text" name="edit_task_title" id="edit_task_title" value="TEstdsfsdf2">
+                                                        <div class="text-danger text-left field-error" id="label_edit_task_title">
+                                                        </div>
+                                                    </div>
+                                                </div>                              
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label for="">Parent Task</label>                                            
+                                                        <select class="chosen-select" id="task_parent" name="task_parent" style="display: none;">
+                                                            <option value="">Select</option>
+                                                                                                            <option value="260">Indy Test</option>
+                                                                                                            <option value="261">Indy Test 2</option>
+                                                                                                            <option value="111">Task</option>
+                                                                                                            <option value="273">Task for subtask creation test</option>
+                                                                                                          
+                                                        </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="task_parent_chosen"><a class="chosen-single chosen-default" tabindex="-1"><span>Select</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Task code</label>
+                                                        <input class="form-control" type="text" name="edit_task_code" value="TASD-4" readonly="">
+                                                    </div>
+                                                </div>                                    
+                                            </div>
+                                                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label for="">Priority</label>
+                                                        <select class="chosen-select form-control m-b" id="edit_task_priority" name="edit_task_priority" style="display: none;">
+                                                            <option>Critical</option>
+                                                            <option>High</option>
+                                                            <option selected="">Medium
+                                                            </option>
+                                                            <option> Low</option>
+                                                        </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="edit_task_priority_chosen"><a class="chosen-single" tabindex="-1"><span>Medium</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label>Assign to </label>
+                                                        <select class="chosen-select form-control m-b" id="edit_task_assigned_users" name="edit_task_assigned_users[]" multiple="" style="display: none;">
+                                                                                                            <option value="20">
+                                                                Abini Subramanian</option>
+                                                                                                            <option value="22">
+                                                                Abini three</option>
+                                                                                                            <option value="21">
+                                                                Abini 2 2</option>
+                                                                                                            <option value="30">
+                                                                Accountant User Accountant</option>
+                                                                                                            <option value="3">
+                                                                Admin </option>
+                                                                                                            <option value="28" selected="">
+                                                                Aneesh Sreedharan</option>
+                                                                                                            <option value="23">
+                                                                Dev3 three</option>
+                                                                                                            <option value="13">
+                                                                Developer test</option>
+                                                                                                            <option value="16">
+                                                                Developer 2 two</option>
+                                                                                                            <option value="7">
+                                                                Durward Abernathy Walter</option>
+                                                                                                            <option value="5">
+                                                                Eryn Crist Erdman</option>
+                                                                                                            <option value="4">
+                                                                Jimmie Von Langosh</option>
+                                                                                                            <option value="17">
+                                                                Luca jone</option>
+                                                                                                            <option value="27">
+                                                                Malu krishna</option>
+                                                                                                            <option value="10">
+                                                                Miss Antonetta Robel Huel</option>
+                                                                                                            <option value="11">
+                                                                Ms. Margarete Schneider I Harber</option>
+                                                                                                            <option value="12">
+                                                                Parker Jones Emmerich</option>
+                                                                                                            <option value="6">
+                                                                Prince Feeney Lueilwitz</option>
+                                                                                                            <option value="14">
+                                                                QA ONE</option>
+                                                                                                            <option value="15">
+                                                                QA TWO</option>
+                                                                                                            <option value="29">
+                                                                Rohith K</option>
+                                                                                                            <option value="19">
+                                                                Test QA QA</option>
+                                                                                                        </select><div class="chosen-container chosen-container-multi" style="width: 100%;" title="" id="edit_task_assigned_users_chosen"><ul class="chosen-choices"><li class="search-choice"><span>
+                                                                Aneesh Sreedharan</span><a class="search-choice-close" data-option-array-index="5"></a></li><li class="search-field"><input type="text" value="Select" class="" autocomplete="off" style="width: 25px;"></li></ul><div class="chosen-drop"><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+            
+                                                </div>
+                                                
+            
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label>Technical Reviewer</label>
+                                                        <select class="chosen-select" id="task_assigned_users" name="reviewer_id" style="display: none;">
+                                                            <option value="">Select</option>
+                                                                                                            <option value="20">Abini Subramanian</option>
+                                                                                                            <option value="22">Abini three</option>
+                                                                                                            <option value="21">Abini 2 2</option>
+                                                                                                            <option value="30">Accountant User Accountant</option>
+                                                                                                            <option value="3">Admin </option>
+                                                                                                            <option value="28">Aneesh Sreedharan</option>
+                                                                                                            <option value="23">Dev3 three</option>
+                                                                                                            <option value="13">Developer test</option>
+                                                                                                            <option value="16">Developer 2 two</option>
+                                                                                                            <option value="7">Durward Abernathy Walter</option>
+                                                                                                            <option value="5">Eryn Crist Erdman</option>
+                                                                                                            <option value="4">Jimmie Von Langosh</option>
+                                                                                                            <option value="17">Luca jone</option>
+                                                                                                            <option value="27">Malu krishna</option>
+                                                                                                            <option value="10">Miss Antonetta Robel Huel</option>
+                                                                                                            <option value="11">Ms. Margarete Schneider I Harber</option>
+                                                                                                            <option value="12">Parker Jones Emmerich</option>
+                                                                                                            <option value="6">Prince Feeney Lueilwitz</option>
+                                                                                                            <option value="14">QA ONE</option>
+                                                                                                            <option value="15">QA TWO</option>
+                                                                                                            <option value="29">Rohith K</option>
+                                                                                                            <option value="19">Test QA QA</option>
+                                                                                                        </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="task_assigned_users_chosen"><a class="chosen-single chosen-default" tabindex="-1"><span>Select</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Estimated Time (Eg- 1.5=1h 30m)<span class="required-label">*</span></label>
+                                                        <div class="cal-icon">
+                                                            <input class="form-control" type="number" step=".1" name="edit_estimated_time" id="edit_estimated_time" value="3">
+                                                        </div>
+                                                        <div class="text-danger text-left field-error" id="label_edit_estimated_time"></div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                            <div class="row">                                    
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Start Date <span class="required-label">*</span></label>
+                                                        <input class="form-control datetimepicker" type="text" name="edit_task_start_date" value="05/05/2023" maxlength="10">
+                                                        <div class="text-danger text-left field-error" id="label_edit_task_start_date"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Deadline <span class="required-label">*</span></label>
+                                                        <input class="form-control datetimepicker" type="text" name="edit_task_end_date" value="05/05/2023" maxlength="10">
+                                                        <div class="text-danger text-left field-error" id="label_edit_task_end_date"></div>
+                                                    </div>
+                                                </div>                                    
+                                            </div>
+                                                                            <div class="row">                                   
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Percentage Completed</label>
+                                                        <div class="cal-icon">
+                                                            <input class="form-control" type="text" name="edit_percent_complete" id="percent_complete" value="50" readonly="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>URL</label>
+                                                        <input class="form-control" type="text" name="edit_task_url" id="edit_url" value="">
+                                                        <div class="text-danger text-left field-error" id="label_edit_task_url">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+            
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Task Id <small>(Jira)</small></label>
+                                                        <input class="form-control" type="text" name="edit_task_id" id="edit_task_id" value="">
+                                                        <div class="text-danger text-left field-error" id="label_edit_task_id">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label>Status</label>
+                                                        <input class="form-control" type="text" id="status" name="status" value="Not Started" readonly="">
+                                                        <!-- <select class="chosen-select" id="status" name="status">
+                                                            <option selected>
+                    Not Started</option>
+                <option >
+                    In Progress</option>
+                <option >
+                    Under QA</option>
+                <option >
+                    Development Completed</option>
+                <option >
+                    Done</option>
+                                                        </select> -->
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                                                <div class="col-sm-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label>Need to be approved by: </label>
+                                                        <select class="chosen-select form-control m-b" id="approval_users" name="approval_users[]" multiple="" style="display: none;">
+                                                                                                            <option value="3">
+                                                                Admin </option>
+                                                                                                        </select><div class="chosen-container chosen-container-multi" style="width: 100%;" title="" id="approval_users_chosen"><ul class="chosen-choices"><li class="search-field"><input type="text" value="Select" class="default" autocomplete="off" style="width: 63.5156px;"></li></ul><div class="chosen-drop"><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                </div>
+                                                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group form-focus select-focus focused">
+                                                        <label for="">Tag </label>
+                                                        <select class="chosen-select" id="tag" name="tag" style="display: none;">
+                                                            <option value="">Select Tag</option>
+                                                                                                            <option value="demo-tag">demo tag</option>
+                                                                                                            <option value="tag">tag</option>
+                                                                                                        </select><div class="chosen-container chosen-container-single" style="width: 100%;" title="" id="tag_chosen"><a class="chosen-single" tabindex="-1"><span>Select Tag</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+                                                    </div>
+                                                    <a href="#" class="btn btn-primary btn-xs pull-right mb-4" data-toggle="modal" data-target="#add_tag"><i class="ri-add-line"></i> Add Tag</a>
+                                                </div>
+                                               
+                                            </div>
+                                            <div class="row ">
+                                                <div class="form-group">
+                                                    <label>Description</label>
+                                                    <textarea rows="2" class="form-control summernote" placeholder="Enter your message here" name="edit_task_description" style="display: none;"></textarea><div class="note-editor note-frame panel"><div class="note-dropzone">  <div class="note-dropzone-message"></div></div><div class="note-toolbar-wrapper panel-default"><div class="note-toolbar panel-heading"><div class="note-btn-group btn-group note-style"><div class="note-btn-group btn-group"><button type="button" class="note-btn btn btn-default btn-sm dropdown-toggle" tabindex="-1" data-toggle="dropdown"><i class="note-icon-magic"></i> <span class="note-icon-caret"></span></button><div class="dropdown-menu dropdown-style"><li><a href="#" data-value="p"><p>Normal</p></a></li><li><a href="#" data-value="blockquote"><blockquote>Quote</blockquote></a></li><li><a href="#" data-value="pre"><pre>Code</pre></a></li><li><a href="#" data-value="h1"><h1>Header 1</h1></a></li><li><a href="#" data-value="h2"><h2>Header 2</h2></a></li><li><a href="#" data-value="h3"><h3>Header 3</h3></a></li><li><a href="#" data-value="h4"><h4>Header 4</h4></a></li><li><a href="#" data-value="h5"><h5>Header 5</h5></a></li><li><a href="#" data-value="h6"><h6>Header 6</h6></a></li></div></div></div><div class="note-btn-group btn-group note-font"><button type="button" class="note-btn btn btn-default btn-sm note-btn-bold" tabindex="-1"><i class="note-icon-bold"></i></button><button type="button" class="note-btn btn btn-default btn-sm note-btn-underline" tabindex="-1"><i class="note-icon-underline"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-eraser"></i></button></div><div class="note-btn-group btn-group note-fontname"><div class="note-btn-group btn-group"><button type="button" class="note-btn btn btn-default btn-sm dropdown-toggle" tabindex="-1" data-toggle="dropdown"><span class="note-current-fontname" style="font-family: Inter;">Inter</span> <span class="note-icon-caret"></span></button><div class="dropdown-menu note-check dropdown-fontname"><li><a href="#" data-value="Arial"><i class="note-icon-menu-check"></i> <span style="font-family: 'Arial'">Arial</span></a></li><li><a href="#" data-value="Courier New"><i class="note-icon-menu-check"></i> <span style="font-family: 'Courier New'">Courier New</span></a></li><li><a href="#" data-value="Helvetica"><i class="note-icon-menu-check"></i> <span style="font-family: 'Helvetica'">Helvetica</span></a></li><li><a href="#" data-value="Inter" class="checked"><i class="note-icon-menu-check"></i> <span style="font-family: 'Inter'">Inter</span></a></li></div></div></div><div class="note-btn-group btn-group note-color"><div class="note-btn-group btn-group note-color"><button type="button" class="note-btn btn btn-default btn-sm note-current-color-button" tabindex="-1" data-backcolor="#FFFF00"><i class="note-icon-font note-recent-color" style="background-color: rgb(255, 255, 0);"></i></button><button type="button" class="note-btn btn btn-default btn-sm dropdown-toggle" tabindex="-1" data-toggle="dropdown"> <span class="note-icon-caret"></span></button><div class="dropdown-menu"><div class="note-palette">  <div class="note-palette-title">Background Color</div>  <div>    <button type="button" class="note-color-reset btn btn-light" data-event="backColor" data-value="inherit">Transparent    </button>  </div>  <div class="note-holder" data-event="backColor"><div class="note-color-palette"><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#000000" data-event="backColor" data-value="#000000" title="#000000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#424242" data-event="backColor" data-value="#424242" title="#424242" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#636363" data-event="backColor" data-value="#636363" title="#636363" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9C9C94" data-event="backColor" data-value="#9C9C94" title="#9C9C94" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEC6CE" data-event="backColor" data-value="#CEC6CE" title="#CEC6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#EFEFEF" data-event="backColor" data-value="#EFEFEF" title="#EFEFEF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#F7F7F7" data-event="backColor" data-value="#F7F7F7" title="#F7F7F7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFFFFF" data-event="backColor" data-value="#FFFFFF" title="#FFFFFF" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#FF0000" data-event="backColor" data-value="#FF0000" title="#FF0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FF9C00" data-event="backColor" data-value="#FF9C00" title="#FF9C00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFFF00" data-event="backColor" data-value="#FFFF00" title="#FFFF00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#00FF00" data-event="backColor" data-value="#00FF00" title="#00FF00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#00FFFF" data-event="backColor" data-value="#00FFFF" title="#00FFFF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#0000FF" data-event="backColor" data-value="#0000FF" title="#0000FF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9C00FF" data-event="backColor" data-value="#9C00FF" title="#9C00FF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FF00FF" data-event="backColor" data-value="#FF00FF" title="#FF00FF" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#F7C6CE" data-event="backColor" data-value="#F7C6CE" title="#F7C6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFE7CE" data-event="backColor" data-value="#FFE7CE" title="#FFE7CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFEFC6" data-event="backColor" data-value="#FFEFC6" title="#FFEFC6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6EFD6" data-event="backColor" data-value="#D6EFD6" title="#D6EFD6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEDEE7" data-event="backColor" data-value="#CEDEE7" title="#CEDEE7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEE7F7" data-event="backColor" data-value="#CEE7F7" title="#CEE7F7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6D6E7" data-event="backColor" data-value="#D6D6E7" title="#D6D6E7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#E7D6DE" data-event="backColor" data-value="#E7D6DE" title="#E7D6DE" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#E79C9C" data-event="backColor" data-value="#E79C9C" title="#E79C9C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFC69C" data-event="backColor" data-value="#FFC69C" title="#FFC69C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFE79C" data-event="backColor" data-value="#FFE79C" title="#FFE79C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B5D6A5" data-event="backColor" data-value="#B5D6A5" title="#B5D6A5" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#A5C6CE" data-event="backColor" data-value="#A5C6CE" title="#A5C6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9CC6EF" data-event="backColor" data-value="#9CC6EF" title="#9CC6EF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B5A5D6" data-event="backColor" data-value="#B5A5D6" title="#B5A5D6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6A5BD" data-event="backColor" data-value="#D6A5BD" title="#D6A5BD" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#E76363" data-event="backColor" data-value="#E76363" title="#E76363" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#F7AD6B" data-event="backColor" data-value="#F7AD6B" title="#F7AD6B" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFD663" data-event="backColor" data-value="#FFD663" title="#FFD663" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#94BD7B" data-event="backColor" data-value="#94BD7B" title="#94BD7B" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#73A5AD" data-event="backColor" data-value="#73A5AD" title="#73A5AD" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#6BADDE" data-event="backColor" data-value="#6BADDE" title="#6BADDE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#8C7BC6" data-event="backColor" data-value="#8C7BC6" title="#8C7BC6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#C67BA5" data-event="backColor" data-value="#C67BA5" title="#C67BA5" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#CE0000" data-event="backColor" data-value="#CE0000" title="#CE0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#E79439" data-event="backColor" data-value="#E79439" title="#E79439" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#EFC631" data-event="backColor" data-value="#EFC631" title="#EFC631" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#6BA54A" data-event="backColor" data-value="#6BA54A" title="#6BA54A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#4A7B8C" data-event="backColor" data-value="#4A7B8C" title="#4A7B8C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#3984C6" data-event="backColor" data-value="#3984C6" title="#3984C6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#634AA5" data-event="backColor" data-value="#634AA5" title="#634AA5" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#A54A7B" data-event="backColor" data-value="#A54A7B" title="#A54A7B" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#9C0000" data-event="backColor" data-value="#9C0000" title="#9C0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B56308" data-event="backColor" data-value="#B56308" title="#B56308" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#BD9400" data-event="backColor" data-value="#BD9400" title="#BD9400" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#397B21" data-event="backColor" data-value="#397B21" title="#397B21" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#104A5A" data-event="backColor" data-value="#104A5A" title="#104A5A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#085294" data-event="backColor" data-value="#085294" title="#085294" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#311873" data-event="backColor" data-value="#311873" title="#311873" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#731842" data-event="backColor" data-value="#731842" title="#731842" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#630000" data-event="backColor" data-value="#630000" title="#630000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#7B3900" data-event="backColor" data-value="#7B3900" title="#7B3900" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#846300" data-event="backColor" data-value="#846300" title="#846300" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#295218" data-event="backColor" data-value="#295218" title="#295218" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#083139" data-event="backColor" data-value="#083139" title="#083139" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#003163" data-event="backColor" data-value="#003163" title="#003163" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#21104A" data-event="backColor" data-value="#21104A" title="#21104A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#4A1031" data-event="backColor" data-value="#4A1031" title="#4A1031" data-toggle="button" tabindex="-1"></button></div></div></div></div><div class="note-palette">  <div class="note-palette-title">Foreground Color</div>  <div>    <button type="button" class="note-color-reset btn btn-light" data-event="removeFormat" data-value="foreColor">Reset to default    </button>  </div>  <div class="note-holder" data-event="foreColor"><div class="note-color-palette"><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#000000" data-event="foreColor" data-value="#000000" title="#000000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#424242" data-event="foreColor" data-value="#424242" title="#424242" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#636363" data-event="foreColor" data-value="#636363" title="#636363" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9C9C94" data-event="foreColor" data-value="#9C9C94" title="#9C9C94" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEC6CE" data-event="foreColor" data-value="#CEC6CE" title="#CEC6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#EFEFEF" data-event="foreColor" data-value="#EFEFEF" title="#EFEFEF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#F7F7F7" data-event="foreColor" data-value="#F7F7F7" title="#F7F7F7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFFFFF" data-event="foreColor" data-value="#FFFFFF" title="#FFFFFF" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#FF0000" data-event="foreColor" data-value="#FF0000" title="#FF0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FF9C00" data-event="foreColor" data-value="#FF9C00" title="#FF9C00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFFF00" data-event="foreColor" data-value="#FFFF00" title="#FFFF00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#00FF00" data-event="foreColor" data-value="#00FF00" title="#00FF00" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#00FFFF" data-event="foreColor" data-value="#00FFFF" title="#00FFFF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#0000FF" data-event="foreColor" data-value="#0000FF" title="#0000FF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9C00FF" data-event="foreColor" data-value="#9C00FF" title="#9C00FF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FF00FF" data-event="foreColor" data-value="#FF00FF" title="#FF00FF" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#F7C6CE" data-event="foreColor" data-value="#F7C6CE" title="#F7C6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFE7CE" data-event="foreColor" data-value="#FFE7CE" title="#FFE7CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFEFC6" data-event="foreColor" data-value="#FFEFC6" title="#FFEFC6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6EFD6" data-event="foreColor" data-value="#D6EFD6" title="#D6EFD6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEDEE7" data-event="foreColor" data-value="#CEDEE7" title="#CEDEE7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#CEE7F7" data-event="foreColor" data-value="#CEE7F7" title="#CEE7F7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6D6E7" data-event="foreColor" data-value="#D6D6E7" title="#D6D6E7" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#E7D6DE" data-event="foreColor" data-value="#E7D6DE" title="#E7D6DE" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#E79C9C" data-event="foreColor" data-value="#E79C9C" title="#E79C9C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFC69C" data-event="foreColor" data-value="#FFC69C" title="#FFC69C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFE79C" data-event="foreColor" data-value="#FFE79C" title="#FFE79C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B5D6A5" data-event="foreColor" data-value="#B5D6A5" title="#B5D6A5" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#A5C6CE" data-event="foreColor" data-value="#A5C6CE" title="#A5C6CE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#9CC6EF" data-event="foreColor" data-value="#9CC6EF" title="#9CC6EF" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B5A5D6" data-event="foreColor" data-value="#B5A5D6" title="#B5A5D6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#D6A5BD" data-event="foreColor" data-value="#D6A5BD" title="#D6A5BD" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#E76363" data-event="foreColor" data-value="#E76363" title="#E76363" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#F7AD6B" data-event="foreColor" data-value="#F7AD6B" title="#F7AD6B" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#FFD663" data-event="foreColor" data-value="#FFD663" title="#FFD663" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#94BD7B" data-event="foreColor" data-value="#94BD7B" title="#94BD7B" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#73A5AD" data-event="foreColor" data-value="#73A5AD" title="#73A5AD" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#6BADDE" data-event="foreColor" data-value="#6BADDE" title="#6BADDE" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#8C7BC6" data-event="foreColor" data-value="#8C7BC6" title="#8C7BC6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#C67BA5" data-event="foreColor" data-value="#C67BA5" title="#C67BA5" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#CE0000" data-event="foreColor" data-value="#CE0000" title="#CE0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#E79439" data-event="foreColor" data-value="#E79439" title="#E79439" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#EFC631" data-event="foreColor" data-value="#EFC631" title="#EFC631" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#6BA54A" data-event="foreColor" data-value="#6BA54A" title="#6BA54A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#4A7B8C" data-event="foreColor" data-value="#4A7B8C" title="#4A7B8C" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#3984C6" data-event="foreColor" data-value="#3984C6" title="#3984C6" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#634AA5" data-event="foreColor" data-value="#634AA5" title="#634AA5" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#A54A7B" data-event="foreColor" data-value="#A54A7B" title="#A54A7B" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#9C0000" data-event="foreColor" data-value="#9C0000" title="#9C0000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#B56308" data-event="foreColor" data-value="#B56308" title="#B56308" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#BD9400" data-event="foreColor" data-value="#BD9400" title="#BD9400" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#397B21" data-event="foreColor" data-value="#397B21" title="#397B21" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#104A5A" data-event="foreColor" data-value="#104A5A" title="#104A5A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#085294" data-event="foreColor" data-value="#085294" title="#085294" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#311873" data-event="foreColor" data-value="#311873" title="#311873" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#731842" data-event="foreColor" data-value="#731842" title="#731842" data-toggle="button" tabindex="-1"></button></div><div class="note-color-row"><button type="button" class="note-color-btn" style="background-color:#630000" data-event="foreColor" data-value="#630000" title="#630000" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#7B3900" data-event="foreColor" data-value="#7B3900" title="#7B3900" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#846300" data-event="foreColor" data-value="#846300" title="#846300" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#295218" data-event="foreColor" data-value="#295218" title="#295218" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#083139" data-event="foreColor" data-value="#083139" title="#083139" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#003163" data-event="foreColor" data-value="#003163" title="#003163" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#21104A" data-event="foreColor" data-value="#21104A" title="#21104A" data-toggle="button" tabindex="-1"></button><button type="button" class="note-color-btn" style="background-color:#4A1031" data-event="foreColor" data-value="#4A1031" title="#4A1031" data-toggle="button" tabindex="-1"></button></div></div></div></div></div></div></div><div class="note-btn-group btn-group note-para"><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-unorderedlist"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-orderedlist"></i></button><div class="note-btn-group btn-group"><button type="button" class="note-btn btn btn-default btn-sm dropdown-toggle" tabindex="-1" data-toggle="dropdown"><i class="note-icon-align-left"></i> <span class="note-icon-caret"></span></button><div class="dropdown-menu"><div class="note-btn-group btn-group note-align"><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-left"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-center"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-right"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-justify"></i></button></div><div class="note-btn-group btn-group note-list"><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-outdent"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-align-indent"></i></button></div></div></div></div><div class="note-btn-group btn-group note-table"><div class="note-btn-group btn-group"><button type="button" class="note-btn btn btn-default btn-sm dropdown-toggle" tabindex="-1" data-toggle="dropdown"><i class="note-icon-table"></i> <span class="note-icon-caret"></span></button><div class="dropdown-menu note-table"><div class="note-dimension-picker">  <div class="note-dimension-picker-mousecatcher" data-event="insertTable" data-value="1x1" style="width: 10em; height: 10em;"></div>  <div class="note-dimension-picker-highlighted"></div>  <div class="note-dimension-picker-unhighlighted"></div></div><div class="note-dimension-display">1 x 1</div></div></div></div><div class="note-btn-group btn-group note-insert"><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-link"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-picture"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-video"></i></button></div><div class="note-btn-group btn-group note-view"><button type="button" class="note-btn btn btn-default btn-sm btn-fullscreen" tabindex="-1"><i class="note-icon-arrows-alt"></i></button><button type="button" class="note-btn btn btn-default btn-sm btn-codeview" tabindex="-1"><i class="note-icon-code"></i></button><button type="button" class="note-btn btn btn-default btn-sm" tabindex="-1"><i class="note-icon-question"></i></button></div></div></div><div class="note-editing-area"><div class="note-handle"><div class="note-control-selection"><div class="note-control-selection-bg"></div><div class="note-control-holder note-control-nw"></div><div class="note-control-holder note-control-ne"></div><div class="note-control-holder note-control-sw"></div><div class="note-control-sizing note-control-se"></div><div class="note-control-selection-info"></div></div></div><textarea class="note-codable"></textarea><div class="note-editable" contenteditable="true"><p><br></p></div></div><div class="note-statusbar">  <div class="note-resizebar">    <div class="note-icon-bar"></div>    <div class="note-icon-bar"></div>    <div class="note-icon-bar"></div>  </div></div></div>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-sm-6 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Attach Files</label>
+                                                        <input class="form-control" type="file" name="files[]" multiple="">
+                                                        <div class="text-danger text-left field-error" id="label_files"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 mt-15">
+                                                <div class="text-right">
+                                                           <span>Add to Archive List</span> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="i-checks" name="is_archived" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> 
+                                                        </div>
+                                                <div class="text-right mt-15">
+                                                           <span>Add to Agile Board</span> <div class="icheckbox_square-green checked" style="position: relative;"><input checked="" type="checkbox" class="i-checks" name="add_to_board" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> 
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                                                        </div>
+                                    </div>
+                                                            <div role="tabpanel" id="edit-tab-2" class="tab-pane">
+                                        <div class="panel-body">
+                                            <div class="table-responsive">
+                                                <table class="table table task-checklist">
+            
+                                                    <tbody>
+                                                                                                                                                <tr>
+                                                            <td>
+                                                                <p class="parent-category"><div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="check-all" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                                    <span>PHP Code</span></p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="1" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>All functions have comments</span>
+                                                                </p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="2" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>All comments are strictly PHPDoc format</span>
+                                                                </p>
+                                                                                                                </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                    <tr>
+                                                            <td>
+                                                                <p class="parent-category"><div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="check-all" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                                    <span>HTML Code</span></p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="3" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>All code indentations are validated</span>
+                                                                </p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="4" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>No repeating IDs in a page</span>
+                                                                </p>
+                                                                                                                </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                    <tr>
+                                                            <td>
+                                                                <p class="parent-category"><div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" class="check-all" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                                    <span>Going Live</span></p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="5" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>Remove the maintenance message</span>
+                                                                </p>
+                                                                                                                    <p class="child-category">
+                                                                    <div class="icheckbox_square-green" style="position: relative;"><input value="6" type="checkbox" class="i-checks" name="checklists[]" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <span>Make sure error reporting is turned off</span>
+                                                                </p>
+                                                                                                                </td>
+                                                        </tr>
+                                                                                                                                            </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                        </div>
+                            </div>
+            
+                            <div class="submit-section mt20">
+                                <button class="btn btn-primary submit-btn update-task" data-reload="false">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div></div>
+            <!-- /Edit task Modal -->
+            <!-- Create Task Modal -->
+            <div id="add_tag" class="modal custom-modal fade" role="dialog" >
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title text-center">Add New Tag</h4>
+                     </div>
+                     <div class="modal-body">
+                        <form action="https://demo.thecoherence.app/task-tags" id="add_tag_form" method="POST" autocomplete="off">
+                           <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">                    
+                           <div class="row">
+                              <div class="col-sm-6 col-md-6">
+                                 <div class="form-group">
+                                    <label>Title <span class="required-label">*</span></label>
+                                    <input class="form-control" type="text" name="title" id="title">
+                                    <div class="text-danger text-left field-error" id="label_title"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="submit-section mt20">
+                              <button class="btn btn-primary submit-btn create-tag">Submit</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div>
+            <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+         </div>
+      </div>
+      <div class="floatingButtonWrap">
+         <div class="floatingButtonInner">
+            <a href="#" class="floatingButton">
+            <i class="epms-icon--1x ri-add-line"></i>
+            </a>
+            <ul class="floatingMenu">
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+               </li>
+               <li>
+                  <a href="https://app.gitbook.com/" target="_blank">Gitbook</a>
+               </li>
+               <li>
+                  <a href="/tasks/251" target="_blank">Task 1</a>
+               </li>
+               <li>
+                  <a href="/tasks/252" target="_blank">Demo project2 task 1</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add New</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="K8yrKQLcSUTtC2BUF5ajMevz25Qm2ncqRgu0lFnv">                    
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <label>Link <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="link" id="link" value="">
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary add-to-easy-access">Save</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/iCheck/icheck.min.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/iCheck/custom.css" rel="stylesheet">
+<script src="https://demo.thecoherence.app/js/jquery.mask.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/tasks/script-min.js"></script>
+</body>
+</html>

@@ -5,6 +5,10 @@ body.mini-navbar {
         min-width: 200px;
       }
     }
+    .toggle-nav-user{
+      transform: rotate(180deg);
+      transition: all 0.5s;
+    }
   }
   ul.nav.nav-second-level {
     position: absolute;
@@ -273,4 +277,10 @@ a.navbar-minimalize.toggle-nav-user {
   top: 17px;
   right: -14px;
   z-index: 1;
+}
+body.mini-navbar{
+  .toggle-nav-user{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+  }
 }
