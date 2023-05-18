@@ -169,8 +169,8 @@ fieldset[disabled] .btn-info:hover,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info.active {
-    background-color: #26d7d9;
-    border-color: #26d7d9;
+    background-color: var(--c-beer);
+    border-color: var(--c-beer);
 }
 
 .btn-default {
