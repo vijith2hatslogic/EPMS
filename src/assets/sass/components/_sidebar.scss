@@ -23,11 +23,10 @@ body.mini-navbar {
     font-size: 12px;
     min-width: 200px;
     box-shadow: 10px 0 16px -5px rgb(191 190 190 / 50%);
-    a {
-      padding: 7px 10px 7px 52px;
-    }
+   
     li {
       a {
+          padding: 7px 10px 7px 52px;
         &:before {
           left: 1.5rem;
         }
@@ -142,9 +141,13 @@ body.mini-navbar .nav-header {
           i {
             color: var(--c-white);
           }
-          .arrow {
-            margin-right: -13px;
-          }
+          
+        }
+      }
+      & > a{
+        padding: 8px 20px 8px 25px;
+        .arrow {
+          margin-right: -13px;
         }
       }
       & + li {
