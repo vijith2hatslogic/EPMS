@@ -1,8 +1,12 @@
 body.mini-navbar {
   .metismenu {
     .nav-second-level {
+      border: 1px solid rgba(191, 190, 190, 0.4);
+      border-left: 0;
+      border-radius: 0px 5px 5px 0px!important;
       &.collapsing {
         min-width: 200px;
+        box-shadow: 10px 0 16px -5px rgb(191 190 190 / 50%);
       }
     }
     .toggle-nav-user{
@@ -18,7 +22,7 @@ body.mini-navbar {
     padding: 0px 10px 0px 10px;
     font-size: 12px;
     min-width: 200px;
-    box-shadow: inset 10px 0 16px -15px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 0 16px -5px rgb(191 190 190 / 50%);
     a {
       padding: 7px 10px 7px 52px;
     }
@@ -33,7 +37,7 @@ body.mini-navbar {
   ul.nav.nav-second-level.collapse.in {
     background: var(--c-white);
     min-width: 200px !important;
-    box-shadow: inset 10px 0 16px -15px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 0 16px -5px rgb(191 190 190 / 50%);
   }
 
   .nav-header {
@@ -128,7 +132,7 @@ body.mini-navbar .nav-header {
 
   ul.metismenu {
     & > li {
-      max-width: calc(100% - 10px);
+      max-width: calc(100% - 5px);
       &.active {
         & > a {
           background: var(--c-secondary);
