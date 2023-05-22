@@ -52,7 +52,7 @@
                     </ul>
                 </li>
                 <li class="">
-                    <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i
+                    <a href="gantt.html" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i
                             class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
                 </li>
                 <li class="">
@@ -12072,6 +12072,23 @@
             }
         });
     }
+
+    $(document).ready(function(){
+        if ($.cookie('mini-navbar') == "yes") {
+            $("body").addClass("mini-navbar");
+        }
+
+        $(".navbar-minimalize").click(function () {
+            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "no") {
+                $.cookie('mini-navbar','yes');
+                $("body").addClass("mini-navbar");
+            }
+            else {
+                $.cookie('mini-navbar','no');
+                $("body").removeClass("mini-navbar");
+            }
+        }); 
+    });
 </script>
 </body>
 

@@ -826,7 +826,7 @@
                                  <td class="w-250">
                                     <div class="task-name">
                                        <div>
-                                          <a href="https://demo.thecoherence.app/gantt-project-task/52">Demo project 2</a>
+                                          <a href="gantt-project.html">Demo project 2</a>
                                        </div>
                                        <div class="icon-container">
                                           <span class="edit-i">
@@ -1033,7 +1033,7 @@
                                  <td class="w-250">
                                     <div class="task-name">
                                        <div>
-                                          <a href="https://demo.thecoherence.app/gantt-project-task/45">Resmi Created Project</a>
+                                          <a href="gantt-project.html">Resmi Created Project</a>
                                        </div>
                                        <div class="icon-container">
                                           <span class="edit-i">
@@ -1319,6 +1319,7 @@
 <script src="https://demo.thecoherence.app/js/plugins/typehead/bootstrap3-typeahead.min.js"></script>
 <script src="https://demo.thecoherence.app/js/jquery.mask.min.js"></script>
 <script src="https://demo.thecoherence.app/js/resources/projects/script-min.js"></script>
+
 <script>
    $(document).ready(function () {
       $('.mainrow').each(function () {
@@ -1330,6 +1331,31 @@
       });
       var tdWidth = $(".month-graph-table thead th").width();
       console.log(tdWidth)
+
+      // if(localStorage.getItem('toggleClass') != 'mini-navbar'){
+      //     $('body').addClass("mini-navbar")
+      // }else{
+        
+      //    $('body').removeClass("mini-navbar")
+      // }
+      // $(".navbar-minimalize").click(function(){
+
+      //       currentClass = $('body').attr("class");
+
+      //       if (currentClass == 'mini-navbar')
+      //          newClass = 'mini-navbar';
+      //       else newClass = ' pace-done';
+
+      //       $('body').removeClass().addClass(newClass);
+
+      //       Cookies.set('mini-navbar', newClass);
+
+      //       });
+      //             if(Cookies.get('mini-navbar')) {
+
+      //       $('body').removeClass().addClass( $.cookie('mini-navbar') );
+
+      //    };
    
    });
    
@@ -1338,6 +1364,38 @@
       $("#project-leftbar" + id).toggleClass('active-row');
       $("#project-rightbar" + id).toggleClass('active-row');
    }
+   // $(".navbar-minimalize").on("click", function (){
+   //       localStorage.setItem('toggleClass','mini-navbar')
+   // });
+   
+</script>
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script> -->
+<script>
+    $(document).ready(function(){
+        // Check (onLoad) if the cookie is there and set the class if it is
+        if ($.cookie('mini-navbar') == "yes") {
+            $("body").addClass("mini-navbar");
+        }
+
+        // When the span is clicked
+        $(".navbar-minimalize").click(function () {
+            // Check the current cookie value
+            // If the cookie is empty or set to no, then add highcontrast
+            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "no") {
+                // Set cookie value to yes
+                $.cookie('mini-navbar','yes', {expires: 7, path: '/'});
+                // Add the class to the body
+                $("body").addClass("mini-navbar");
+            }
+            // If the cookie was already set to yes then remove it
+            else {
+                $.cookie('mini-navbar','no',  {expires: 7, path: '/'});
+                $("body").removeClass("mini-navbar");
+            }
+        }); 
+    });
 </script>
 </body>
 </html>
