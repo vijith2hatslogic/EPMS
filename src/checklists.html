@@ -1,718 +1,654 @@
 <partial src="head.html" title="Homepage"></partial>
-
 <div id="wrapper">
-    <!-- --------------------side nav -start- --------------------------------->
+<!-- --------------------side nav -start- --------------------------------->
 <nav class="navbar-default navbar-static-side" role="navigation">
-<div class="sidebar-collapse">
-    <ul class="nav metismenu" id="side-menu">
-        <li class="nav-header">
-            <div class="dropdown profile-element">
-                <span><img id="header_pic" alt="image" class="img-circle" src="https://epms.2hatslogic.com/storage/userimage/YplDEm37bOCwUEkQ4XZWxu0Kg8XgK0AwxuI0qpMv.jpeg" style="width: 50px" /></span>
-                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                    <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Saniya Claudia</strong>
-                        </span> <span class="text-muted text-xs block">Junior Front End Developer <b class="caret"></b></span> </span>
-                </a>
-                <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                    <li><a href="https://epms.2hatslogic.com/profile">Profile</a></li>
-                    <li><a href="https://epms.2hatslogic.com/change-password">Change Password</a></li>
-                    <li><a href="https://epms.2hatslogic.com/logout">Logout</a></li>
-                </ul>
+   <a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+   <i class="fa fa-angle-left"></i> 
+   </a>
+   <div class="sidebar-collapse">
+      <ul class="nav metismenu" id="side-menu">
+         <li class="nav-header">
+            <div class="profile-element">
+               <span class="avatar">
+               <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" style="width: 50px" />
+               </span>
+               <span class="user-basic">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                  <span class="clear"> 
+                  <span class="block"> <strong class="font-bold">Admin </strong>
+                  </span> 
+                  <span class="small text-muted text-xs block desc">Web Developer </span>
+                  </a>
+                  </span>
             </div>
             <!-- mobile view -->
-            <div class="logo-element"><a href="https://epms.2hatslogic.com"><img src="https://epms.2hatslogic.com/images/logo-icon.png" alt="logo" style="width: 50%"></a></div>
-        </li>
-                    <li class="">
-            <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> </span></a>
-        </li>
-                                <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
+            <div class="logo-element">
+            <a href="https://demo.thecoherence.app/profile">
+            <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" />
+            </a>
+            </div>
+         </li>
+         <li class="">
+         <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="ri-dashboard-line"></i><span class="nav-label">Dashboard</span> </span></a>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-folder-3-line"></i><span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/projects" data-toggle="tooltip" data-placement="right" title="Active Projects">
-                        Active Projects
-                    </a>
-                </li>
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/archived-projects" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
-                       Archived Projects
-                    </a>
-                </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/projects" data-toggle="tooltip" data-placement="right" title="Active Projects">
+                  Active Projects
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/archived-projects" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                  Archived Projects
+                  </a>
+               </li>
             </ul>
-        </li>
-        
-                                <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
+         </li>
+         <li class="">
+            <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-file-2-line"></i><span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
-                                    <li class=""><a href="https://epms.2hatslogic.com/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
-                                </ul>
-        </li>
-                    
-                    <li class="active">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="fa fa-list" aria-hidden="true"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
-            <ul class="nav nav-second-level collapse">
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
-                        Checklists
-                    </a>
-                </li>
-                <li class="active"><a href="https://epms.2hatslogic.com/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
-                <li class=""><a href="https://epms.2hatslogic.com/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/tasks" data-toggle="tooltip" data-placement="right" title="Active Tasks">
+                  Active Tasks
+                  </a>
+               </li>
+               <li class=""><a href="https://demo.thecoherence.app/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/archived-tasks" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                  Archived Tasks
+                  </a>
+               </li>
             </ul>
-        </li>
-        
-                    <li class="">
-            <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="fa fa-clock-o" aria-hidden="true"></i> <span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+         </li>
+         <li class="active">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="ri-list-check-3"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
             <ul class="nav nav-second-level collapse">
-                                    <li class="">
-                    <a href="https://epms.2hatslogic.com/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
-                </li>
-                                                    </ul>
-        </li>
-        
-                    <li class="">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
+                  Checklists
+                  </a>
+               </li>
+               <li class="active"><a href="https://demo.thecoherence.app/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="ri-time-line"></i><span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/my-timesheet" data-toggle="tooltip" data-placement="right" title="Timesheet"> My Timesheet</a>
+               </li>
+               <li class="">
+                  <a href="/get-timesheets" data-toggle="tooltip" data-placement="right" title="timesheets"><span class="nav-label">Timesheets</span> </span></a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
-                <i class="fa fa-wrench"></i> <span class="nav-label">Tools</span>
-                <span class="fa arrow"></span>
+            <i class="ri-tools-line"></i><span class="nav-label">Tools</span>
+            <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
-                        Work Notes
-                    </a>
-                </li>
-                                       
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
-                    </a>
-                </li>
-                                                                            <li class="">
-                    <a href="https://epms.2hatslogic.com/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
-                    </a>
-                </li>
-                                      
-             <li class="">
-                  <a href="https://epms.2hatslogic.com/qa-feedback" data-toggle="tooltip" data-placement="right" title="QA Feedback"> QA Feedback
-                   </a>
-             </li>
-                                    <li class="">
-                    <a href="https://epms.2hatslogic.com/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
-                    </a>
-                </li>
-                 
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/email-signature" data-toggle="tooltip" data-placement="right" title="Email Signature" target="_blank"> Email Signature
-                    </a>
-                </li>
-                                     
-                <li class="">
-                    <a href="https://epms.2hatslogic.com/guidelines" data-toggle="tooltip" data-placement="right" title="Guidelines"> Guidelines
-                    </a>
-                </li>
-                                </ul>
-        </li>
-        
-        
-        
-                                <li class="" >
-            <a href="https://epms.2hatslogic.com/payslip"><i class="fa fa-money"></i> <span class="nav-label">Payslip</span></a>
-        </li>
-        
-        
-                    <li class="">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
+                  Work Notes
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/credentials" data-toggle="tooltip" data-placement="right" title="Project Credentials"> Project Credentials
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/email-signature" data-toggle="tooltip" data-placement="right" title="Email Signature" target="_blank"> Email Signature
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/guidelines" data-toggle="tooltip" data-placement="right" title="Guidelines"> Guidelines
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Report"><i class="fa fa-files-o" aria-hidden="true"></i> <span class="nav-label">Reports</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class=""><a href="https://demo.thecoherence.app/report/performance" data-toggle="tooltip" data-placement="right" title="Employee Performance Report">Performance</a></li>
+               <li class="">
+                  <a href="#" data-toggle="tooltip" data-placement="right" title="Task Bounce"> Task Bounce <span class="fa arrow"></span></a>
+                  <ul class="nav nav-second-level collapse">
+                     <li class=""><a href="https://demo.thecoherence.app/task-bounce-list">List</a></li>
+                     <li class=""><a href="https://demo.thecoherence.app/task-bounce-report">Report</a></li>
+                  </ul>
+               </li>
+               <li class=""><a href="https://demo.thecoherence.app/daily-status-report" data-toggle="tooltip" data-placement="right" title="Employee Daily Status Report">Daily Status Report</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/report/employee-leave-report" data-toggle="tooltip" data-placement="right" title="Employee Leave Report">Employee Leave Report</a></li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Billing"><i class="ri-currency-line"></i><span class="nav-label"> Billing</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class=""><a href="/monthly-bill/">Monthly Bill</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/manage-billable-hours">Manage Billable Hours</a></li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/client-sheet" data-toggle="tooltip" data-placement="right" title="Client Timesheet">Client Timesheet</a>
+               </li>
+               <li class=""><a href="https://demo.thecoherence.app/invoicing">Invoicing</a></li>
+            </ul>
+         </li>
+         <li class="" >
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Billing"><i class="ri-cash-line"></i> <span class="nav-label"> Payroll</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class=""><a href="https://demo.thecoherence.app/payroll">Manage Payroll</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/salary-component" data-toggle="tooltip" data-placement="right" title="Salary Components">Salary Components</a></li>
+            </ul>
+         </li>
+         <li class="" >
+            <a href="https://demo.thecoherence.app/payslip"><i class="ri-cash-line"></i> <span class="nav-label">Payslip</span></a>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Users">
+            <i class="ri-group-line"></i> <span class="nav-label">Users</span>
+            <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level collapse">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/users" data-toggle="tooltip" data-placement="right" title="Users">
+                  <span class="nav-label">Users</span>
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/clients" data-toggle="tooltip" data-placement="right" title="Clients">
+                  <span class="nav-label">Clients</span>
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
-                <i class="fa fa-life-ring" aria-hidden="true"></i>
-                <span class="nav-label">Miscellaneous</span>
-                <span class="fa arrow"></span>
+            <i class="ri-function-line"></i>
+            <span class="nav-label">Miscellaneous</span>
+            <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
-                                    <li class="">
-                    <a href="https://epms.2hatslogic.com/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
-                        Holidays
-                    </a>
-                </li>
-                                                        <li class="">
-                    <a href="https://epms.2hatslogic.com/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
-                        Newsletters
-                    </a>
-                </li>
-                                                                        </ul>
-        </li>
-        
-                                   
-        <li class="">
+               <li class="">
+                  <a href="https://demo.thecoherence.app/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
+                  Holidays
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
+                  Newsletters
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/alerts" data-toggle="tooltip" data-placement="right" title="Manage Popup Alerts">
+                  Manage Popup Alerts
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/recruitments" data-toggle="tooltip" data-placement="right" title="Recruitments">
+                  Recruitments
+                  </a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/recruitment-schedules" data-toggle="tooltip" data-placement="right" title="Recruitment Schedules">
+                  Recruitment Schedules
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
             <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
-                <i class="fa fa-medkit"></i> <span class="nav-label">Leaves</span>
-                <span class="fa arrow"></span>
+            <i class="ri-file-add-line"></i> <span class="nav-label">Leaves</span>
+            <span class="fa arrow"></span>
             </a>
             <ul class="nav nav-second-level collapse">
-                                    <li class=""><a href=""> Apply</a>
-                    <ul class="nav nav-third-level">
-                        <li class="">
-                            <a href="https://epms.2hatslogic.com/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
-                                Apply Leave
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="https://epms.2hatslogic.com/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
-                                Apply Compensatory Off
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                                                    </ul>
-        </li>
-                    
-                    
-
-                    
-                </ul>
-</div>
+               <li class="">
+                  <a href=""> Apply</a>
+                  <ul class="nav nav-third-level">
+                     <li class="">
+                        <a href="https://demo.thecoherence.app/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
+                        Apply Leave
+                        </a>
+                     </li>
+                     <li class="">
+                        <a href="https://demo.thecoherence.app/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
+                        Apply Compensatory Off
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/pending-leave-applications" data-toggle="tooltip" data-placement="right" title="Pending Applications">Pending Applications</a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/previous-leave-applications" data-toggle="tooltip" data-placement="right" title="Approved Applications">Approved Applications</a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/assign-leave" data-toggle="tooltip" data-placement="right" title="Assign Leave">Assign Leave</a>
+               </li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/compensatory-applications" data-toggle="tooltip" data-placement="right" title="Compensatory Applications">Compensatory Applications</a>
+               </li>
+            </ul>
+         </li>
+         <li class="">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Settings"><i class="ri-settings-5-line"></i> <span class="nav-label">Settings</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+               <li class=""><a href="https://demo.thecoherence.app/company-info" data-toggle="tooltip" data-placement="right" title="Overheads">Company Information</a></li>
+               <li class="">
+                  <a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads">Overheads & Expenses</a>
+                  <ul class="nav nav-third-level">
+                     <li class=""><a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads & Expenses">Manage Expenses</a></li>
+                     <li class=""><a href="https://demo.thecoherence.app/fixed-overhead" data-toggle="tooltip" data-placement="right" title="Manage Overheads"> Fixed Overheads</a></li>
+                  </ul>
+               </li>
+               <li class=""><a href="https://demo.thecoherence.app/user-access-levels" data-toggle="tooltip" data-placement="right" title="User Access Levels">User Access Levels</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/session-types" data-toggle="tooltip" data-placement="right" title="Session Types">Session Types</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/base-currency" data-toggle="tooltip" data-placement="right" title="Base Currency">Base Currency</a></li>
+               <li class=""><a href="https://demo.thecoherence.app/reports-settings" data-toggle="tooltip" data-placement="right" title="Report Settings">Report Settings</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
 </nav>
 <!-- end -->
-    <div id="page-wrapper" class="gray-bg">
-        <div class="row border-bottom">
-            <script src="https://epms.2hatslogic.com/js/all.js"></script>
-<script src="https://epms.2hatslogic.com/js/resources/partials/task-script.min.js"></script>  
-
-<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-
-<div class="navbar-header">
-    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary toggle-nav-user" href="#"><i
-            class="fa fa-bars"></i> </a>
-    <b style="font-size: 22px;font-weight: 700;padding-left: 12px ;margin: 14px 5px 5px 20px;float: left;">2Hats
-        Logic</b>
-</div>
-
-        <ul class="nav navbar-top-links navbar-right">
-        <li class="g-search-li">
-            <div class="inner-addon right-addon" style="width:500px">
-                <i class="fa fa-search"></i>
-                <i class="fa fa-spinner fa-lg" style="display: none"></i>
-                <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"
-                    style="height: 40px;" name="q" id="gSearch" class="form-control global-search-box">
+<div id="page-wrapper" class="gray-bg">
+   <div class="row border-bottom">
+      <script src="https://demo.thecoherence.app/js/all.js"></script>
+      <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>  
+      <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+         <div class="row align-items-center position-relative">
+            <div class="col-lg-8">
+               <div class="header-left">
+                  <div class="">
+                     <a href="/dashboard" class="brand">
+                     <img src="https://demo.thecoherence.app/storage/companylogo/3Zbn9VTi6f3ndiZzJTWFctiAo2rvBfBZGLYP7eff.png" alt="logo">
+                     </a>
+                  </div>
+                  <div class="">
+                     <div class="g-search-item pull-right">
+                        <div class="inner-addon right-addon">
+                           <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                           <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                           <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"  name="q" id="gSearch" class="form-control global-search-box">
+                        </div>
+                     </div>
+                     <div id="globalSearchResultWrapper" class="global-search"></div>
+                  </div>
+               </div>
             </div>
-        </li>
-                    <li>
-            <a href="https://epms.2hatslogic.com/logout">
-                <i class="fa fa-sign-out"></i> Log out
+            <div class="col-lg-4">
+               <ul class="navbar-controls">
+                  <li>
+                     <a href="https://demo.thecoherence.app/profile">
+                     <i class="ri-user-line epms-icon epms-icon--1x"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://demo.thecoherence.app/change-password">
+                     <i class="ri-settings-5-line epms-icon epms-icon--1x"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://demo.thecoherence.app/logout">
+                     <i class="ri-logout-circle-r-line epms-icon epms-icon--1x"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="ibox-content breadcrumbs-outer-div">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://demo.thecoherence.app">Dashboard</a></li>
+            <li class="breadcrumb-item active">Manage Checklists</li>
+         </ol>
+         <button id="pause-task" class=" hidden"><i class="ri-pause-line"></i></button>
+      </div>
+      <!-- Create Task Modal -->
+      <div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                     class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add EOD Report</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="qbi9xaxsHobMQeEeKi8sefblH62QFF8qlDcP0moI">                    <input type="hidden" name="added_on" value="2023-05-22">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="form-group">
+                              <label>What did you do today? <span class="required-label">*</span></label>
+                              <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                 name="todays_task" id="todays_task"></textarea>
+                              <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                           </div>
+                           <div class="form-group">
+                              <label>Are there any obstacles hindering your progress? <span
+                                 class="required-label">*</span></label>
+                              <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                 name="impediments"></textarea>
+                              <div class="text-danger text-left field-error" id="label_impediments"></div>
+                           </div>
+                           <div class="form-group">
+                              <label>Do you have any plans for tomorrow? </label>
+                              <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                 name="tommorows_task"></textarea>
+                              <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="submit-section mt20">
+                        <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="wrapper wrapper-content page-wrapper ">
+      <div class="row">
+         <div class="col-md-8 p-l-r-0">
+            <strong>
+               <h3 class="page-title" style="font-size: 25px">Manage Checklists</h3>
+            </strong>
+         </div>
+         <div class="col-md-4 text-right float-right ml-auto m-b-30">
+            <a href="#" class="btn btn-w-m btn-success add_item_category" data-toggle="modal" data-target="#add_item_category"><i class="ri-add-line"></i> Add Category</a>
+            <a href="/employee-checklist" class="btn btn-w-m btn-success"><i class="ri-eye-fill"></i> Employees Checklist</a>                   
+         </div>
+      </div>
+      <div class="list animated fadeInUp">
+         <div class="row">
+            <div class="col-md-6">
+                <div class="ibox float-e-margins">
+                   <div class="ibox-title">
+                      <h5>test</h5>
+                      <div class="ibox-tools">
+                         <i class="fa fa-share-alt share-with" style="padding-right: 10px;" data-toggle="modal" data-target="#share_with" data-id="28"></i>				<i class="ri-add-line add_item" style="padding-right: 10px;" data-toggle="modal" data-target="#add_item" data-item-id="28"></i>
+                         <i class="ri-pencil-line edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="28" data-title="test"></i>
+                         <i class="ri-delete-bin-line delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="28"></i>
+                         <a class="collapse-link-user"><i class="fa fa-chevron-down"></i></a>
+                      </div>
+                   </div>
+                   <div class="ibox-content no-padding" style="display: none;">
+                      <table class="table table-responsive">
+                         <tbody>
+                            <tr>
+                               <td>test</td>
+                               <td class="text-right">
+                                  <i class="ri-pencil-line edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="29" data-title="test"></i>
+                                  <i class="ri-delete-bin-line delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="29"></i>
+                               </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </div>
+                </div>
+             </div>
+         </div>
+      </div>
+      <div id="share_with" class="modal custom-modal fade" role="dialog">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Share This Checklist With</h4>
+               </div>
+               <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" value="" id="list_id" name="list-id">
+                        <select class="chosen-select" multiple id="data" name="users[]">
+                           <option value="20">Abini Subramanian</option>
+                           <option value="22">Abini three</option>
+                           <option value="21">Abini 2 2</option>
+                           <option value="30">Accountant User Accountant</option>
+                           <option value="3">Admin </option>
+                           <option value="2">Alexane Bashirian Cormier</option>
+                           <option value="28">Aneesh Sreedharan</option>
+                           <option value="8">Charlie Huels Nienow</option>
+                           <option value="25">Client one</option>
+                           <option value="23">Dev3 three</option>
+                           <option value="13">Developer test</option>
+                           <option value="16">Developer 2 two</option>
+                           <option value="1">Dr. Vallie Bins McGlynn</option>
+                           <option value="7">Durward Abernathy Walter</option>
+                           <option value="5">Eryn Crist Erdman</option>
+                           <option value="4">Jimmie Von Langosh</option>
+                           <option value="9">Johathan Terry II Buckridge</option>
+                           <option value="18">Jone luca</option>
+                           <option value="17">Luca jone</option>
+                           <option value="27">Malu krishna</option>
+                           <option value="26">Margnet joe</option>
+                           <option value="10">Miss Antonetta Robel Huel</option>
+                           <option value="11">Ms. Margarete Schneider I Harber</option>
+                           <option value="12">Parker Jones Emmerich</option>
+                           <option value="6">Prince Feeney Lueilwitz</option>
+                           <option value="14">QA ONE</option>
+                           <option value="15">QA TWO</option>
+                           <option value="29">Rohith K</option>
+                           <option value="24">Test client</option>
+                           <option value="19">Test QA QA</option>
+                        </select>
+                    </div>
+                     <div class="text-danger text-left field-error" id="label_share_users"></div>
+                     <div class="submit-section text-right">
+                        <button class="btn btn-primary submit-btn share">Share</button>
+                     </div>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="add_item" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add Item</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/checklists" id="add_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="qbi9xaxsHobMQeEeKi8sefblH62QFF8qlDcP0moI">                    
+                     <div class="row append-new-items">
+                        <div class="row" style="padding-top:10px;">
+                           <div class="col-sm-10 col-md-11">
+                              <div class="input-group">
+                                 <input type="text" class="form-control" type="text" name="title" id="title">
+                                 <span class="input-group-btn"><button type="button" class="btn btn-primary ">&nbsp;&nbsp;</button></span>
+                              </div>
+                           </div>
+                           <div class="col-sm-2 col-md-1">
+                              <button class="btn btn-success btn-circle btn-sm add-btn-items" type="button"><i class="ri-add-line"></i>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="text-danger text-left field-error" id="label_title"></div>
+                     </div>
+                     <input type="hidden" id="item_id" value="" name="item_id"> 
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary create-item">Add</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="add_item_category" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add Checklist</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/checklists" id="add_form_list" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="qbi9xaxsHobMQeEeKi8sefblH62QFF8qlDcP0moI">                    
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <label>Title <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="title" id="title">
+                              <div class="text-danger text-left field-error" id="label_list_title"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="append-new">
+                        <div class="row" style="padding-top:10px;">
+                           <div class="col-sm-10 col-md-10">
+                              <div class="input-group">
+                                 <input type="text" class="form-control" type="text" name="items[]" id="item">
+                                 <span class="input-group-btn"><button type="button" class="btn btn-primary ">&nbsp;&nbsp;</button></span>
+                              </div>
+                           </div>
+                           <div class="col-sm-2 col-md-2">
+                              <button class="btn btn-success btn-circle btn-sm add-btn" type="button"><i class="ri-add-line"></i>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <input type="hidden" id="item_id" value="" name="item_id"> 
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary create-item-list">Add</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal custom-modal fade" id="delete_item" role="dialog">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Delete Item</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="form-header">
+                     <p>Are you sure want to delete?</p>
+                  </div>
+                  <div class="modal-btn delete-action">
+                     <div class="row" style="padding-top: 10px">
+                        <input type="hidden" id="delete_item_id" value="">
+                        <div class="col-sm-6">
+                           <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                           <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="edit_item" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Edit Item</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="" id="edit_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="qbi9xaxsHobMQeEeKi8sefblH62QFF8qlDcP0moI">                    <input type="hidden" name="_method" value="PATCH">                    
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label>Title <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="edit_title" id="edit_title">
+                              <div class="text-danger text-left field-error" id="label_edit_title"></div>
+                           </div>
+                           <input type="hidden" id="edit_item_id" value="">      
+                        <div class="submit-section mt20">
+                           <button class="btn btn-primary update-item" type="submit">Update</button>
+                        </div>
+                        </div>
+                        
+                  </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div>
+            <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+         </div>
+      </div>
+      <div class="floatingButtonWrap">
+         <div class="floatingButtonInner">
+            <a href="#" class="floatingButton">
+            <i class="epms-icon--1x ri-add-line"></i>
             </a>
-        </li>
-    </ul>
-    <div id="globalSearchResultWrapper" class="global-search"></div>
-</nav>
-
-<div class="ibox-content breadcrumbs-outer-div">
-<ol class="breadcrumb">
-    
-                        <li class="breadcrumb-item"><a href="https://epms.2hatslogic.com">Dashboard</a></li>
-        
-    
-                        <li class="breadcrumb-item active">Manage Checklists</li>
-        
-        </ol>
-
-
-<button id="pause-task" class=" "><i class="fa-pause fa"></i></button>
-
-</div>
-
-<!-- Create Task Modal -->
-<div id="add_eod_report" class="modal custom-modal fade" role="dialog">
-<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-                    class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Add EOD Report</h4>
-        </div>
-        <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <input type="hidden" name="added_on" value="2023-04-28">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>What did you do today? <span class="required-label">*</span></label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="todays_task" id="todays_task"></textarea>
-                            <div class="text-danger text-left field-error" id="label_todays_task"></div>
+            <ul class="floatingMenu">
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+               </li>
+               <li>
+                  <a href="https://app.gitbook.com/" target="_blank">Gitbook</a>
+               </li>
+               <li>
+                  <a href="/tasks/252" target="_blank">Demo project2 task 1</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title text-center">Add New</h4>
+               </div>
+               <div class="modal-body">
+                  <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
+                     <input type="hidden" name="_token" value="qbi9xaxsHobMQeEeKi8sefblH62QFF8qlDcP0moI">                    
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <label>Link <span class="required-label">*</span></label>
+                              <input class="form-control" type="text" name="link" id="link" value="">
+                           </div>
                         </div>
-
-                        <div class="form-group">
-                            <label>Are there any obstacles hindering your progress? <span
-                                    class="required-label">*</span></label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="impediments"></textarea>
-                            <div class="text-danger text-left field-error" id="label_impediments"></div>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Do you have any plans for tomorrow? </label>
-                            <textarea rows="4" class="form-control" placeholder="Enter your reply here"
-                                name="tommorows_task"></textarea>
-                            <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="submit-section mt20">
-                    <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-</div>            </div>
-        <div class="wrapper wrapper-content page-wrapper ">
-            
-<div class="row">
-<div class="col-md-8">
-    <strong>
-        <h3 class="page-title" style="font-size: 25px">Manage Checklists</h3>
-    </strong>
-</div>
- <div class="col-md-4 text-right float-right ml-auto m-b-30">
-    <a href="#" class="btn btn-w-m btn-success add_item_category" data-toggle="modal" data-target="#add_item_category"><i class="fa fa-plus"></i> Add Category</a>
-                      
-</div>
-</div>
-
-<div class="list animated fadeInUp">
-<div class="col-md-6">
-<div class="ibox float-e-margins">
-    <div class="ibox-title">
-        <h5>Checklist Group 1</h5>
-        <div class="ibox-tools">
-                            <i class="fa fa-plus add_item" style="padding-right: 10px;" data-toggle="modal" data-target="#add_item" data-item-id="341"></i>
-
-            <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="341" data-title="Checklist Group 1"></i>
-
-            <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="341"></i>
-            <a class="collapse-link-user"><i class="fa fa-chevron-down"></i></a>
-        </div>
-    </div>
-    <div class="ibox-content no-padding" style="display: none;">
-         <table class="table table-responsive">
-             <tbody>
-                                  <tr>
-                    <td>checklist 1</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="342" data-title="checklist 1"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="342"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>checklist 2</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="343" data-title="checklist 2"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="343"></i>
-                    </td>
-                </tr>
-                            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="ibox float-e-margins">
-    <div class="ibox-title">
-        <h5>Check List Group 2</h5>
-        <div class="ibox-tools">
-                            <i class="fa fa-plus add_item" style="padding-right: 10px;" data-toggle="modal" data-target="#add_item" data-item-id="344"></i>
-
-            <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="344" data-title="Check List Group 2"></i>
-
-            <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="344"></i>
-            <a class="collapse-link-user"><i class="fa fa-chevron-down"></i></a>
-        </div>
-    </div>
-    <div class="ibox-content no-padding" style="display: none;">
-         <table class="table table-responsive">
-             <tbody>
-                                  <tr>
-                    <td>list 1</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="345" data-title="list 1"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="345"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>list 2</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="346" data-title="list 2"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="346"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>list 3</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="347" data-title="list 3"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="347"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>list 4</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="348" data-title="list 4"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="348"></i>
-                    </td>
-                </tr>
-                            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="ibox float-e-margins">
-    <div class="ibox-title">
-        <h5>Checklist Group 3</h5>
-        <div class="ibox-tools">
-                            <i class="fa fa-plus add_item" style="padding-right: 10px;" data-toggle="modal" data-target="#add_item" data-item-id="349"></i>
-
-            <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="349" data-title="Checklist Group 3"></i>
-
-            <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="349"></i>
-            <a class="collapse-link-user"><i class="fa fa-chevron-down"></i></a>
-        </div>
-    </div>
-    <div class="ibox-content no-padding" style="display: none;">
-         <table class="table table-responsive">
-             <tbody>
-                                  <tr>
-                    <td>item 1</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="350" data-title="item 1"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="350"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>item 2</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="351" data-title="item 2"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="351"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>item 3</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="352" data-title="item 3"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="352"></i>
-                    </td>
-                </tr>
-                                 <tr>
-                    <td>item 4</td>
-                    <td class="text-right">
-                        <i class="fa fa-pencil edit-button" style="padding-right: 10px;" data-toggle="modal" data-target="#edit_item" data-id="353" data-title="item 4"></i>
-
-                        <i class="fa fa-trash delete_item_onclick" data-toggle="modal" data-target="#delete_item" data-id="353"></i>
-                    </td>
-                </tr>
-                            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-
-
-</div>
-
-<div id="share_with" class="modal custom-modal animated pulse" role="dialog">
-<div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-        <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title text-center">Share This Checklist With</h4>
-    </div>
-        <div class="modal-body">
-            <div class="modal-body">
-                <input type="hidden" value="" id="list_id" name="list-id">
-                <select class="chosen-select" multiple id="data" name="users[]">
-                                            <option value="10">Abin John</option>
-                                            <option value="122">Ajosh J</option>
-                                            <option value="138">Akash Prakash</option>
-                                            <option value="139">Amu Roy</option>
-                                            <option value="25">Aneesh Sreedharan</option>
-                                            <option value="87">Anil Vadakkan</option>
-                                            <option value="80">Anish Rajendran</option>
-                                            <option value="124">Anjana Satheesan</option>
-                                            <option value="129">Asha Krishna</option>
-                                            <option value="86">Aswin Ghosh</option>
-                                            <option value="112">Aswin Krishna</option>
-                                            <option value="97">Avinash A Nair </option>
-                                            <option value="52">Francesco Rametta</option>
-                                            <option value="83">Francis Sebin Fernandez</option>
-                                            <option value="127">Geo F Eluvathingal</option>
-                                            <option value="96">Grisel George</option>
-                                            <option value="106">Haripriya TH</option>
-                                            <option value="43">Hiren Patel</option>
-                                            <option value="17">Indy Vijayakumar</option>
-                                            <option value="120">Jibin Raju</option>
-                                            <option value="100">Jinu Varghese</option>
-                                            <option value="4">Jipto Saji</option>
-                                            <option value="93">Jiya EJ</option>
-                                            <option value="137">Jyothy KA</option>
-                                            <option value="91">Lijin MU</option>
-                                            <option value="28">Midhun Raj</option>
-                                            <option value="15">Minumon Lukose</option>
-                                            <option value="33">Nithin Wilson</option>
-                                            <option value="20">Nithya Sangeeth</option>
-                                            <option value="22">Radhu Manyath</option>
-                                            <option value="105">Ragi KG</option>
-                                            <option value="110">Rajula K</option>
-                                            <option value="117">Ranjith Jose</option>
-                                            <option value="121">Resmi Jose</option>
-                                            <option value="135">Rohith K</option>
-                                            <option value="132">Roshni M</option>
-                                            <option value="94">Sabin Sunny</option>
-                                            <option value="9">Saniya Claudia</option>
-                                            <option value="136">Sanoop R</option>
-                                            <option value="30">Shabeer M</option>
-                                            <option value="98">Shilpa Mathew</option>
-                                            <option value="7">Shinu K Narayanan</option>
-                                            <option value="29">Sideeque M</option>
-                                            <option value="130">Sincy KR</option>
-                                            <option value="128">Sreejith AC</option>
-                                            <option value="111">Stephen R</option>
-                                            <option value="125">Treasa Antony Thoppil</option>
-                                            <option value="113">Vaishnav AV</option>
-                                            <option value="88">Vijith Pangath</option>
-                                        </select>
-                <div class="text-danger text-left field-error" id="label_share_users"></div>
+                     </div>
+                  </form>
+                  <div class="submit-section mt20">
+                     <button class="btn btn-primary add-to-easy-access">Save</button>
+                  </div>
+               </div>
             </div>
-            <div class="submit-section text-right">
-                <button class="btn btn-primary submit-btn share">Share</button>
-            </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
 </div>
-</div><div id="add_item" class="modal custom-modal fade" role="dialog" >
-<div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Add Item</h4>
-        </div>
-        <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/checklists" id="add_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <div class="row append-new-items">
-                     <div class="row" style="padding-top:10px;">
-                        <div class="col-sm-10 col-md-10">
-                            <div class="input-group">
-                                <input type="text" class="form-control" type="text" name="title" id="title">
-                                <span class="input-group-btn"><button type="button" class="btn btn-primary ">&nbsp;&nbsp;</button></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-2 col-md-2">
-                            <button class="btn btn-success btn-circle btn-sm add-btn-items" type="button"><i class="fa fa-plus"></i>
-
-                        </button>
-                        </div>
-
-                    </div>
-                    <div class="text-danger text-left field-error" id="label_title"></div>
-                </div>
-                <input type="hidden" id="item_id" value="" name="item_id"> 
-            </form>
-            
-                <div class="submit-section mt20">
-                    <button class="btn btn-primary create-item">Add</button>
-                </div>
-        </div>
-    </div>
-</div>
-</div><div id="add_item_category" class="modal custom-modal fade" role="dialog" >
-<div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Add Checklist</h4>
-        </div>
-        <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/checklists" id="add_form_list" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="form-group">
-                            <label>Title <span class="required-label">*</span></label>
-                            <input class="form-control" type="text" name="title" id="title">
-                            <div class="text-danger text-left field-error" id="label_list_title"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="append-new">
-                    <div class="row" style="padding-top:10px;">
-                        <div class="col-sm-10 col-md-10">
-                            <div class="input-group">
-                                <input type="text" class="form-control" type="text" name="items[]" id="item">
-                                <span class="input-group-btn"><button type="button" class="btn btn-primary ">&nbsp;&nbsp;</button></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-2 col-md-2">
-                            <button class="btn btn-success btn-circle btn-sm add-btn" type="button"><i class="fa fa-plus"></i>
-
-                        </button>
-                        </div>
-                    </div>
-                </div>
-                <input type="hidden" id="item_id" value="" name="item_id"> 
-            </form>
-            
-                <div class="submit-section mt20">
-                    <button class="btn btn-primary create-item-list">Add</button>
-                </div>
-        </div>
-    </div>
-</div>
-</div><div class="modal custom-modal fade" id="delete_item" role="dialog">
-<div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Delete Item</h4>
-        </div>
-        <div class="modal-body">
-            <div class="form-header">
-                <p>Are you sure want to delete?</p>
-            </div>
-            <div class="modal-btn delete-action">
-                <div class="row" style="padding-top: 10px">
-                    <input type="hidden" id="delete_item_id" value="">
-                    <div class="col-sm-6">
-                        <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
-                    </div>
-                    <div class="col-sm-6 text-right">
-                        <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div><div id="edit_item" class="modal custom-modal fade" role="dialog" >
-<div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Edit Item</h4>
-        </div>
-        <div class="modal-body">
-            <form action="" id="edit_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <input type="hidden" name="_method" value="PATCH">                    <div class="row">
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label>Title <span class="required-label">*</span></label>
-                            <input class="form-control" type="text" name="edit_title" id="edit_title">
-                            <div class="text-danger text-left field-error" id="label_edit_title"></div>
-                        </div>
-                    </div>
-                <input type="hidden" id="edit_item_id" value="">      
-                <div class="submit-section mt20">
-                    <button class="btn btn-primary update-item" type="submit">Update</button>
-                </div>
-            </form>
-            
-        </div>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="footer">
-<div>
-    <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
-</div>
-</div>
-
-<div class="floatingButtonWrap">
-<div class="floatingButtonInner">
-    <a href="#" class="floatingButton">
-        <i class="fa fa-plus icon-default"></i>
-    </a>
-    <ul class="floatingMenu">
-        <li>
-            <a href="http://epms.2hatslogic.com/tasks/10749" target="_blank">Current Task</a>
-        </li>
-        
-
-                </ul>
-</div>
-</div>
-    <!-- Creates the bootstrap modal where the image will appear -->
-
-
-<div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
-<div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title text-center">Add New</h4>
-        </div>
-        <div class="modal-body">
-            <form action="https://epms.2hatslogic.com/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
-                <input type="hidden" name="_token" value="uFiFIQ01T8ECbEFfXecMjqhXahvXuOvt1DqTwlP6">                    <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="form-group">
-                            <label>Link <span class="required-label">*</span></label>
-                            <input class="form-control" type="text" name="link" id="link" value="">
-                        </div>
-                    </div>
-                </div>
-            </form>
-            
-                <div class="submit-section mt20">
-                    <button class="btn btn-primary add-to-easy-access">Save</button>
-                </div>
-        </div>
-    </div>
-</div>
-</div>
-    </div>
-</div>
-
-<script src="https://epms.2hatslogic.com/js/plugins/datapicker/bootstrap-datepicker.js"></script>
-<script src="https://epms.2hatslogic.com/js/plugins/daterangepicker/daterangepicker.js"></script>
-<script src="https://epms.2hatslogic.com/js/bootstrap-datetimepicker.min.js"></script>
-<script src="https://epms.2hatslogic.com/js/resources/partials/script.min.js"></script>
-<script src="https://epms.2hatslogic.com/js/plugins/summer-note-removes-script-tag/note.js"></script>
-
-<script type="text/javascript">
-
-     if($('#wishmodal').length){
-
-        $(window).on('load',function(){
-            $('#wishmodal').modal('show');
-            setTimeout(function() {
-                if($('.modal-content-type').attr('data-id') == 'Wish'){
-                    $('#wishmodal').fireworks();
-                }
-                if($('.modal-content-type').attr('data-file_type') == 'Video'){
-                    $("#video_btn").trigger('click');
-                }
-            });
-        });
-
-        $('#wishmodal').on('hidden.bs.modal', function (e) {
-            e.preventDefault();
-            var editUrl = '/user-wish-notified';
-            $.ajax({
-                type: 'GET',
-                url: editUrl,
-                data: {},
-                success: function(data) {
-                }
-            });
-        });
-
-    }
-</script>
-
-
-<script src="https://epms.2hatslogic.com/js/resources/checklists/manage-checklist/script-min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/checklists/manage-checklist/script-min.js"></script>
+</body>
+</html>
