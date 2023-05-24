@@ -12,6 +12,7 @@ body.mini-navbar {
     .toggle-nav-user{
       transform: rotate(180deg);
       transition: all 0.5s;
+
     }
   }
   ul.nav.nav-second-level {
@@ -289,6 +290,10 @@ a.navbar-minimalize.toggle-nav-user {
   &:hover{
     padding-right: 30px;
   }
+
+  @include mobile-lg(){
+    display: none;
+   }
 }
 body.mini-navbar{
   .toggle-nav-user{

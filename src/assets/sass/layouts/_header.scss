@@ -2,7 +2,7 @@
 .navbar-static-top {
   background: var(--c-white);
   height: 62px;
-  padding: 7px 24px;
+  padding: 8px 24px;
 
   .header-left {
     @include flex(center, space-between);
