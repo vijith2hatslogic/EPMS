@@ -1373,29 +1373,24 @@
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script> -->
 <script>
-    $(document).ready(function(){
-        // Check (onLoad) if the cookie is there and set the class if it is
+  $(document).ready(function(){
         if ($.cookie('mini-navbar') == "yes") {
-            $("body").addClass("mini-navbar");
+            $("body").removeClass("mini-navbar");
         }
 
-        // When the span is clicked
         $(".navbar-minimalize").click(function () {
-            // Check the current cookie value
-            // If the cookie is empty or set to no, then add highcontrast
-            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "no") {
-                // Set cookie value to yes
-                $.cookie('mini-navbar','yes', {expires: 7, path: '/'});
-                // Add the class to the body
-                $("body").addClass("mini-navbar");
-            }
-            // If the cookie was already set to yes then remove it
-            else {
-                $.cookie('mini-navbar','no',  {expires: 7, path: '/'});
+            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "yes") {
+                $.cookie('mini-navbar','yes');
                 $("body").removeClass("mini-navbar");
+            }
+            else {
+                $.cookie('mini-navbar','no');
+                $("body").addClass("mini-navbar");
             }
         }); 
     });
+
+
 </script>
 </body>
 </html>

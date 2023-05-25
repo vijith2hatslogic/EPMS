@@ -12075,20 +12075,27 @@
 
     $(document).ready(function(){
         if ($.cookie('mini-navbar') == "yes") {
-            $("body").addClass("mini-navbar");
+            $("body").removeClass("mini-navbar");
         }
 
         $(".navbar-minimalize").click(function () {
-            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "no") {
+            if ($.cookie('mini-navbar') == "undefined" || $.cookie('mini-navbar') == "yes") {
                 $.cookie('mini-navbar','yes');
-                $("body").addClass("mini-navbar");
+                $("body").removeClass("mini-navbar");
             }
             else {
                 $.cookie('mini-navbar','no');
-                $("body").removeClass("mini-navbar");
+                $("body").addClass("mini-navbar");
             }
         }); 
     });
+
+    $(window).on('resize', function() {
+        if($(window).width() < 800) {
+            $('boddy').addClass('mini-navbar hwle');
+
+        }
+        })
 </script>
 </body>
 
