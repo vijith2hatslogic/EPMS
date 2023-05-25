@@ -1,5 +1,9 @@
 .gantt-page {
-
+    @include tablet-lg() {
+        .col-md-3{
+            width: 50%;
+        }
+    }
 
     table {
 
@@ -62,6 +66,11 @@
     }
 
     .widget {
+        @include desktop-xs() {
+            span{
+                font-size: 12px;
+            }
+        }
         .small {
             color: var(--c-white);
         }
@@ -78,7 +87,11 @@
     }
 
 }
-
+// @media only screen and (min-width:991px) and (max-width:1300px){
+//     .gantt-page .widget span{
+//         font-size: 12px;
+//     }
+// }
 
 
 
