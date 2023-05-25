@@ -1,3 +1,10 @@
 .badge {
     min-width: rem(56);
 }
+
+
+.label-primary,
+.badge-primary {
+    background-color: var(--c-info);
+    color: #ffffff;
+}
