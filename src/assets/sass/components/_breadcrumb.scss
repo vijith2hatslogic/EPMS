@@ -4,22 +4,13 @@
   min-height: 35px;
   position: relative;
   @include flex(center, space-between);
+
   .breadcrumb {
     background: transparent;
   }
-  &.ibox-content {
-    padding: 8px 23px;
-  }
 
-  &::before {
-    content: "";
-    background-image: url("../img/edge-spape.svg");
-    width: 24px;
-    height: 20px;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 0px;
-    padding: 0;
-    top: 0;
+  &.ibox-content {
+    padding: 10px 23px;
+    box-shadow: none;
   }
 }

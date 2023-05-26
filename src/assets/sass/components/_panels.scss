@@ -1,6 +1,8 @@
 .panel{
     border: rem(1) solid var(--c-gray-4);
-    border-radius:rem(8);
+    border-radius: rem(8);
+    // box-shadow: 0px 4px 50px rgb(0 0 0 / 10%);
+
     &.panel-primary{
         .panel-heading{
             padding: rem(13) rem(15);
@@ -26,5 +28,11 @@
                 color: var(--c-primary);
             }
         }
+    }
+}
+
+.panel-group{
+    .panel{
+        border-radius: rem(8);
     }
 }

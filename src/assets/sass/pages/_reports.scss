@@ -1,3 +1,11 @@
 #leave-report-filter-form div#month_chosen {
     width: 100% !important;
 }
+
+.checklist-group{
+    display: flex;
+    flex-wrap: wrap;
+    .ibox{
+        margin-bottom: 15px;
+    }
+}

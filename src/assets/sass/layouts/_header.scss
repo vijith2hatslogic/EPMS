@@ -61,3 +61,11 @@
 ul.nav.navbar-top-links.navbar-right {
   padding: 0;
 }
+
+
+.top-header{
+  background-color: var(--c-white);
+  .breadcrumbs-outer-div{
+    border-top-left-radius: 15px;
+  }
+}
