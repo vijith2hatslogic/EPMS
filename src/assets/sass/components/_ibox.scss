@@ -1,8 +1,12 @@
 .ibox-content{
     border: 0;
     padding: 15px 23px;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .ibox-title{
     border: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
