@@ -229,14 +229,15 @@ body.mini-navbar {
         &>a {
           background: transparent;
           opacity: 1;
+          color: var(--c-secondary);
         }
       }
 
-      &:hover {
-        a {
-          color: var(--c-gray-1);
-        }
-      }
+      // &:hover {
+      //   a {
+      //     color: var(--c-gray-1);
+      //   }
+      // }
 
       a {
         opacity: 0.75;
