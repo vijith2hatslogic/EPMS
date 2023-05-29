@@ -8,7 +8,20 @@
 }
 
 table {
+
   &.invoice-list td a {
     margin: 0.15rem 0;
   }
+  &.dataTableProductive {
+    td {
+      button {
+        float: right;
+      }
+    }
+  }
+}
+
+
+div#leave_list table th:last-child {
+    width: 110px !important;
 }
