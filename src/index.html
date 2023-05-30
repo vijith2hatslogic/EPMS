@@ -448,30 +448,26 @@
       <div class="row border-bottom top-header">
         <script src="https://demo.thecoherence.app/js/all.js"></script>
         <script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>
+        
+        
         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-          <div class="row align-items-center position-relative">
-            <div class="col-lg-8">
-              <div class="header-left">
-                <div class="">
-                  <a href="/dashboard" class="brand">
-                    <img src="https://demo.thecoherence.app/images/default-logo.png" alt="logo">
-                  </a>
-
-                </div>
-                <div class="">
-                  <div class="g-search-item pull-right">
-                    <div class="inner-addon right-addon">
-                      <i class="ri-search-line epms-icon epms-icon--1x"></i>
-                      <i class="fa fa-spinner fa-lg" style="display: none"></i>
-
-                      <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text" name="q" id="gSearch" class="form-control global-search-box">
-                    </div>
-                  </div>
-                  <div id="globalSearchResultWrapper" class="global-search"></div>
-                </div>
-              </div>
+          <div class="header-wrap row align-items-center position-relative">
+            <div class="header-left col-sm-2">
+              <a href="/dashboard" class="brand">
+                <img src="https://demo.thecoherence.app/images/default-logo.png" alt="logo">
+              </a>
             </div>
-            <div class="col-lg-4">
+            <div class="header-right col-sm-10">
+              <div class="search-wrap">
+                <div class="g-search-item pull-right">
+                  <div class="inner-addon right-addon">
+                    <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                    <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                    <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text" name="q" id="gSearch" class="form-control global-search-box">
+                  </div>
+                </div>
+                <div id="globalSearchResultWrapper" class="global-search"></div>
+              </div>
               <ul class="navbar-controls">
                 <li>
                   <a href="https://demo.thecoherence.app/profile">
@@ -495,6 +491,7 @@
             </div>
           </div>
         </nav>
+
         <div class="ibox-content breadcrumbs-outer-div">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">

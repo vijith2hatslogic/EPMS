@@ -7,39 +7,56 @@
   .header-left {
     @include flex(center, space-between);
   }
-  .g-search-item {
-    .inner-addon {
-      width: 416px;
-      input {
-        padding: 10px 15px;
-        border-radius: 4px;
-        height: 100%;
-        font-size: 13px;
-      }
-      .epms-icon {
-        top: 50%;
-        transform: translateY(-50%);
-        position: absolute;
-        padding: 13px;
-        right: 0;
-        pointer-events: none;
+
+  .header-right {
+    @include flex(center, flex-end);
+
+    .search-wrap {}
+
+    .g-search-item {
+      .inner-addon {
+        width: 416px;
+
+        input {
+          padding: 10px 15px;
+          border-radius: 4px;
+          height: 100%;
+          font-size: 13px;
+        }
+
+        .epms-icon {
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+          padding: 13px;
+          right: 0;
+          pointer-events: none;
+        }
       }
     }
-  }
 
-  ul.navbar-controls {
-    list-style: none;
-    align-items: center;
-    margin-bottom: 0;
-    justify-content: flex-end;
-    display: flex;
-    li {
-        a{
-            @include flex(center, center);
-            line-height: 46px;
+    ul.navbar-controls {
+      list-style: none;
+      align-items: center;
+      margin-bottom: 0;
+      display: flex;
+
+      li {
+        a {
+          @include flex(center, center);
+          line-height: 46px;
+
+          &:hover {
+            color: var(--c-secondary);
+            .epms-icon{
+              color: var(--c-secondary);
+            }
+          }
         }
-      & + li {
-        margin-left: 24px;
+
+        &+li {
+          margin-left: 24px;
+        }
       }
     }
   }
@@ -49,7 +66,7 @@
   margin-top: 0;
   float: right;
   min-height: 45px;
-  @include flex(center,flex-start);
+  @include flex(center, flex-start);
 
   img {
     width: 100%;
@@ -63,9 +80,10 @@ ul.nav.navbar-top-links.navbar-right {
 }
 
 
-.top-header{
+.top-header {
   background-color: var(--c-white);
-  .breadcrumbs-outer-div{
+
+  .breadcrumbs-outer-div {
     border-top-left-radius: 15px;
   }
 }
