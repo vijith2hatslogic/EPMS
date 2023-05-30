@@ -5,6 +5,12 @@ body.mini-navbar {
       border-left: 0;
       border-radius: 0px 5px 5px 0px !important;
 
+      li { 
+        ul.nav.nav-second-level{
+          left: 189px;
+        }
+      }
+
       &.collapsing {
         min-width: 200px;
         box-shadow: 10px 0 16px -5px rgb(191 190 190 / 50%);
@@ -72,6 +78,7 @@ body {
             border-radius: 0 2px 2px 0;
             min-width: 200px;
             height: auto;
+          
           }
         }
       }
@@ -233,11 +240,6 @@ body.mini-navbar {
         }
       }
 
-      // &:hover {
-      //   a {
-      //     color: var(--c-gray-1);
-      //   }
-      // }
 
       a {
         opacity: 0.75;
@@ -262,6 +264,8 @@ body.mini-navbar {
         }
       }
     }
+
+
   }
 
   .nav {
@@ -372,6 +376,7 @@ body {
         text-align: right;
       }
     }
+    
 
   }
 }
