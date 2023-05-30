@@ -67,6 +67,7 @@
 
     .widget {
         @include desktop-xs() {
+            padding: 15px 10px;
             span{
                 font-size: 12px;
             }
@@ -188,6 +189,7 @@
         padding: 5px;
         border-radius: 50%;
         visibility: hidden;
+        display: none;
     }
 
     .active-row {
@@ -196,6 +198,8 @@
 
     .icon-container {
         float: right;
+        display: flex;
+        gap: 10px;
     }
 
     td:hover .hover-icon {
@@ -228,7 +232,16 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        div{
+            &:first-child{
+                display: flex;
+                align-items: flex-start;
+                .collase-icon{
+                    padding-top: 2px;
+                    padding-left: 0px;
+                }
+            }
+        }
         .edit-task {
             margin-right: 10px;
         }
