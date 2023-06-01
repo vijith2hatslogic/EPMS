@@ -3,6 +3,11 @@
 }
 .swal2-container.swal2-center.swal2-backdrop-show{
     z-index: 2001;
+    transition: background-color .5s;
+    .swal2-show{
+        -webkit-animation:none;
+        animation: none;
+    }
 }
 
 .swal2-icon{

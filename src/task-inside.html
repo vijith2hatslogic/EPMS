@@ -1,0 +1,2318 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://demo.thecoherence.app/storage/companyfavicon/84WRIIMMcrZMqPloZR3xoyKuHveEGACaP2B6yBci.png?v=1685103676" rel="icon">
+    <style>
+    #wrapper{
+        animation: wrap-animate 1s; 
+    }
+    @keyframes  wrap-animate {
+        0% {
+            opacity: 0;
+            transform: translateY(25px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://demo.thecoherence.app/css/all.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="https://demo.thecoherence.app/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/plugins/chosen/bootstrap-chosen.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/style-custom.css" rel="stylesheet">
+
+    <link href="https://demo.thecoherence.app/css/plugins.min.css" rel="stylesheet">
+    <link href="https://demo.thecoherence.app/css/app.min.css" rel="stylesheet">
+
+        
+    <title>
+                Efficiency & Project Management System
+    </title>
+
+</head>
+<body class="mini-navbar">
+    <div id="wrapper">
+        <!-- --------------------side nav -start- --------------------------------->
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <a class="navbar-minimalize minimalize-styl-2 btn  toggle-nav-user" href="#">
+        <i class="fa fa-angle-left"></i> 
+    </a>
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="profile-element">
+                    <span class="avatar">
+                        <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg" style="width: 50px" />
+                    </span>
+                    <span class="user-basic">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> 
+                                <span class="block"> <strong class="font-bold">Admin </strong>
+                            </span> 
+                            <span class="small text-muted text-xs block desc">Web Developer </span>
+                        </a>
+                    </span>
+                </div>
+                <!-- mobile view -->
+                <div class="logo-element">
+                    <a href="https://demo.thecoherence.app/profile">
+                        <img id="header_pic" alt="image" class="img-circle" src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg" />
+                    </a>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/dashboard" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="ri-dashboard-line"></i><span class="nav-label">Dashboard</span> </span></a>
+            </li>
+                                    <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Projects"><i class="ri-folder-3-line"></i><span class="nav-label">Projects</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/projects" data-toggle="tooltip" data-placement="right" title="Active Projects">
+                            Active Projects
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/archived-projects" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                           Archived Projects
+                        </a>
+                    </li>
+                </ul>
+            </li>
+                                    <li class="">
+                <a href="/gantt" data-toggle="tooltip" data-placement="right" title="Gantt Chart"><i class="fa fa-th-large"></i> <span class="nav-label">Gantt Chart</span> </span></a>
+            </li>
+                                                <li class="active">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="My Task"><i class="ri-file-2-line"></i><span class="nav-label">Tasks</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/tasks" data-toggle="tooltip" data-placement="right" title="Active Tasks">
+                            Active Tasks
+                        </a>
+                    </li>
+                                        <li class=""><a href="https://demo.thecoherence.app/ongoing-tasks" data-toggle="tooltip" data-placement="right" title="Ongoing Tasks">My Ongoing Tasks</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/upcoming-tasks" data-toggle="tooltip" data-placement="right" title="Upcoming Tasks">My Upcoming Tasks</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/completed-tasks" data-toggle="tooltip" data-placement="right" title="Completed Tasks">My Completed Tasks</a></li>
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/archived-tasks" data-toggle="tooltip" data-placement="right" title="Archived Tasks">
+                            Archived Tasks
+                        </a>
+                    </li>
+                                    </ul>
+            </li>
+                        
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Checklists"><i class="ri-list-check-3"></i> <span class="nav-label">Checklists</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/use-checklists" data-toggle="tooltip" data-placement="right" title="Update Checklists">
+                            Checklists
+                        </a>
+                    </li>
+                    <li class=""><a href="https://demo.thecoherence.app/checklists" data-toggle="tooltip" data-placement="right" title="Manage Checklists">Manage Checklists</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/checklist-report" data-toggle="tooltip" data-placement="right" title="Daily checklist Reports">Reports</a></li>
+                </ul>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Timesheet"><i class="ri-time-line"></i><span class="nav-label"> Timesheets</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/my-timesheet" data-toggle="tooltip" data-placement="right" title="My Timesheet"> My Timesheet</a>
+                    </li>
+                                                            
+                    <li class="">
+                        <a href="/get-timesheets" data-toggle="tooltip" data-placement="right" title="timesheets">Timesheets</a>
+                    </li>
+                                    </ul>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Tools">
+                <i class="ri-tools-line"></i><span class="nav-label">Tools</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/work-notes" data-toggle="tooltip" data-placement="right" title="Work Notes">
+                            Work Notes
+                        </a>
+                    </li>
+                                           
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/issue-records" data-toggle="tooltip" data-placement="right" title="Issue Records">Issue Records
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/credentials" data-toggle="tooltip" data-placement="right" title="Project Credentials"> Project Credentials
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/my-credentials" data-toggle="tooltip" data-placement="right" title="My Credentials"> My Credentials
+                        </a>
+                    </li>
+                                          
+                 
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/easy-access" data-toggle="tooltip" data-placement="right" title="Easy Access"> Easy Access
+                        </a>
+                    </li>
+                     
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/email-signature" data-toggle="tooltip" data-placement="right" title="Email Signature" target="_blank"> Email Signature
+                        </a>
+                    </li>
+                                         
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/guidelines" data-toggle="tooltip" data-placement="right" title="Guidelines"> Guidelines
+                        </a>
+                    </li>
+                                    </ul>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Report"><i class="fa fa-files-o" aria-hidden="true"></i> <span class="nav-label">Reports</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                                        
+                    <li class=""><a href="https://demo.thecoherence.app/report/performance" data-toggle="tooltip" data-placement="right" title="Employee Performance Report">Performance</a></li>
+                                        <li class="">
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="Task Bounce"> Task Bounce <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class=""><a href="https://demo.thecoherence.app/task-bounce-list">List</a></li>
+                            <li class=""><a href="https://demo.thecoherence.app/task-bounce-report">Report</a></li>
+                        </ul>
+                    </li>
+                                                                                <li class=""><a href="https://demo.thecoherence.app/daily-status-report" data-toggle="tooltip" data-placement="right" title="Employee Daily Status Report">Daily Status Report</a></li>
+                                                            <li class=""><a href="https://demo.thecoherence.app/report/employee-leave-report" data-toggle="tooltip" data-placement="right" title="Employee Leave Report">Employee Leave Report</a></li>
+                                    </ul>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Billing"><i class="ri-bill-line"></i><span class="nav-label"> Billing</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li class=""><a href="/monthly-bill/">Monthly Bill</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/manage-billable-hours">Manage Billable Hours</a></li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/client-sheet" data-toggle="tooltip" data-placement="right" title="Client Timesheet">Client Timesheet</a>
+                    </li>
+                                        
+                    <li class=""><a href="https://demo.thecoherence.app/invoicing">Invoicing</a></li>
+                                    </ul>
+            </li>            
+            
+                        <li class="" >
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Payroll"><i class="ri-coins-line"></i> <span class="nav-label"> Payroll</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li class=""><a href="https://demo.thecoherence.app/payroll">Manage Payroll</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/salary-component" data-toggle="tooltip" data-placement="right" title="Salary Components">Salary Components</a></li>
+                </ul>
+            </li>
+                                    <li class="" >
+                <a href="https://demo.thecoherence.app/payslip" data-toggle="tooltip" data-placement="right" title="Payslip"><i class="ri-currency-line"></i> <span class="nav-label">Payslip</span></a>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Users">
+                <i class="ri-group-line"></i> <span class="nav-label">Users</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/users" data-toggle="tooltip" data-placement="right" title="Users">
+                        Users
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/clients" data-toggle="tooltip" data-placement="right" title="Clients">
+                        Clients
+                        </a>
+                    </li>
+                                    </ul>
+            </li>
+            
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Miscellaneous">
+                <i class="ri-function-line"></i>
+                    <span class="nav-label">Miscellaneous</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class="">
+                        <a href="https://demo.thecoherence.app/manage-holidays" data-toggle="tooltip" data-placement="right" title="Holidays">
+                            Holidays
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/newsletters" data-toggle="tooltip" data-placement="right" title="Newsletters">
+                            Newsletters
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/alerts" data-toggle="tooltip" data-placement="right" title="Manage Popup Alerts">
+                            Manage Popup Alerts
+                        </a>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/recruitments" data-toggle="tooltip" data-placement="right" title="Recruitments">
+                            Recruitments
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/recruitment-schedules" data-toggle="tooltip" data-placement="right" title="Recruitment Schedules">
+                            Recruitment Schedules
+                        </a>
+                    </li>
+                                    </ul>
+            </li>
+            
+                                       
+            <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Leaves">
+                <i class="ri-file-add-line"></i> <span class="nav-label">Leaves</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class=""><a href=""> Apply</a>
+                        <ul class="nav nav-third-level">
+                            <li class="">
+                                <a href="https://demo.thecoherence.app/apply-leave" data-toggle="tooltip" data-placement="right" title="Apply Leave">
+                                    Apply Leave
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="https://demo.thecoherence.app/compensations" data-toggle="tooltip" data-placement="right" title="Apply Compensatory">
+                                    Apply Compensatory Off
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                                                            <li class="">
+                        <a href="https://demo.thecoherence.app/pending-leave-applications" data-toggle="tooltip" data-placement="right" title="Pending Applications">Pending Applications</a>
+                    </li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/previous-leave-applications" data-toggle="tooltip" data-placement="right" title="Approved Applications">Approved Applications</a>
+                    </li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/assign-leave" data-toggle="tooltip" data-placement="right" title="Assign Leave">Assign Leave</a>
+                    </li>
+                    <li class="">
+                        <a href="https://demo.thecoherence.app/compensatory-applications" data-toggle="tooltip" data-placement="right" title="Compensatory Applications">Compensatory Applications</a>
+                    </li>
+                                    </ul>
+            </li>
+                        
+                        <li class="">
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Settings"><i class="ri-settings-5-line"></i> <span class="nav-label">Settings</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                                        <li class=""><a href="https://demo.thecoherence.app/company-info" data-toggle="tooltip" data-placement="right" title="Company Information">Company Information</a></li>
+                                                            <li class=""><a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads">Overheads & Expenses</a>
+                        <ul class="nav nav-third-level">
+                                                        <li class=""><a href="https://demo.thecoherence.app/overheads" data-toggle="tooltip" data-placement="right" title="Overheads & Expenses">Manage Expenses</a></li>
+                                                                                    <li class=""><a href="https://demo.thecoherence.app/fixed-overhead" data-toggle="tooltip" data-placement="right" title="Manage Overheads"> Fixed Overheads</a></li>
+                                                    </ul>
+                    </li>
+                                                            <li class=""><a href="https://demo.thecoherence.app/user-access-levels" data-toggle="tooltip" data-placement="right" title="User Access Levels">User Access Levels</a></li>
+                                                            <li class=""><a href="https://demo.thecoherence.app/session-types" data-toggle="tooltip" data-placement="right" title="Session Types">Session Types</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/base-currency" data-toggle="tooltip" data-placement="right" title="Base Currency">Base Currency</a></li>
+                    <li class=""><a href="https://demo.thecoherence.app/reports-settings" data-toggle="tooltip" data-placement="right" title="Report Settings">Report Settings</a></li>
+                                    </ul>
+            </li>
+                        
+
+                        
+                    </ul>
+    </div>
+</nav>
+<!-- end -->
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom top-header">
+                <script src="https://demo.thecoherence.app/js/all.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/task-script.min.js"></script>  
+
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="header-wrap row align-items-center position-relative">
+        <div class="header-left col-sm-2">
+            <a href="/dashboard" class="brand">
+                <img src="https://demo.thecoherence.app/images/2hats-logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="header-right col-sm-10">
+            <div class="search-wrap">
+                <div class="g-search-item pull-right">
+                    <div class="inner-addon right-addon">
+                        <i class="ri-search-line epms-icon epms-icon--1x"></i>
+                        <i class="fa fa-spinner fa-lg" style="display: none"></i>
+                        <input autocomplete="off" placeholder="Search projects, tasks, comments.." type="text"  name="q" id="gSearch" class="form-control global-search-box">
+                    </div>
+                </div>
+                <div id="globalSearchResultWrapper" class="global-search"></div>
+            </div>
+            <ul class="navbar-controls">
+                                
+                <li>
+                    <a href="https://demo.thecoherence.app/profile">
+                    <i class="ri-user-line epms-icon epms-icon--1x"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://demo.thecoherence.app/change-password">
+                    <i class="ri-settings-5-line epms-icon epms-icon--1x"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://demo.thecoherence.app/logout">
+                    <i class="ri-logout-circle-r-line epms-icon epms-icon--1x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="ibox-content breadcrumbs-outer-div">
+    <ol class="breadcrumb">
+        
+                            <li class="breadcrumb-item"><a href="https://demo.thecoherence.app">Dashboard</a></li>
+            
+        
+                            <li class="breadcrumb-item"><a href="https://demo.thecoherence.app/tasks">Tasks</a></li>
+            
+        
+                            <li class="breadcrumb-item active">Test 1</li>
+            
+            </ol>
+
+
+    <button id="pause-task" class=" hidden"><i class="ri-pause-line"></i></button>
+
+</div>
+
+<!-- Create Task Modal -->
+<div id="add_eod_report" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Add EOD Report</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/save-daily-status-report" id="add_eod_form" method="POST" autocomplete="off">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <input type="hidden" name="added_on" value="2023-06-01">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>What did you do today? <span class="required-label">*</span></label>
+                                <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="todays_task" id="todays_task"></textarea>
+                                <div class="text-danger text-left field-error" id="label_todays_task"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Are there any obstacles hindering your progress? <span
+                                        class="required-label">*</span></label>
+                                <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="impediments"></textarea>
+                                <div class="text-danger text-left field-error" id="label_impediments"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Do you have any plans for tomorrow? </label>
+                                <textarea rows="4" class="form-control" placeholder="Enter your reply here"
+                                    name="tommorows_task"></textarea>
+                                <div class="text-danger text-left field-error" id="label_tommorows_task"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="submit-section mt20">
+                        <button class="btn btn-primary submit-btn create-eod-report">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+            <div class="wrapper wrapper-content page-wrapper ">
+                <div class="main">
+    <input type="hidden" class="userIdCookie" value=3>
+<div class="row">
+<div class="col-md-12 col-lg-8">
+    <div class="heading-inline">
+        <h3 class="no-margins" style="text-align:left;float:left;">Project Name :
+                        <a href="/projects/45"><strong>Resmi Created Project</strong></a>
+            
+                    </h3>
+                <hr style="clear:both;" />
+    </div>
+    <h2 data-id="221" class="task-title" id="task-id">
+        <strong>Test 1</strong>
+                <span><a><i class="ri-pencil-line epms-icon--1x edit-task pl-15" aria-hidden="true" data-parent="true" data-id="221"></i></a></span>
+
+        <span><a><i class="ri-delete-bin-line epms-icon--1x delete-task pl-15 pr-15" data-target="#delete_task" data-type="parent" data-id="221" aria-hidden="true" data-toggle="modal"></i></a></span>
+                    </h2>
+    <div class="m-b-md pt-15 tabs-container">
+
+        <ul class="nav nav-tabs pt-10">
+
+            <li class="active"><a data-toggle="tab" href="#tab-1"> Task Details</a></li>
+
+                        <li class=""><a data-toggle="tab" href="#sessions">Sessions</a></li>
+            
+                        <li class=""><a data-toggle="tab" href="#sub-task">Sub Task (2)</a></li>
+            
+            
+                                            <li class=""><a data-toggle="tab" href="#rejection-list">Task Rejections (3)</a></li>
+                            
+            <li class=""><a data-toggle="tab" href="#documents">Documents (0)</a></li>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <div id="tab-1" class="tab-pane active">
+           
+                <div class="panel-body">
+                    <div class="row">
+                                                    <div class="col-lg-4 pt-10">
+
+                                <div class="widget style1 widget--with-icon aqua-bg">
+
+                                                                                <div>
+
+                                            <span> Time Taken </span>
+                                            <h3 class="font-bold">29.95 <span class="small" style="color: white;">
+                                                    Hours </span></h3>
+                                        </div> 
+                                        <i class="ri-time-line ri-4x"></i>
+
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 pt-10">
+
+                                <div class="widget style1  widget--with-icon beer-bg pl-15">
+
+                                        <div>
+
+                                            <span> Estimate Hours </span>
+
+                                            <h3 class="font-bold">
+                                                9.10
+                                                <span class="small" style="color: white;"> Hours </span>
+                                            </h3>
+                                        </div>
+
+                                        <i class="ri-time-line ri-4x"></i>
+
+                                    </div>
+
+                                </div>
+                            <div class="col-lg-4 pt-10">
+
+                                <div class="widget style1 widget--with-icon mandy-bg">
+
+                                        <div class="col-xs-8">
+
+                                            <span> Deadline </span>
+
+                                            <h3 class="font-bold">Apr 11, 2023</h3>
+
+                                        </div>
+
+                                        <i class="ri-calendar-2-line ri-4x"></i>
+
+                                </div>
+                            </div>
+                                                                                                        <div class="col-md-12" style="padding-top: 20px;">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" href="#collapse1" style="color: white">
+                                        <h4 class="panel-title">
+                                            <i class="fa fa-"></i> Comments<span class="pull-right"><i class="epms-icon--1x ri-arrow-up-s-line"></i></span>
+                                        </h4>
+                                    </a>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body social-footer" id="commentsWrapper">
+                                        <div class="section-comments">
+                                            <ul class="list-unstyled">
+                
+                                    <li id="comment-35" class="media">
+                <img style="max-width:35px;" class="mr-3 img-circle" src="https://demo.thecoherence.app/img/user.jpg" alt=" Avatar">
+        <h5 class="mt-0 mb-1" style="display: inline-block;padding-left: 5px;">Test client <small class="text-muted">- April 17, 2023</small></h5>
+        <div class="media-body" style="padding-left:40px;">
+
+            <div style="padding-left: 4px; font-size: 14px;">
+                <p>bjk</p>
+            </div>
+
+            <div>
+                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/35" data-target="#comment-reply-modal" class="btn btn-sm btn-link"> <i class="fa fa-mail-reply"></i> Reply</button>
+                                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/35" data-target="#comment-edit-modal" data-comment="&lt;p&gt;bjk&lt;/p&gt;" class="btn btn-sm btn-link"><i class="fa fa-edit"></i> Edit</button>
+                                                <button data-toggle="modal" data-target="#comment-delete-modal" data-action="https://demo.thecoherence.app/comments/35" class="btn btn-sm btn-link text-danger" data-comment="&lt;p&gt;bjk&lt;/p&gt;"><i class="ri-delete-bin-line"></i> Delete</button>
+                            </div>
+
+            <br />
+
+            
+            
+        </div>
+        </li>
+                            <li id="comment-60" class="media">
+                <img style="max-width:35px;" class="mr-3 img-circle" src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg" alt=" Avatar">
+        <h5 class="mt-0 mb-1" style="display: inline-block;padding-left: 5px;">Admin  <small class="text-muted">- May 30, 2023</small></h5>
+        <div class="media-body" style="padding-left:40px;">
+
+            <div style="padding-left: 4px; font-size: 14px;">
+                <p>@</p>
+            </div>
+
+            <div>
+                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/60" data-target="#comment-reply-modal" class="btn btn-sm btn-link"> <i class="fa fa-mail-reply"></i> Reply</button>
+                                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/60" data-target="#comment-edit-modal" data-comment="&lt;p&gt;@&lt;/p&gt;" class="btn btn-sm btn-link"><i class="fa fa-edit"></i> Edit</button>
+                                                <button data-toggle="modal" data-target="#comment-delete-modal" data-action="https://demo.thecoherence.app/comments/60" class="btn btn-sm btn-link text-danger" data-comment="&lt;p&gt;@&lt;/p&gt;"><i class="ri-delete-bin-line"></i> Delete</button>
+                            </div>
+
+            <br />
+
+            
+            
+        </div>
+        </li>
+                            <li id="comment-64" class="media">
+                <img style="max-width:35px;" class="mr-3 img-circle" src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg" alt=" Avatar">
+        <h5 class="mt-0 mb-1" style="display: inline-block;padding-left: 5px;">Admin  <small class="text-muted">- May 31, 2023</small></h5>
+        <div class="media-body" style="padding-left:40px;">
+
+            <div style="padding-left: 4px; font-size: 14px;">
+                <p><span><span style="background: #ddd;padding: 5px;text-align: center;border-radius: 10px;">@Dr. Vallie Bins McGlynn</span>&nbsp; &nbsp;for testing</span></p><p><span><br></span></p>
+            </div>
+
+            <div>
+                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/64" data-target="#comment-reply-modal" class="btn btn-sm btn-link"> <i class="fa fa-mail-reply"></i> Reply</button>
+                                                <button data-toggle="modal" data-action="https://demo.thecoherence.app/comments/64" data-target="#comment-edit-modal" data-comment="&lt;p&gt;&lt;span&gt;&lt;span style=&quot;background: #ddd;padding: 5px;text-align: center;border-radius: 10px;&quot;&gt;@Dr. Vallie Bins McGlynn&lt;/span&gt;&amp;nbsp; &amp;nbsp;for testing&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" class="btn btn-sm btn-link"><i class="fa fa-edit"></i> Edit</button>
+                                                <button data-toggle="modal" data-target="#comment-delete-modal" data-action="https://demo.thecoherence.app/comments/64" class="btn btn-sm btn-link text-danger" data-comment="&lt;p&gt;&lt;span&gt;&lt;span style=&quot;background: #ddd;padding: 5px;text-align: center;border-radius: 10px;&quot;&gt;@Dr. Vallie Bins McGlynn&lt;/span&gt;&amp;nbsp; &amp;nbsp;for testing&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;"><i class="ri-delete-bin-line"></i> Delete</button>
+                            </div>
+
+            <br />
+
+            
+            
+        </div>
+        </li>
+                        </ul>
+
+
+    <div class="card">
+    <div class="card-body">
+                        <form id="save_comments" method="POST" action="https://demo.thecoherence.app/comments">
+            <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">            <div id="my_name_BuXOvaAbjqy6vrdJ_wrap" style="display:none;">
+        <input name="my_name_BuXOvaAbjqy6vrdJ" type="text" value="" id="my_name_BuXOvaAbjqy6vrdJ">
+        <input name="valid_from" type="text" value="eyJpdiI6ImdUNE5qWERxTWNtSlUrcVFYOHo2VlE9PSIsInZhbHVlIjoiMjNzK2VVbURSdFQza08vdmplQVJDdz09IiwibWFjIjoiOTQxNGUxMmNlYWU3MGFhNzVkMTA2YTU2MjIwMDY5MDdkMzQ5ZjZiNzQ2MjNiMGY0MjRiMWZiNThiNzRlZTU2NCIsInRhZyI6IiJ9">
+    </div>
+            <input type="hidden" name="commentable_type" value="\App\Task" />
+            <input type="hidden" name="commentable_id" value="221" />
+            <input type="hidden" id="load_href" value="https://demo.thecoherence.app/tasks/view-comments/221" />
+            <input type="hidden" name="comment_mentions" id="comment_mentions" value="" />
+            
+            
+            <div class="form-group">
+                <textarea class="form-control summernote "
+                    placeholder="Write comment..." name="message" rows="3"></textarea>
+                <div class="text-danger text-left field-error" id="label_message"></div>
+            </div>
+            <div class="text-right">
+                <button id="cmnt_submit" type="submit"
+                    class="btn btn-sm btn-primary m-t-n-xs"><strong>Post</strong></button>
+            </div>
+        </form>
+    </div>
+</div>
+<br />                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+                        <div id="sessions" class="tab-pane">
+                <div class="panel-body">
+                    <div class="task-session">
+    <div class="m-b-lg">
+        <div class="session-title">Sessions</div>
+        <div class="d-inline-flex pull-right text-right">
+                
+
+                                        
+                    <a href="#" class="btn btn-success ml-10" data-toggle="modal"
+                        data-target="#add-session"><i class="ri-add-line"></i> Add
+                        Session</a>
+                                                        </div>
+    </div>
+    <div class="border-top p-h-m">
+
+            <div class="d-flex flex-center-center flex-md-vertical">
+                <div class="d-inline-flex flex-center-start flex-fill flex-md-wrap">
+
+                    <div class="select-box">
+                                                <select class="chosen-select form-control" id="userSession" name="userSession">
+                            <option value="" selected>Select User</option>
+                                                        <option value="3" >Admin </option>
+                                                        <option value="16" >Developer 2 two</option>
+                                                        <option value="27" >Malu krishna</option>
+                                                        <option value="14" >QA ONE</option>
+                                                    </select>
+                                            </div>
+                    <div class="select-box">
+                                                <select class="chosen-select form-control" id="userSessionType" name="userSessionType">
+                            <option value="" selected>Select Session Type
+                            </option>
+                                                        <option value="development" >Development</option>
+                                                        <option value="project-management" >Project Management</option>
+                                                        <option value="qa" >QA</option>
+                                                        <option value="technical-support" >Technical Support</option>
+                                                        <option value="others" >Others</option>
+                                                    </select>
+                                            </div>
+                    <div class="select-box">
+                        <input class="form-control active" type="text" id="daterange" name="daterange"
+                            placeholder="Select Date Range" value=""
+                            autocomplete="off">
+                    </div>
+                    
+                                        <button href="#" class="btn btn-info" id="export-session-csv"><i
+                            class="ri-download-line"></i> Export Data </button>
+                                    
+                </div>
+             
+            </div>
+    </div>
+
+<div class="table-wrapper">
+
+    <div class="table-responsive">
+
+
+        <table class="table table-hover sessionTable">
+
+            <thead>
+
+                <tr>
+                    <th>Employee</th>
+                    <th>Date</th>
+                    <th>Hours</th>
+                    <th>Type</th>
+                    <th>Comments</th>
+                                        <th>Actions</th>
+                                    </tr>
+
+            </thead>
+
+            <tbody>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 30, 2023</td>
+                    <td data-total="35" data-start="2023-05-30 12:56:58"
+                        ><span class="timer">0h 35m</span></td>
+                    <td>Project Management</td>
+                    <td>Task Paused</td>
+                                        <td>
+                                                                        <a data-tooltip="tooltip" data-placement="top" title="Edit"><i data-id="273"
+                                class="ri-pencil-line edit-task-session" aria-hidden="true"></i></a> | <a
+                            data-tooltip="tooltip" data-placement="top" title="Delete"><i data-toggle="modal"
+                                data-target="#delete_task_session" class="ri-delete-bin-line" aria-hidden="true"
+                                data-id="273" id="delete-session"></i></a>
+                                            </td>
+                                    </tr>
+                                <tr>
+                    <td>Developer 2 two</td>
+                    <td>May 30, 2023</td>
+                    <td data-total="60" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 0m</span></td>
+                    <td>Qa</td>
+                    <td>dssadasdasdasdasdscasdc</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>Developer 2 two</td>
+                    <td>May 26, 2023</td>
+                    <td data-total="110" data-start="2023-05-26 16:57:35"
+                        ><span class="timer">1h 50m</span></td>
+                    <td>Development</td>
+                    <td>cvxcvxc</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 26, 2023</td>
+                    <td data-total="109" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 49m</span></td>
+                    <td>Project Management</td>
+                    <td>dvfsd dfsgdfgdfgdfg</td>
+                                        <td>
+                                                                    </td>
+                                    </tr>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 11, 2023</td>
+                    <td data-total="60" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 0m</span></td>
+                    <td>Project Management</td>
+                    <td>xcxczxczx</td>
+                                        <td>
+                                                                    </td>
+                                    </tr>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 09, 2023</td>
+                    <td data-total="110" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 50m</span></td>
+                    <td>Project Management</td>
+                    <td>test</td>
+                                        <td>
+                                                                    </td>
+                                    </tr>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 08, 2023</td>
+                    <td data-total="90" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 30m</span></td>
+                    <td>Project Management</td>
+                    <td>Discussed the overdue task mail design issue with design team and provide technical support - In progress<br />
+Prepare demo to live merge branch & resolved the conflicts and locally testing is in progress</td>
+                                        <td>
+                                                                    </td>
+                                    </tr>
+                                <tr>
+                    <td>Admin </td>
+                    <td>May 03, 2023</td>
+                    <td data-total="350" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">5h 50m</span></td>
+                    <td>Project Management</td>
+                    <td>vxcvxcvxcv</td>
+                                        <td>
+                                                                    </td>
+                                    </tr>
+                                <tr>
+                    <td>Developer 2 two</td>
+                    <td>May 01, 2023</td>
+                    <td data-total="780" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">13h 0m</span></td>
+                    <td>Development</td>
+                    <td>sdfsdfsdfsdf</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>QA ONE</td>
+                    <td>Apr 11, 2023</td>
+                    <td data-total="1" data-start="2023-04-11 18:17:46"
+                        ><span class="timer">0h 1m</span></td>
+                    <td>Qa</td>
+                    <td>Done QA</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>Malu krishna</td>
+                    <td>Apr 11, 2023</td>
+                    <td data-total="1" data-start="2023-04-11 18:14:14"
+                        ><span class="timer">0h 1m</span></td>
+                    <td>Development</td>
+                    <td>Finished task'</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>Developer 2 two</td>
+                    <td>Apr 11, 2023</td>
+                    <td data-total="1" data-start="2023-04-11 12:47:08"
+                        ><span class="timer">0h 1m</span></td>
+                    <td>Development</td>
+                    <td>TEst</td>
+                                        <td></td>
+                                    </tr>
+                                <tr>
+                    <td>Developer 2 two</td>
+                    <td>Apr 01, 2023</td>
+                    <td data-total="90" data-start="0000-00-00 00:00:00"
+                        ><span class="timer">1h 30m</span></td>
+                    <td>Development</td>
+                    <td>vcbcvbcvbvcb</td>
+                                        <td></td>
+                                    </tr>
+                
+                                <tr>
+                    <td></td>
+                    <td><strong>Total</strong></td>
+                    <td><strong id="total_time">29h 57m</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                            </tbody>
+
+        </table>
+        
+    </div>
+
+
+
+</div>
+</div>
+                </div>
+            </div>
+            
+            <div id="sub-task" class="tab-pane">
+
+                <div class="panel-body">
+
+                                        <div class="row">
+                        <div class="col-md-12">
+                            <div class="ibox">
+                                <h2 class="session-title">Sub Tasks </h2>
+                                                                <div class="text-right pull-right">
+                                                                        <button data-toggle="modal" data-id="221" data-target="#create_sub_task" class="btn btn-sm btn-success create-sub-modal"><i class="ri-add-line"></i> Add
+                                        Sub Task </button></br>
+                                                                    </div>
+
+                                                            </div>
+                            <div class="ibox">
+                                <div class="dd sub-task-div" id="nestable2">
+                                    <div class="list">
+    <div>
+
+        <ul class="nav nav-tabs">
+
+            <li class="active"><a href="#all_tasks" data-toggle="tab">Active Tasks</a></li>
+            <li class=""><a href="#upcoming_tasks" data-toggle="tab">Upcoming Tasks</a></li>
+            <li class=""><a href="#ongoing_tasks" data-toggle="tab">Tasks in Progress</a></li>
+            <li class=""><a href="#completed_tasks" data-toggle="tab">Completed Tasks</a></li>
+        </ul>
+        <div class="tab-content">
+
+            <div id="all_tasks" class="tab-pane active">
+                <div class="table-responsive m-t-lg">
+                    <table class="table dataTable table-hover issue-tracker">
+                        <thead>
+                            <tr>
+                                <th style="width:13%">Title</th>
+                                <th>Status</th>
+                                                                    <th>Estimated Time</th>
+                                    <th>Deadline</th>
+                                    <th style="width:13%">Time Spent</th>
+                                                                                                <th style="width:10%">Actions</th>
+                                                            </tr>
+                        </thead>
+                        <tbody>
+                                                                                </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div id="upcoming_tasks" class="tab-pane ">
+                <div class="table-responsive  m-t-lg">
+                    <table class="table dataTable table-hover issue-tracker">
+                        <thead>
+                            <tr>
+                                <th style="width:13%">Title</th>
+                                <th>Status</th>
+                                                                    <th>Estimated Time</th>
+                                    <th>Deadline</th>
+                                    <th style="width:13%">Time Spent</th>
+                                                                                                <th style="width:10%">Actions</th>
+                                                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td class="issue-info">
+                                    <a href="https://demo.thecoherence.app/tasks/309">
+                                        sub task 3
+                                    </a>
+                                </td>
+                                <td>
+                                    <strong>
+                                                                                <label class="label label-info">Backlog</label>
+                                                                                                                                                                                                                                                                                                                                                                    </strong>
+                                </td>
+
+                                
+                                                                    <td>
+                                        5 Hrs
+                                    </td>
+                                    <td>
+                                        May 24 2023
+                                    </td>
+
+                                    <td>
+                                    0.00 Hrs
+                                    </td>
+                                                                                                <td>
+                                    <span class="edit-i">
+                                        <a><i data-id="309" class="ri-pencil-line edit-task"  data-parent="false" aria-hidden="true"
+                                                style="padding-right: 10px;padding-left:10px" data-tooltip="tooltip"
+                                                data-placement="top" title="Edit"></i></a></span>
+
+                                    <span class="dlt-i"><a href="#" data-type="child" data-toggle="modal"
+                                            data-target="#delete_task" class="delete-task" data-id="309"
+                                            data-tooltip="tooltip" data-placement="top" title="Delete">
+                                            <i class="ri-delete-bin-line" aria-hidden="true"></i></a></span>
+                                </td>
+                                                            </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="ongoing_tasks" class="tab-pane ">
+                <div class="table-responsive m-t-lg">
+                    <table class="table dataTable table-hover issue-tracker">
+                        <thead>
+                            <tr>
+                                <th style="width:13%">Title</th>
+                                <th>Status</th>
+                                                                    <th>Estimated Time</th>
+                                    <th>Deadline</th>
+                                    <th style="width:13%">Time Spent</th>
+                                                                                                <th style="width:10%">Actions</th>
+                                                            </tr>
+                        </thead>
+                        <tbody>
+                                                                                </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="completed_tasks" class="tab-pane ">
+                <div class="table-responsive m-t-lg">
+                    <table class="table dataTable table-hover issue-tracker">
+                        <thead>
+                            <tr>
+                                <th style="width:13%">Title</th>
+                                <th>Status</th>
+                                                                    <th>Estimated Time</th>
+                                    <th>Deadline</th>
+                                    <th style="width:13%">Time Spent</th>
+                                                                                                <th style="width:10%">Actions</th>
+                                                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td class="issue-info">
+                                    <a href="https://demo.thecoherence.app/tasks/308">
+                                        sub task 1
+                                    </a>
+                                </td>
+                                <td>
+                                    <strong>
+                                                                                                                                                                                                                                                                                                                                                                        <label class="label label-success">Done</label>
+                                                                            </strong>
+                                </td>
+                               
+                                                                <td>
+                                    4 Hrs
+                                </td>
+                                <td>
+                                    May 24 2023
+                                </td>
+
+                                <td>
+                                0.00 Hrs
+                                </td>
+                                                                                                <td>
+                                    <span class="edit-i">
+                                        <a><i data-id="308" class="ri-pencil-line edit-task" data-parent="false" aria-hidden="true"
+                                                style="padding-right: 10px;padding-left:10px" data-tooltip="tooltip"
+                                                data-placement="top" title="Edit"></i></a></span>
+
+                                    <span class="dlt-i"><a href="#" data-type="child" data-toggle="modal"
+                                            data-target="#delete_task" class="delete-task" data-id="308"
+                                            data-tooltip="tooltip" data-placement="top" title="Delete">
+                                            <i class="ri-delete-bin-line" aria-hidden="true"></i></a></span>
+                                </td>
+                                                            </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div id="checklist" class="tab-pane">
+
+                <div class="panel-body">
+                    
+                </div>
+
+            </div>
+            <div id="rejection-list" class="tab-pane">
+                <div class="panel-body">
+                    <div class="table table-hover listTable">
+
+                <table class="table table-hover rejectionTable" style="width:100%">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Date</th>
+
+                            <th>User</th>
+
+                            <th>Severity</th>
+
+                            <th>Reason</th>
+
+                            <th>Comments</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                                                                        <tr>
+                            <td>11/04/2023</td>
+                            <td>Malu krishna</td>
+                            <td class="project-completion text-center">
+                                <span class="label label-danger block"
+                                    >Critical</span>
+                            </td>
+                            <td>
+                                                                                                                                                                <span class="label label-plain block" style="margin: 5px;">
+                                Dolores </span>
+                                                                                                                                                                                                                                                                                            </td>
+                            <td><p>Not working properly</p></td>
+                        </tr>
+                                                                        <tr>
+                            <td>11/04/2023</td>
+                            <td>Malu krishna</td>
+                            <td class="project-completion text-center">
+                                <span class="label label-warning
+                                    block" >High</span>
+                            </td>
+                            <td>
+                                                                                                                                                                                                                                <span class="label label-plain block" style="margin: 5px;">
+                                Fuga </span>
+                                                                                                                                                                                                                            </td>
+                            <td><p>Again not working</p></td>
+                        </tr>
+                                                                        <tr>
+                            <td>11/04/2023</td>
+                            <td>Malu krishna</td>
+                            <td class="project-completion text-center">
+                                <span class="label label-danger block"
+                                    >Critical</span>
+                            </td>
+                            <td>
+                                                                                                                                                                                                                                <span class="label label-plain block" style="margin: 5px;">
+                                Fuga </span>
+                                                                                                                                                                                                                            </td>
+                            <td></td>
+                        </tr>
+                        
+                    </tbody>
+
+                </table>
+
+            </div>                </div>
+            </div>
+            <div id="documents" class="tab-pane">
+                <div class="panel-body documents-div">
+                    <div class="row">
+        <div class="col-md-8">
+            <strong>
+                <h4>Task Documents</h4>
+            </strong>
+        </div>
+        <div class="col-md-4 text-right float-right ml-auto m-b-30">
+            <a href="" class="btn btn-w-m btn-success add-documents" data-target="#add_documents" data-toggle="modal"><i class="ri-add-line"></i> Add</a>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-12">
+        <input type="hidden" id="percent_complete" value="100">
+    <div class="panel panel-primary timer-control">
+        <div class="row timer-div">
+            <div class="col-sm-12">
+                <div class="timer-inner">
+                    <img src="https://demo.thecoherence.app/images/clock-icon.svg">
+                   <div class="time-wrap">
+                    <div>
+                        <label class="f30" id="hours">00</label>hr <label class="f30" id="minutes">00</label>m <label class="f30" id="seconds">00</label>s
+                    </div>
+                    <div class="row text-center">
+            <input type="hidden" id="task-id-timer" value="221">   
+                     
+            <div class="col-md-8">
+                <button class="btn btn-info" data-task-id="221" id="stop-task" style="height: 100%;width: 100%">
+                    <span id="timer-button"> 
+                    STOP                 
+                   </span>
+                </button>
+            </div>
+           
+              
+                                    <input type="hidden" id="start_task_status" value="In Progress"> 
+            <input type="hidden" id="finish_task_status" value="Development Completed">   
+            <div class="col-md-4">
+                <button id="development_complete" class="btn btn-primary w-100"  disabled >
+                    <span> Finish </span>
+                </button>
+            </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+     
+    </div>
+            <div class="panel panel-primary">
+        <div class="panel-heading">
+            <i class="ri-information-line"></i> <strong>Assignees</strong>
+        </div>
+        <div class="panel-body assignees">
+            <h4>Accountant User Accountant</h4>
+  <h4>Admin </h4>
+  <h4>Dev3 three</h4>
+  <h4>Durward Abernathy Walter</h4>
+         </div>
+    </div>
+        <div class="panel panel-primary">
+        <div class="panel-heading">
+            <i class="ri-information-line"></i> <strong>Task Progress</strong>
+        </div>
+        <div class="ibox-content">
+                                <input type="text" class="js-range-slider" name="my_range" data-type="single" data-min="0" data-max="100" data-from="100" data-hasGrid="true" id="percent_complete" />
+            <label id="completed">100</label>% Completed
+                                <div class="row status-dropdown">
+                <div class="col-sm-12">
+    <div class="form-group">
+        <label for="">Status</label>
+        <select class="chosen-select" id="task_status" name="task_status">
+                    <option value="Backlog" 
+                 >Backlog</option>
+            <option value="In Progress" selected
+                >In 
+                Progress</option>
+            <option value="Development Completed"
+                
+                >Development
+                Completed</option>
+            <option value="Under QA" 
+            disabled
+                >Under QA
+            </option>
+            <option value="Done"  
+               >Done</option>
+            <!--             <option value="On Hold" >On Hold
+            </option>
+            <option value="Awaiting Client"
+                >
+                Awaiting Client
+            </option>
+            <option value="Client Review" >
+                Client
+                Review</option>
+            <option value="Done" >Done</option>
+             -->
+         
+
+        </select>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+                                        <div class="panel panel-primary">
+        <div class="panel-heading">
+            <i class="ri-information-line"></i> <strong>Task Details</strong>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped table-border">
+                <tbody>
+                    <tr>
+                        <td><strong> Url (Jira ID) </strong></td>
+                        <td class="text-left"><strong>
+                                                                NIL
+                                                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Project </strong></td>
+                        <td class="text-left">
+                                                        <a href=" /projects/45">
+                                <strong>Resmi Created Project</strong></a>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Company </strong></td>
+                        <td class="text-left"><strong>Mobile Goods</strong></a></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Estimated Hours </strong></td>
+                        <td class="text-left">
+                            <strong>9.10
+                                Hours</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Assigned Hours </strong></td>
+                        <td class="text-left">
+                            <strong>0 Hours</strong>
+                        </td>
+                    </tr>
+                                                            <tr>
+                        <td><strong>Development Time </strong></td>
+                        <td class="text-left"><strong>14.53 Hours</strong></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Total Time Spent </strong></td>
+                        <td class="text-left">
+                            <strong>29.95
+                                Hours</strong>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Billable Hours </strong></td>
+                        <td class="text-left">
+                            <strong>0.05
+                                Hours</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Created By </strong></td>
+                        <td class="text-left"><strong>Eryn Crist Erdman</strong></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Priority </strong></td>
+                        <td class="text-left"><strong>
+                                                                                                <label class="label label-primary">Medium</label>
+                                                                                                                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Deadline </strong></td>
+                        <td class="text-left"><strong>Apr 11, 2023</strong></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Tags </strong></td>
+                        <td class="text-left"><strong></strong></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Task Start Date </strong></td>
+                        <td class="text-left"><strong>Apr 11, 2023</strong></td>
+                    </tr>
+                                        <tr>
+                        <td><strong>Task Creation Date </strong></td>
+                        <td class="text-left"><strong>Apr 11, 2023</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Admin Approvers</strong></td>
+                        <td class="text-left"><strong> </strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Technical Reviewer </strong></td>
+                        <td class="text-left"><strong></strong></td>
+                    </tr>
+
+
+
+
+
+                </tbody>
+            </table>
+            <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#show-project-credentials"><i class="ri-eye-off-line"></i> Credentials</button>
+            <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#show-project-files"><i class="ri-attachment-2"></i> Documents</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal custom-modal fade" id="delete_task" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Delete Task</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-header">
+                    <p>Are you sure want to delete?</p>
+                </div>
+                <div class="modal-btn delete-action">
+                    <div class="row" style="padding-top: 10px">
+                        <input type="hidden" id="delete_task_id" value="">
+                        <input type="hidden" id="delete_task_type" value="">
+                        <div class="col-sm-6">
+                            <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal custom-modal fade" id="reject_task_modal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Reject Task</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/task-reject" id="task_rejection_form" method="POST" autocomplete="off">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Level of Severity <span class="required-label">*</span></label>
+                                <select class="chosen-select" name="severity" id="severity">
+                                    <option value="" selected>Select Severity</option>
+                                    <option value="Low">Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+                                    <option value="Critical">Critical</option>
+                                </select>
+                                <div class="text-danger text-left field-error" id="label_severity"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Reason <span class="required-label">*</span></label>
+                                 <select class="chosen-select" id="reason" name="reason[]" multiple>
+                                                                      <option value="5">Consequatur</option>
+                                                                      <option value="3">Dolores</option>
+                                                                      <option value="4">Fuga</option>
+                                                                      <option value="2">Quasi</option>
+                                                                      <option value="1">Quia</option>
+                                                                   </select>
+                                <div class="text-danger text-left field-error" id="label_reason"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Comments </label>
+                                <textarea rows="4" class="form-control summernote" placeholder="Enter your reason here" name="comments" id="comments"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" id="reject_id" value="" name="id">
+                </form>
+                <div class="modal-btn">
+                    <div class="row" style="padding-top: 10px">
+                        <div class="col-sm-6">
+                            <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-primary float-right cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a class="btn btn-primary continue-btn">Reject</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Project filess Modal -->
+<div class="modal custom-modal fade" id="show-project-files" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Project Documents</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-striped files">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Date Uploaded</th>
+                            <th>Path / Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>file</td>
+                            <td>file</td>
+                            <td>01 Jun, 2023</td>
+                            <td><a href="https://demo.thecoherence.app/storage/projectfiles/nukdX0H9cq4CfEFRXqQoposETBr9rPBu168LjyN6.png" download><i class="ri-download-line"></i> Download</a></td>
+                        </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Project files Modal --><!-- Project filess Modal -->
+<div class="modal custom-modal fade" id="show-project-credentials" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Project Credentials</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-striped files">
+                    <thead>
+                        <tr>
+                            <th width="20%;">Type</th>
+                            <th>Value</th>
+                            <th>File</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>cred</td>
+                            <td><p>jhjh</p></td>
+                            <td> <a class="dropdown-item" href="https://demo.thecoherence.app/storage/projectcredentials/WOxQdgtGVG3soUmkkkSv3wXmvL5Jj3KiodS17TN4.png" download><i class="ri-download-line"></i> Download</a> </td>
+                        </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Project files Modal --><!-- Create Task Modal -->
+<div id="create_sub_task" class="modal custom-modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Create Sub Task</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/create-sub-task" enctype="multipart/form-data" id="add_sub_task_form" method="POST" autocomplete="off">
+                    <input type="hidden" name="project_id" value="45">
+                    <input type="hidden" name="parent_id" value="221">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <div class="tabs-container">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="active"><a class="nav-link" data-toggle="tab" href="#subtask-tab-1"> Task Details</a></li>
+                                                            <li><a class="nav-link" data-toggle="tab" href="#subtask-tab-2">Task Checklists</a></li>
+                                                    </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" id="subtask-tab-1" class="tab-pane active">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Project Name <span class="required-label">*</span></label>
+                                                <input class="form-control" type="text" value="Resmi Created Project" readonly>
+                                                <div class="text-danger text-left field-error" id="label_project_name"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label>Task Title <span class="required-label">*</span></label>
+                                                <input class="form-control" type="text" name="task_title" id="subtask_title_id">
+                                                <div class="text-danger text-left field-error" id="label_task_title"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label for="">Parent Task</label>                                            
+                                                <select class="chosen-select" id="task_parent" name="task_parent">
+                                                    <option value="">Select</option>
+                                                    <option value="221" selected>Test 1</option>
+                                                                                                        <option value="246" >Checking logo change</option>
+                                                                                                        <option value="222" >fhfvhvn</option>
+                                                                                                        <option value="302" >hgh</option>
+                                                                                                        <option value="244" >Parent test task</option>
+                                                                                                        <option value="220" >task 1</option>
+                                                                                                        <option value="248" >Task 32</option>
+                                                                                                        <option value="223" >test</option>
+                                                                                                        <option value="249" >test priority task</option>
+                                                                                                        <option value="242" >test task one</option>
+                                                                                                        <option value="241" >Test task title</option>
+                                                                                                        <option value="243" >test task two two</option>
+                                                                                               
+                                                </select>
+                                            </div>
+                                        </div>
+                                                                                <div class="col-sm-6 ">
+                                            <div class="form-group">
+                                                <label>Estimated Time <span class="required-label">*</span></label>
+                                                <div class="cal-icon">
+                                                    <input class="form-control" type="text" name="estimated_time" id="subtask-estimated_time">
+                                                </div>
+                                                <div class="text-danger text-left field-error" id="label_estimated_time"></div>
+                                            </div>
+                                        </div>
+                                                                            </div>
+                                                                        <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Start Date <span class="required-label">*</span></label>
+                                                <input class="form-control datetimepicker" type="text" name="start_date">
+                                                <div class="text-danger text-left field-error" id="label_start_date"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Deadline <span class="required-label">*</span></label>
+                                                <input class="form-control datetimepicker" type="text" name="end_date">
+                                                <div class="text-danger text-left field-error" id="label_end_date"></div>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label for="">Priority</label>
+                                                <select class="chosen-select" id="task_priority" name="task_priority">
+                                                    <option value="Critical">Critical</option>
+                                                    <option value="High">High</option>
+                                                    <option value="Medium" selected>Medium</option>
+                                                    <option value="Low"> Low</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label>Assign To</label>
+                                                <select class="chosen-select" id="task_assigned_users" name="task_assigned_users[]" multiple>
+                                                                                                        <option value="20">Abini Subramanian</option>
+                                                                                                        <option value="22">Abini three</option>
+                                                                                                        <option value="21">Abini 2 2</option>
+                                                                                                        <option value="30">Accountant User Accountant</option>
+                                                                                                        <option value="3">Admin </option>
+                                                                                                        <option value="28">Aneesh Sreedharan</option>
+                                                                                                        <option value="23">Dev3 three</option>
+                                                                                                        <option value="13">Developer test</option>
+                                                                                                        <option value="16">Developer 2 two</option>
+                                                                                                        <option value="7">Durward Abernathy Walter</option>
+                                                                                                        <option value="5">Eryn Crist Erdman</option>
+                                                                                                        <option value="4">Jimmie Von Langosh</option>
+                                                                                                        <option value="17">Luca jone</option>
+                                                                                                        <option value="27">Malu krishna</option>
+                                                                                                        <option value="10">Miss Antonetta Robel Huel</option>
+                                                                                                        <option value="11">Ms. Margarete Schneider I Harber</option>
+                                                                                                        <option value="12">Parker Jones Emmerich</option>
+                                                                                                        <option value="6">Prince Feeney Lueilwitz</option>
+                                                                                                        <option value="14">QA ONE</option>
+                                                                                                        <option value="15">QA TWO</option>
+                                                                                                        <option value="29">Rohith K</option>
+                                                                                                        <option value="19">Test QA QA</option>
+                                                                                                    </select>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label>Technical Reviewer</label>
+                                                <select class="chosen-select" id="task_assigned_users" name="reviewer_id">
+                                                    <option value="">Select</option>
+                                                                                                        <option value="20">Abini Subramanian</option>
+                                                                                                        <option value="22">Abini three</option>
+                                                                                                        <option value="21">Abini 2 2</option>
+                                                                                                        <option value="30">Accountant User Accountant</option>
+                                                                                                        <option value="3">Admin </option>
+                                                                                                        <option value="28">Aneesh Sreedharan</option>
+                                                                                                        <option value="23">Dev3 three</option>
+                                                                                                        <option value="13">Developer test</option>
+                                                                                                        <option value="16">Developer 2 two</option>
+                                                                                                        <option value="7">Durward Abernathy Walter</option>
+                                                                                                        <option value="5">Eryn Crist Erdman</option>
+                                                                                                        <option value="4">Jimmie Von Langosh</option>
+                                                                                                        <option value="17">Luca jone</option>
+                                                                                                        <option value="27">Malu krishna</option>
+                                                                                                        <option value="10">Miss Antonetta Robel Huel</option>
+                                                                                                        <option value="11">Ms. Margarete Schneider I Harber</option>
+                                                                                                        <option value="12">Parker Jones Emmerich</option>
+                                                                                                        <option value="6">Prince Feeney Lueilwitz</option>
+                                                                                                        <option value="14">QA ONE</option>
+                                                                                                        <option value="15">QA TWO</option>
+                                                                                                        <option value="29">Rohith K</option>
+                                                                                                        <option value="19">Test QA QA</option>
+                                                                                                    </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label>Need to be approved by: </label>
+                                                <select class="chosen-select form-control m-b" id="approval_users" name="approval_users[]" multiple>
+                                                                                                        <option value="3">Admin </option>
+                                                                                                    </select>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                                                        <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label>URL</label>
+                                                <input class="form-control" type="text" name="task_url" id="subtask_url">
+                                                <div class="text-danger text-left field-error" id="label_task_url"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label>Task Id <small>(Jira)</small></label>
+                                                <input class="form-control" type="text" name="task_id">
+                                                <div class="text-danger text-left field-error" id="label_task_id"></div>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Description</label>
+                                        <textarea rows="4" class="form-control subtask_summernote" placeholder="Enter your message here" name="task_description"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group form-focus select-focus focused">
+                                                <label for="">Tag </label>
+                                                <select class="chosen-select" id="tag" name="tag">
+                                                    <option value="">Select Tag</option>
+                                                                                                        <option value="demo-tag">demo tag</option>
+                                                                                                        <option value="tag">tag</option>
+                                                                                                    </select>
+                                            </div>
+                                            <a href="#" class="btn btn-primary btn-xs pull-right" data-toggle="modal" data-target="#add_tag"><i class="ri-add-line"></i> Add Tag</a>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label>Attach Files</label>
+                                                <input class="form-control" type="file" name="files[]" multiple />
+                                                <div class="text-danger text-left field-error" id="label_files"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 text-right">
+                                            <span>Add to Agile Board</span> 
+                                            <input checked="" type="checkbox" class="i-checks" name="add_to_board"> 
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div role="tabpanel" id="subtask-tab-2" class="tab-pane">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table task-checklist">
+
+                                            <tbody>
+                                                                                                                                                <tr>
+                                                    <td>
+                                                        <p class="parent-category"><input type="checkbox" class="check-all"> <span>PHP Code</span></p>
+                                                                                                                <p class="child-category">
+                                                            <input value="1" type="checkbox" class="i-checks" name="checklists[]"> <span>All functions have comments</span>
+                                                        </p>
+                                                                                                                <p class="child-category">
+                                                            <input value="2" type="checkbox" class="i-checks" name="checklists[]"> <span>All comments are strictly PHPDoc format</span>
+                                                        </p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                                                                                                                                                                                                                                <tr>
+                                                    <td>
+                                                        <p class="parent-category"><input type="checkbox" class="check-all"> <span>HTML Code</span></p>
+                                                                                                                <p class="child-category">
+                                                            <input value="3" type="checkbox" class="i-checks" name="checklists[]"> <span>All code indentations are validated</span>
+                                                        </p>
+                                                                                                                <p class="child-category">
+                                                            <input value="4" type="checkbox" class="i-checks" name="checklists[]"> <span>No repeating IDs in a page</span>
+                                                        </p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                                                                                                                                                                                                                                <tr>
+                                                    <td>
+                                                        <p class="parent-category"><input type="checkbox" class="check-all"> <span>Going Live</span></p>
+                                                                                                                <p class="child-category">
+                                                            <input value="5" type="checkbox" class="i-checks" name="checklists[]"> <span>Remove the maintenance message</span>
+                                                        </p>
+                                                                                                                <p class="child-category">
+                                                            <input value="6" type="checkbox" class="i-checks" name="checklists[]"> <span>Make sure error reporting is turned off</span>
+                                                        </p>
+                                                                                                            </td>
+                                                </tr>
+                                                                                                                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+
+                    <div class="submit-section mt20">
+                        <button class="btn btn-primary create-sub-task">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Create task Modal -->
+
+<div class="modal custom-modal fade" id="admin_approve_modal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Approve Task</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-header">
+                    <p>Are you sure want to approve this task?</p>
+                </div>
+                <div class="modal-btn approve-action">
+                    <div class="row" style="padding-top: 10px">
+                        <input type="hidden" id="approve_task_id" value="">
+                        <div class="col-sm-6">
+                            <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a href="javascript:void(0);" class="btn btn-primary continue-btn">Approve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal custom-modal" id="add-session" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Add New Session</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/task-session" method="post" autocomplete="off" id="create_session_form">
+                    <input type="hidden" name="task_id" value="221">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                        <div class="row">
+                            <div class='col-sm-12'>
+                                <label class="col-form-label">Date <span class="required-label">*</span></label>
+                                <div class="form-group" id="data_1">
+                                    <div class="input-group date">
+                                        <span class="input-group-addon"><i class="ri-calendar-2-line"></i></span><input type="text" class="form-control" value="01/06/2023" name="date">
+                                    </div>
+                                </div>
+                                <div class="text-danger text-left field-error" id="label_date"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label class="col-form-label">Time<span class="required-label">*</span></label>
+                                    <div>
+                                        <input type="text" class="form-control" name="total" id="add-session-box-time" required>
+                                        <div class="text-danger text-left field-error" id="label_total"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                                                            <input type="hidden" id="status" name="status" value="In Progress">
+                       
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-focus select-focus focused">
+                                <label for="">Session Type </label>
+                                <select class="chosen-select" id="session_type" name="session_type">
+                                                                            <option 
+                                                                                        value="development">
+                                            Development
+                                        </option>
+                                                                            <option 
+                                             selected                                             value="project-management">
+                                            Project Management
+                                        </option>
+                                                                            <option 
+                                                                                        value="qa">
+                                            QA
+                                        </option>
+                                                                            <option 
+                                                                                        value="technical-support">
+                                            Technical Support
+                                        </option>
+                                                                            <option 
+                                                                                        value="others">
+                                            Others
+                                        </option>
+                                                                    </select>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label class="col-form-label">Comments <span class="required-label">*</span></label>
+                                    <div>
+                                        <textarea rows="4" class="form-control" value="" name="comments" id="add-session-box-comments"></textarea>
+                                        <div class="text-danger text-left field-error" id="label_comments"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+                <div class="row">
+                    <div class="submit-section text-right col-sm-12">
+                        <button class="btn btn-primary submit-btn create-session">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal custom-modal fade" id="stop_session" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Stop Task Session</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-header">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group form-focus select-focus focused">
+                                <label for="">Session Type </label>
+                                <select class="chosen-select" id="stop_session_type" name="session_type">
+                                                                            <option 
+                                                                                        value="development">
+                                            Development
+                                        </option>
+                                                                            <option 
+                                             selected                                             value="project-management">
+                                            Project Management
+                                        </option>
+                                                                            <option 
+                                                                                        value="qa">
+                                            QA
+                                        </option>
+                                                                            <option 
+                                                                                        value="technical-support">
+                                            Technical Support
+                                        </option>
+                                                                            <option 
+                                                                                        value="others">
+                                            Others
+                                        </option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label class="col-form-label">Describe what you have done in this session? <span class="required-label">*</span></label>
+                                <div>
+                                    <textarea rows="4" class="form-control" id="stop_session_comment"></textarea>
+                                    <div class="text-danger text-left field-error" id="label_comment"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-btn stop-action">
+                    <div class="row" style="padding-top: 10px">
+                        <div class="col-sm-6">
+                            <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default float-right cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a href="javascript:void(0);" class="btn btn-primary continue-btn">Stop Session</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal custom-modal edit-modal fade" id="view-comments-modal" tabindex="" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content" >
+			<div class="modal-header">
+				<button type="button" class="close edit-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title text-center">Comments</h4>
+			</div>
+			<div class="modal-body" id="commentsWrapper">
+			</div>
+        </div>
+    </div>
+</div>
+<div class="modal custom-modal edit-modal fade" id="comment-edit-modal" tabindex="" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <form method="POST" action="">
+                <input type="hidden" name="_method" value="PUT">                <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                <input type='hidden' name="comment_edit_mentions" id='comment-edit-mentions' value=''>
+                <div class="modal-header">
+                    <button type="button" class="close edit-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title text-center">Edit Comment</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="message">Update your message here:</label>
+                        <textarea required class="form-control summernote" name="message" rows="5">Comment</textarea>
+                        <div class="text-danger text-left field-error" id="label_message"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-sm btn-outline-secondary text-uppercase edit-close" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-sm btn-outline-success btn-primary text-uppercase edit-submit">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal custom-modal reply-modal fade" id="comment-reply-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <form method="POST" action="">
+                <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                <input type='hidden' name="comment_reply_mentions" id='comment-reply-mentions'  value=''>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title text-center">Reply to Comment</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <textarea required class="form-control summernote" placeholder="Write comment..." name="message" rows="5"></textarea>
+                        <div class="text-danger text-left field-error" id="label_message"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-sm btn-outline-secondary text-uppercase" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-sm btn-outline-success btn-primary text-uppercase reply-submit">Reply</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal delete-modal fade" id="comment-delete-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <form id="comment-delete-form" action="" method="POST">
+                <input type="hidden" name="_method" value="DELETE">                <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Do you really want to delete this comment?</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" id="comment-body"></div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary text-uppercase" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-sm btn-outline-danger btn-danger text-uppercase delete-submit">Yes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    var mentions = [
+                                            {id: '1', name: 'Dr. Vallie Bins McGlynn'},
+                                            {id: '2', name: 'Alexane Bashirian Cormier'},
+                                            {id: '3', name: 'admin '},
+                                            {id: '4', name: 'Jimmie Von Langosh'},
+                                            {id: '5', name: 'Eryn Crist Erdman'},
+                                            {id: '6', name: 'Prince Feeney Lueilwitz'},
+                                            {id: '7', name: 'Durward Abernathy Walter'},
+                                            {id: '8', name: 'Charlie Huels Nienow'},
+                                            {id: '9', name: 'Johathan Terry II Buckridge'},
+                                            {id: '10', name: 'Miss Antonetta Robel Huel'},
+                                            {id: '11', name: 'Ms. Margarete Schneider I Harber'},
+                                            {id: '12', name: 'Parker Jones Emmerich'},
+                                            {id: '13', name: 'Developer test'},
+                                            {id: '14', name: 'QA ONE'},
+                                            {id: '15', name: 'QA TWO'},
+                                            {id: '16', name: 'developer 2 two'},
+                                            {id: '17', name: 'Luca jone'},
+                                            {id: '18', name: 'Jone luca'},
+                                            {id: '19', name: 'test QA QA'},
+                                            {id: '20', name: 'Abini Subramanian'},
+                                            {id: '21', name: 'Abini 2 2'},
+                                            {id: '22', name: 'Abini three'},
+                                            {id: '23', name: 'dev3 three'},
+                                            {id: '24', name: 'test client'},
+                                            {id: '25', name: 'Client one'},
+                                            {id: '26', name: 'Margnet joe'},
+                                            {id: '27', name: 'Malu krishna'},
+                                            {id: '28', name: 'Aneesh Sreedharan'},
+                                            {id: '29', name: 'Rohith K'},
+                                            {id: '30', name: 'Accountant User Accountant'},
+                    ];
+</script>
+<style>
+.note-popover.popover { z-index: 9999 !important; }
+</style><div class="modal custom-modal fade" id="exceed_time" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title text-center">Add a Reason</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-header">
+                    <label>Please enter the reason why the task went out of estimate <span class="required-label">*</span></label>
+                     <textarea rows="4" class="form-control summernote exceed-reason" placeholder="Enter your reason here" name="reason" id="reason"></textarea>
+                    <div class="text-danger text-left field-error" id="label_exceed_reason"></div>
+                </div>
+                <div class="modal-btn delete-action">
+                    <div class="row" style="padding-top: 10px">
+                        <input type="hidden" id="task_id" value="">
+                        <div class="col-sm-12 text-right">
+                            <a class="btn btn-primary continue-btn">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal custom-modal fade" id="add_documents" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Add Documents</h4>
+            </div>
+            <div class="modal-body">
+                 <form action="https://demo.thecoherence.app/upload-task-files" class="dropzone" id="dropzoneForm" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <input type="hidden" name="task_id" id="upload_task_id" value="">
+                                <div class="fallback">
+                                    <input name="file" type="file" multiple />
+                                </div>
+                            </form>
+                                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Delete Client Modal -->
+<div class="modal custom-modal " id="delete_task_session" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Delete Session</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-header">
+                    <p>Are you sure want to delete?</p>
+                </div>
+                <div class="modal-btn delete-action">
+                    <div class="row" style="padding-top: 10px">
+                        <input type="hidden" id="delete_session_id" value="">
+                        
+                        <div class="col-sm-6">
+                            <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-default cancel-btn">Cancel</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Delete Client Modal --><div class="modal custom-modal" id="edit_task_session" role="dialog">
+</div>
+<div id="edit_task" class="modal custom-modal" role="dialog">
+</div>
+<!-- Create Task Modal -->
+<div id="add_tag" class="modal custom-modal fade" role="dialog" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Add New Tag</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/task-tags" id="add_tag_form" method="POST" autocomplete="off">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label>Title <span class="required-label">*</span></label>
+                                <input class="form-control" type="text" name="title" id="title">
+                                <div class="text-danger text-left field-error" id="label_title"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-section mt20">
+                        <button class="btn btn-primary submit-btn create-tag">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+            </div>
+            <div class="footer">
+    <div>
+        <strong>Copyright</strong> 2Hats Logic Pvt Ltd &copy; 2023
+    </div>
+</div>
+
+<div class="floatingButtonWrap">
+    <div class="floatingButtonInner">
+        <a href="#" class="floatingButton">
+            <i class="epms-icon--1x ri-add-line"></i>
+        </a>
+        <ul class="floatingMenu">
+        	<li>
+                <a href="http://demo.thecoherence.app/tasks/220" target="_blank">Current Task</a>
+            </li>
+                        <li>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </li>
+                        <li>
+                <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            </li>
+                        <li>
+                <a href="https://app.gitbook.com" target="_blank">Gitbook</a>
+            </li>
+                        <li>
+                <a href="https://www.shopware.com" target="_blank">Shopware</a>
+            </li>
+                        <li>
+                <a href="https://www.2hatslogic.com" target="_blank">2hats Logic Solutions</a>
+            </li>
+                        <li>
+                <a href="https://app.apollo.io" target="_blank">Apollo</a>
+            </li>
+                        <li>
+                <a href="https://github.com" target="_blank">Github</a>
+            </li>
+                        <li>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </li>
+                        <li>
+                <a href="https://www.reddit.com" target="_blank">Reddit</a>
+            </li>
+            
+
+                        <li>
+                <a href="/tasks/221" target="_blank">Test 1</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+
+<div id="change_easy_access" class="modal custom-modal fade" role="dialog" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title text-center">Add New</h4>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.thecoherence.app/add-easy-access" id="add_easy_access_form" method="POST" autocomplete="off">
+                    <input type="hidden" name="_token" value="OXi1CYzpmTAqFQ5z2xcYresloBTeBVC9jKmjztYl">                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="form-group">
+                                <label>Link <span class="required-label">*</span></label>
+                                <input class="form-control" type="text" name="link" id="link" value="">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                
+                    <div class="submit-section mt20">
+                        <button class="btn btn-primary add-to-easy-access">Save</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+    </div>
+    
+    <script src="https://demo.thecoherence.app/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="https://demo.thecoherence.app/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/partials/script.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/summer-note-removes-script-tag/note.js"></script>
+
+
+    
+    <script src="https://demo.thecoherence.app/js/plugins/iCheck/icheck.min.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/iCheck/custom.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://demo.thecoherence.app/js/plugins/ionRangeSlider/ion.rangeSlider.min.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/clockpicker/clockpicker.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/ionRangeSlider/ion.rangeSlider.css" rel="stylesheet">
+<link href="https://demo.thecoherence.app/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+<script src="https://demo.thecoherence.app/js/plugins/typehead/bootstrap3-typeahead.min.js"></script>
+<script src="https://demo.thecoherence.app/js/resources/tasks/view-script-min.js"></script>
+<link href="https://demo.thecoherence.app/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+<link href="https://demo.thecoherence.app/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+<link href="https://demo.thecoherence.app/css/plugins/dropzone/basic.css" rel="stylesheet">
+<link href="https://demo.thecoherence.app/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+<script src="https://demo.thecoherence.app/js/plugins/dropzone/dropzone.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/codemirror/codemirror.js"></script>
+<script src="https://demo.thecoherence.app/js/plugins/codemirror/mode/xml/xml.js"></script>
+
+<script>
+        $(document).on('change','#task_status', function (e) {
+                            if($('#task_status').val() == 'Development Completed'){
+                  finishState();
+                  return;
+                }
+                        e.preventDefault();
+            openLoader();
+            $.ajax({
+            method: 'POST',
+            url: '/change-status',
+            data: {
+              'task_id':$('#task-id').attr('data-id'),
+              'status':$('#task_status').val()
+            },
+            success: function(response) {
+              if(response.flag == false) {
+                toastr.warning(response.message);
+              } else {
+                toastr.success(response.message, 'Changed');
+              } 
+              closeLoader();
+              reloadPage();
+            }
+          });
+        });
+
+             
+        Dropzone.options.dropzoneForm = {
+            paramName: "file", // The name that will be used to transfer the file
+            maxFilesize: 5, // MB
+            dictDefaultMessage: "<strong>Drop files here or click to upload. </strong></br> (This is just a demo dropzone. Selected files are not actually uploaded.)",
+        };
+
+        $(document).on('click','.add-documents', function (e) {
+          $('#dropzoneForm #upload_task_id').val($('#task-id').attr('data-id'));
+        });
+
+        $('#add_documents').on('hidden.bs.modal', function() {
+           getDocuments();
+        });
+
+      </script>
+      
+</body>
+
+</html>
