@@ -4,7 +4,16 @@
             width: 50%;
         }
     }
-
+    @include tablet-md() {
+        .col-md-3{
+            float: left;
+        }
+    }
+    @include mobile-lg() {
+        .col-md-3{
+            width: 100%;
+        }
+    }
     table {
 
         thead {
@@ -124,7 +133,16 @@
             min-width: 350px;
         }
     }
-
+    @include tablet-md{
+        .col-md-4{
+            width: 40%;
+            float: left;
+        }
+        .col-md-8{
+            width: 60%;
+            float: left;
+        }
+    }
     .ibox-content {
         overflow: auto;
     }
@@ -390,6 +408,10 @@
 #sticky-anchor{
     &.height-set{
         height: 165px;
+        @include mobile-lg(){
+            position: relative;
+            height: auto;
+         }
     }
 }
 .fixed-sec{
@@ -402,5 +424,25 @@
         transition: 0.5s;
         margin-top: 0px;
         box-shadow: 0 4px 50px rgba(0,0,0,.1);
+        @include mobile-lg(){
+           position: relative;
+           height: auto;
+        }
     }
+    
+}
+
+.gantt-project-page{
+    .fixed-sec{
+        @include tablet-md(){
+            .filter-row .col-sm-6{
+                width: 33.33%;
+            }
+        }
+        @include mobile-lg(){
+            .filter-row .col-sm-6{
+                width: 100%;
+            }
+        }
+    }   
 }

@@ -986,83 +986,92 @@
                     <input type="hidden" id="project_id" value="54">
                     <h3>Project Management : <a href="/projects/54">Demo project 4</a></h3>
                 </div>
-                <div class="col-md-8 form-group text-right">
-                    <span id="project-assign-user"><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="Abini Subramanian"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35" data-original-title="Abini Subramanian">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="Abini three"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35" data-original-title="Abini three">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Abini 2 2" alt="Abini 2 2"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="admin " class="img-circle"
-                                src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg"
-                                width="35" height="35" data-original-title="admin ">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Aneesh Sreedharan"
-                                alt="Aneesh Sreedharan" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="dev3 three" alt="dev3 three"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="developer 2 two"
-                                alt="developer 2 two" class="img-circle"
-                                src="https://demo.thecoherence.app/storage/userimage/q9kukXhxLC88BP7nqIR589qcojWkcUWMSg8OZS4U.jpg"
-                                width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Durward Abernathy Walter"
-                                alt="Durward Abernathy Walter" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Eryn Crist Erdman"
-                                alt="Eryn Crist Erdman" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="Jimmie Von Langosh"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35" data-original-title="Jimmie Von Langosh">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="Luca jone" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35"
-                                data-original-title="Luca jone">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="" alt="Malu krishna"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35" data-original-title="Malu krishna">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title=""
-                                alt="Ms. Margarete Schneider I Harber" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35"
-                                data-original-title="Ms. Margarete Schneider I Harber">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Parker Jones Emmerich"
-                                alt="Parker Jones Emmerich" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Prince Feeney Lueilwitz"
-                                alt="Prince Feeney Lueilwitz" class="img-circle"
-                                src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="Rohith K" alt="Rohith K"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35">
-                        </span><span>
-                            <img data-tooltip="tooltip" data-placement="top" title="test QA QA" alt="test QA QA"
-                                class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
-                                height="35">
-                        </span></span>
-                    <span>
-                        <i data-toggle="modal" data-target="#assign_user" data-placement="top"
-                            title="Assign Project User" class="fa fa-plus"
-                            style="width: 30px;height: 30px;text-align: center;background: #000;color: #fff;padding: 8px;border-radius: 50%;"></i>
-                    </span>
+                <div class="col-md-8 form-group text-right tab-width">
+                    <div class="assignees-image-block">
+                        <div class="arrow-expand">
+                            <a href="javascript://"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        </div>
+                        <div id="project-assign-user">
+                            <span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="Abini Subramanian"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35" data-original-title="Abini Subramanian">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="Abini three"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35" data-original-title="Abini three">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Abini 2 2" alt="Abini 2 2"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="admin " class="img-circle"
+                                    src="https://demo.thecoherence.app/storage/userimage/06QTEwQU4pGEPQnQ7m7VuvNqO8GnKJTGKCu2GOX6.jpg"
+                                    width="35" height="35" data-original-title="admin ">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Aneesh Sreedharan"
+                                    alt="Aneesh Sreedharan" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="dev3 three" alt="dev3 three"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="developer 2 two"
+                                    alt="developer 2 two" class="img-circle"
+                                    src="https://demo.thecoherence.app/storage/userimage/q9kukXhxLC88BP7nqIR589qcojWkcUWMSg8OZS4U.jpg"
+                                    width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Durward Abernathy Walter"
+                                    alt="Durward Abernathy Walter" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Eryn Crist Erdman"
+                                    alt="Eryn Crist Erdman" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="Jimmie Von Langosh"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35" data-original-title="Jimmie Von Langosh">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="Luca jone" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35"
+                                    data-original-title="Luca jone">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="" alt="Malu krishna"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35" data-original-title="Malu krishna">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title=""
+                                    alt="Ms. Margarete Schneider I Harber" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35"
+                                    data-original-title="Ms. Margarete Schneider I Harber">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Parker Jones Emmerich"
+                                    alt="Parker Jones Emmerich" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Prince Feeney Lueilwitz"
+                                    alt="Prince Feeney Lueilwitz" class="img-circle"
+                                    src="https://demo.thecoherence.app/img/user.jpg" width="35" height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="Rohith K" alt="Rohith K"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35">
+                            </span><span>
+                                <img data-tooltip="tooltip" data-placement="top" title="test QA QA" alt="test QA QA"
+                                    class="img-circle" src="https://demo.thecoherence.app/img/user.jpg" width="35"
+                                    height="35">
+                            </span>
+    
+                            
+                        </div>
+                        <div>
+                            <i data-toggle="modal" data-target="#assign_user" data-placement="top"
+                                title="Assign Project User" class="fa fa-plus"
+                                style="width: 30px;height: 30px;text-align: center;background: #000;color: #fff;padding: 8px;border-radius: 50%;"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="sticky-anchor"></div>
@@ -3176,7 +3185,9 @@
 
 </script>
 <script>
-
+$(document).on("click", ".arrow-expand i", function(){
+$("#project-assign-user").toggleClass("show-full")
+})
 
     function sticky_relocate() {
         var containerWidth = $(".fixed-sec").width();
