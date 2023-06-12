@@ -5703,14 +5703,6 @@ del {
     border: 1px solid #e7eaec;
 }
 
-.product-box:hover,
-.product-box.active {
-    border: 1px solid transparent;
-    -webkit-box-shadow: 0 3px 7px 0 #a8a8a8;
-    -moz-box-shadow: 0 3px 7px 0 #a8a8a8;
-    box-shadow: 0 3px 7px 0 #a8a8a8;
-}
-
 .product-imitation {
     text-align: center;
     padding: 90px 0;
@@ -5731,10 +5723,6 @@ del {
     padding: 120px 0;
 }
 
-.product-desc {
-    padding: 20px;
-    position: relative;
-}
 
 .ecommerce .tag-list {
     padding: 0;
@@ -10165,10 +10153,6 @@ body:not(.mini-navbar).body-small .filter-area {
 label {
     font-weight: 600;
     font-size: 12px;
-}
-
-.page-title {
-    font-weight: 500;
 }
 
 .table>thead>tr>th,

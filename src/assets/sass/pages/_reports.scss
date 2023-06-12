@@ -8,4 +8,8 @@
     .ibox{
         margin-bottom: 15px;
     }
+
+    @include tablet-md() {
+        flex-direction:column;
+    }
 }

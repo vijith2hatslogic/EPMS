@@ -3,3 +3,10 @@
     border: rem(1) solid var(--c-gray-4);
     font-size: rem(16);
 }
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .filter-row .chosen-container {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+}
