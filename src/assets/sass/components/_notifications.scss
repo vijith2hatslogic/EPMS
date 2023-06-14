@@ -1,0 +1,26 @@
+.epms-notify {
+  span.notification-count {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #f2994a;
+    right: -4px;
+    top: 2px;
+    border-radius: 50%;
+    line-height: 1.8;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+  }
+
+  a.dropdown-item {
+    display: block!important;
+    line-height: 25px !important;
+    padding: 0;
+    width: 100%!important;
+  }
+
+  ul.dropdown-menu.dropdown-alerts {
+    margin-left: -109px;
+  }
+}
