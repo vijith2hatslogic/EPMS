@@ -1,47 +1,49 @@
-.custom-modal{
-    .tabs-container{
-        box-shadow: none;
-        padding: 0;
-        margin-top: 0px;
-        .btn-primary[data-target="#add_tag"] {
-            display: flex;
-            align-items: center;
-            line-height: 22px;
-            i{
-                margin-top: -2px;
-            }
-        }
+.custom-modal {
+  .tabs-container {
+    box-shadow: none;
+    padding: 0;
+    margin-top: 0px;
+    .btn-primary[data-target="#add_tag"] {
+      display: flex;
+      align-items: center;
+      line-height: 22px;
+      i {
+        margin-top: -2px;
+      }
     }
+  }
 }
 
 .modal-body p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-#add_item{
-    button{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 34px;
-    }
+#add_item {
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+  }
 }
-#add_item_category{
-    button{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 34px;
-    }
+#add_item_category {
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+  }
 }
 
-.swal2-container .swal2-title {
+.swal2-container {
+  .swal2-title {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.5;
-}
+  }
 
-.swal2-icon{
+  .swal2-icon {
     width: 3.5em;
     height: 3.5em;
+  }
 }
