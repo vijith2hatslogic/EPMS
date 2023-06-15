@@ -1,11 +1,14 @@
 .widget{
-    
+    color: var(--c-white);
 
     &--with-icon{
-        color: var(--c-white);
         @include flex(center,space-between);
         border-radius: 10px;
         padding: 7px 20px;
+    }
+
+    &--dark{
+        color: var(--c-primary);
     }
 
     h3{
