@@ -172,7 +172,8 @@ body.mini-navbar {
 
   ul.metismenu {
     &>li {
-      max-width: calc(100% - 5px);
+      max-width: calc(100% - 0px);
+      padding-right: 5px;
 
       &.active {
         &>a {

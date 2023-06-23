@@ -1,11 +1,23 @@
-.page-wrapper{
-    .row {
-        margin-left: rem(-8);
-        margin-right: rem(-8);
+.page-wrapper {
+  .row {
+    margin-left: rem(-8);
+    margin-right: rem(-8);
 
-        [class*="col-"] {
-            padding-left: rem(8);
-            padding-right: rem(8);
-        }
+    [class*="col-"] {
+      padding-left: rem(8);
+      padding-right: rem(8);
     }
+  }
 }
+
+
+  .grid-template-masnory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    .grid-masnory-item {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 15px;
+    }
+  }
