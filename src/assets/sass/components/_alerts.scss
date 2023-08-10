@@ -13,4 +13,9 @@
 .swal2-icon{
     width: rem(56);
     height: rem(56);
+
+    &.swal2-success {
+        width: 5em;
+        height: 5em;
+    }
 }
