@@ -6,3 +6,11 @@ div#wrapper{
     margin-top: rem(15);
 }
 
+.task-details-table-wrap{
+    td {
+        max-width: 200px; 
+        white-space: normal;
+        word-wrap: break-word;
+      
+      }
+}
